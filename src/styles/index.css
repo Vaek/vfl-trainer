@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  body {
+    @apply bg-paper text-ink font-body antialiased;
+    background-image:
+      radial-gradient(circle at 12% 8%, rgba(58, 111, 176, 0.06) 0%, transparent 35%),
+      radial-gradient(circle at 88% 92%, rgba(214, 69, 69, 0.04) 0%, transparent 40%);
+    background-attachment: fixed;
+  }
+  ::selection {
+    @apply bg-ink text-paper;
+  }
+}
+
+@layer components {
+  .h-display {
+    @apply font-display font-medium tracking-tight;
+    font-variation-settings: 'opsz' 144, 'SOFT' 100;
+  }
+  .card {
+    @apply bg-paper border border-ink/10 rounded-2xl shadow-card p-6;
+  }
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-card-hover hover:-translate-y-0.5;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full font-medium transition-all duration-150 select-none;
+  }
+  .btn-primary {
+    @apply btn bg-ink text-paper px-5 py-2.5 hover:bg-ink/90 active:scale-[0.98];
+  }
+  .btn-ghost {
+    @apply btn bg-transparent text-ink px-5 py-2.5 hover:bg-ink/5 border border-ink/10;
+  }
+  .btn-signal {
+    @apply btn bg-signal text-paper px-5 py-2.5 hover:bg-signal/90 active:scale-[0.98];
+  }
+  .chip {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium font-mono uppercase tracking-wider;
+  }
+  .chip-predpisy {
+    @apply chip bg-sky/10 text-sky;
+  }
+  .chip-provoz {
+    @apply chip bg-signal/10 text-signal;
+  }
+  .chip-elektro {
+    @apply chip bg-ink/10 text-ink;
+  }
+  .option-btn {
+    @apply w-full text-left px-5 py-4 rounded-xl border-2 border-ink/10 bg-paper
+           transition-all duration-150 hover:border-ink/30 hover:bg-ink/[0.02]
+           cursor-pointer;
+  }
+  .option-btn-selected {
+    @apply border-ink bg-ink/5;
+  }
+  .option-btn-correct {
+    @apply border-emerald-600 bg-emerald-50;
+  }
+  .option-btn-incorrect {
+    @apply border-signal bg-signal/5;
+  }
+  .option-btn-disabled {
+    @apply cursor-default;
+  }
+}
+
+/* Decorative aviation-themed grid line for headers */
+.aviation-rule {
+  background-image: linear-gradient(to right, transparent 0, transparent 4px, currentColor 4px, currentColor 8px);
+  background-size: 8px 1px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
