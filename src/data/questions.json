@@ -145,7 +145,7 @@
   {
     "id": "vfl-provoz-002",
     "subject": "provoz",
-    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 118,055 MHz (8,33 kHz spacing) vyjadřuje:",
+    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 118,055 MHz vyjadřuje:",
     "options": [
       "ONE ONE EIGHT DECIMAL ZERO FIVE FIVE",
       "ONE ONE EIGHT DECIMAL ZERO FIVE",
@@ -160,9 +160,9 @@
     "subject": "provoz",
     "question": "Číslice ve zprávě FL 300 jsou správně vyslovovány takto:",
     "options": [
-      "three zero zero",
-      "three hundred",
-      "thirty zero"
+      "three zero zero,",
+      "three hundred,",
+      "thirty zero,"
     ],
     "correct": 1,
     "explanation": "Výjimka pro výšky/hladiny: vyslovuje se 'three hundred', nikoli po číslicích. Stejně tak QNH 1000 = 'one thousand'.",
@@ -249,7 +249,7 @@
   {
     "id": "vfl-provoz-010",
     "subject": "provoz",
-    "question": "Vysílání pokusných (zkušebních) signálů nesmí trvat déle než:",
+    "question": "Vysílání pokusných signálů nesmí trvat déle než:",
     "options": [
       "30 vteřin",
       "10 vteřin",
@@ -292,7 +292,7 @@
     "options": [
       "Air Traffic Information Service",
       "Automatic Terminal Information Service",
-      "Automatická informační služba koncové řízené oblasti"
+      "Automatická informační služba koncové řízení oblasti"
     ],
     "correct": 2,
     "explanation": "ATIS = nepřetržitě vysílaná informační zpráva pro letiště (vítr, dráha, QNH atd.). Otázka se ptá na český význam.",
@@ -303,9 +303,9 @@
     "subject": "provoz",
     "question": "Volací znak INFORMATION je přiřazen:",
     "options": [
-      "letovým informačním střediskům, např. FIC Praha",
-      "letištím poskytujícím službu AFIS",
-      "letištní řídící věži"
+      "letovým informačním střediskům např. FIC Praha,",
+      "letištím poskytujícím službu AFIS,",
+      "letištní řídící věži,"
     ],
     "correct": 0,
     "explanation": "INFORMATION = FIC (Flight Information Centre). Pozor: INFO se používá pro AFIS na neřízených letištích.",
@@ -327,7 +327,7 @@
   {
     "id": "vfl-provoz-016",
     "subject": "provoz",
-    "question": "Správné zkrácení volací značky OK-ABC je:",
+    "question": "Správné zkrácení volací značky OKABC je:",
     "options": [
       "OBC",
       "OAB",
@@ -355,9 +355,9 @@
     "subject": "elektrotechnika",
     "question": "Jmenovité napětí článku olověného akumulátoru je:",
     "options": [
-      "1,2 V",
-      "1,5 V",
-      "2 V"
+      "1,2V",
+      "1,5V",
+      "2V"
     ],
     "correct": 2,
     "explanation": "Olověný (Pb) článek = 2 V. NiCd/NiMH = 1,2 V. Suchý galvanický článek = 1,5 V.",
@@ -392,11 +392,11 @@
   {
     "id": "vfl-elektrotechnika-004",
     "subject": "elektrotechnika",
-    "question": "Vztah mezi délkou vlny (λ) a kmitočtem (f), kde c je rychlost světla:",
+    "question": "Vztah mezi délkou vlny (λ) a kmitočtem (f), když c je rychlost světla, je:",
     "options": [
-      "f = λ × c",
-      "f = c / λ",
-      "λ = f × c"
+      "f=λ×c",
+      "f=c/λ",
+      "λ=f×c"
     ],
     "correct": 1,
     "explanation": "Pro 121,5 MHz: λ = 3·10⁸ / 121,5·10⁶ ≈ 2,47 m. Pásmo VHF (160 MHz) má λ ≈ 2 m.",
@@ -420,9 +420,9 @@
     "subject": "elektrotechnika",
     "question": "Radiostanice odebírající z baterie 12 V proud 500 mA má příkon:",
     "options": [
-      "6 W",
-      "12 W",
-      "60 W"
+      "6W",
+      "12W",
+      "60W"
     ],
     "correct": 0,
     "explanation": "P = U × I = 12 V × 0,5 A = 6 W.",
@@ -444,11 +444,11 @@
   {
     "id": "vfl-elektrotechnika-008",
     "subject": "elektrotechnika",
-    "question": "Délka rádiové vlny v pásmu 160 MHz (VHF) je přibližně:",
+    "question": "Délka rádiové vlny v pásmu 160 MHz (VHF) je:",
     "options": [
-      "0,2 m",
-      "2 m",
-      "20 m"
+      "cca. 0,2 m",
+      "cca. 2 m",
+      "cca. 20 m"
     ],
     "correct": 1,
     "explanation": "λ = c/f = 3·10⁸ / 160·10⁶ ≈ 1,87 m, zaokrouhleně 2 m. Odtud označení 'two-meter band'.",

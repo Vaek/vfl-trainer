@@ -81,6 +81,14 @@ The app shuffles option order **deterministically per question id** (seeded PRNG
 - For phraseology, use phrases that sound similar or are related but mean something different (STAND BY ↔ HOLD POSITION).
 - Do not invent fake-looking values that no one would ever pick.
 
+**Verbatim-vs-presentation rule (strict):**
+- The **question text** and the **correct option text** must match the ČTÚ PDF exactly in semantic content. Do not paraphrase, expand abbreviations the PDF uses verbatim (e.g., "OKABC", not "OK-ABC"), drop or add parentheticals, or substitute synonyms ("kde" vs "když"). When in doubt, run `python3 /tmp/audit.py` (or rebuild the equivalent) against the PDF.
+- Two **presentational** tweaks are allowed and uniformly applied across the bank:
+  1. **Capitalize the first letter** of the question (PDF has lowercase because each question is a numbered list item).
+  2. **Append a trailing colon** to the question (PDF omits terminal punctuation for the same reason).
+- If the PDF correct answer ends with a stray comma (list-formatting artifact, e.g. "three hundred,"), preserve it verbatim. To avoid the comma visually telegraphing the answer, **add the same trailing comma to the authored distractors**. Same logic for unit formatting: if the PDF writes "2V" / "6W" without a space, distractors should match that style.
+- Distractor text and explanations are authored, not from the PDF — author them however reads best, but keep formatting consistent with the correct option.
+
 ## Current state (as of v0.1)
 
 - Full app infrastructure works end-to-end.
