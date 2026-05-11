@@ -20,6 +20,35 @@ This file gives Claude Code the context it needs to continue this project. Read 
 - **Real exam pass rule: ≥ 90 % in EACH of the three subjects** (předpisy / provoz / elektrotechnika). Not an average. Implement this faithfully.
 - **VFL only.** Other licenses (OFL, GOC, ROC, VFN, OFN, LRC, SRC, pozemní telegrafista, amatérské) are explicitly out of scope for v1.
 
+## Agent operating rules
+
+The agent operates autonomously **within the project boundary**. Anything whose effect reaches **outside** that boundary requires explicit human approval.
+
+**Inside the boundary (autonomous):**
+- Files under the project directory (this repo).
+- The `Vaek/vfl-trainer` GitHub repo: create feature branches, push to them, rebase, force-push your own feature branch. **Prefer feature branch → merge/rebase into `main`** over direct commits to `main`. Direct commits to `main` are allowed only when the user explicitly asks.
+- Project-local package operations: `npm install` (restore), `npm install <pkg>` / `npm uninstall <pkg>` (modifies *this* `package.json` and lockfile only).
+- Scratch in `/tmp/*` for ephemeral verification scripts. Nothing persistent lives there.
+
+**Outside the boundary (needs approval):**
+- Any directory outside the project folder.
+- Global toolchain: `npm install -g`, `brew install`, `pip install` outside a venv, `cargo install`, anything landing in `/usr/local`, `~/.local/bin`, system Python, etc.
+- Global config: `~/.zshrc`, system/global `~/.gitconfig`, `~/.ssh/`, `~/.claude/settings.json`.
+- Shared git history: force-push to `main`, history rewrites on `main`, deleting `main` or any shared branch.
+- External systems via MCP / network: Slack messages, Jira/Confluence writes, Figma writes, posts to third-party APIs. Reads are fine; writes need approval.
+- Other GitHub repos / orgs — only `Vaek/vfl-trainer` is in scope.
+- Destructive ops on existing project state: `rm -rf` of tracked content, `git reset --hard` that drops uncommitted work, deleting files the user authored.
+- Secrets: `.env*`, credentials, tokens — never read, write, or commit.
+
+**Versioning:**
+- Every **commit** explains *why*, not just *what* — the diff already shows what changed.
+- Mid-session edits don't each need a commit; only the final state ships.
+
+**Verification before claiming "done":**
+- Code changes that affect runtime: `npm run build` must pass.
+- Question bank changes: the ČTÚ verbatim audit must pass.
+- UI changes the agent can't visually verify: say so explicitly, don't claim success.
+
 ## Stack
 
 - Vite + React 18 + TypeScript (strict) + Tailwind 3
