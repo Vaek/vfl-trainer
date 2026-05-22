@@ -130,6 +130,279 @@
     "source": "2018_05 V5, A.(1).a.9"
   },
   {
+    "id": "vfl-predpisy-011",
+    "subject": "predpisy",
+    "question": "Radiokomunikační službou je komunikační činnost, která spočívá v přenosu, vysílání nebo příjmu signálů prostřednictvím:",
+    "options": [
+      "optických vláken",
+      "rádiových vln",
+      "metalických vedení"
+    ],
+    "correct": 1,
+    "explanation": "Radiokomunikační službu definuje přenos signálů prostřednictvím rádiových vln — odlišuje ji od přenosu po kabelu či optickém vlákně.",
+    "source": "2018_05 V5, A.(1).a.2"
+  },
+  {
+    "id": "vfl-predpisy-012",
+    "subject": "predpisy",
+    "question": "Individuální oprávnění k vyžívání rádiových kmitočtů uděluje:",
+    "options": [
+      "Ministerstvo průmyslu a obchodu ČR",
+      "Ministerstvo dopravy ČR",
+      "Český telekomunikační úřad"
+    ],
+    "correct": 2,
+    "explanation": "Individuální oprávnění (kmitočtové přidělení) uděluje ČTÚ podle zákona č. 127/2005 Sb. o elektronických komunikacích.",
+    "source": "2018_05 V5, A.(1).a.3"
+  },
+  {
+    "id": "vfl-predpisy-013",
+    "subject": "predpisy",
+    "question": "Držitel individuálního oprávnění k využívání rádiových kmitočtů je povinen platit za využívání rádiových kmitočtů:",
+    "options": [
+      "poplatek dle nařízení vlády o poplatcích",
+      "daň dle zákona o spotřebních daních",
+      "smluvní cenu sjednanou s ČTÚ"
+    ],
+    "correct": 0,
+    "explanation": "Výši poplatků za využívání rádiových kmitočtů stanoví nařízení vlády — jde o správní poplatek, nikoli o daň ani smluvní cenu.",
+    "source": "2018_05 V5, A.(1).a.4"
+  },
+  {
+    "id": "vfl-predpisy-014",
+    "subject": "predpisy",
+    "question": "Státní kontrolu elektronických komunikací vykonává:",
+    "options": [
+      "Ministerstvo vnitra ČR",
+      "Národní úřad pro kybernetickou a informační bezpečnost",
+      "Český telekomunikační úřad"
+    ],
+    "correct": 2,
+    "explanation": "Státní kontrolu v oblasti elektronických komunikací zajišťuje ČTÚ — totéž tělo, které spravuje rádiové spektrum.",
+    "source": "2018_05 V5, A.(1).a.7"
+  },
+  {
+    "id": "vfl-predpisy-015",
+    "subject": "predpisy",
+    "question": "Fyzická osoba vykonávající obsluhu vysílacího rádiového zařízení bez platného průkazu odborné způsobilosti se dopustila:",
+    "options": [
+      "trestného činu",
+      "přestupku",
+      "kárného provinění"
+    ],
+    "correct": 1,
+    "explanation": "Jde o přestupek podle zákona o elektronických komunikacích — řeší se ve správním řízení a sankcionuje pokutou.",
+    "source": "2018_05 V5, A.(1).a.8"
+  },
+  {
+    "id": "vfl-predpisy-016",
+    "subject": "predpisy",
+    "question": "V mezinárodní volací značce České republiky tvoří první dvě písmena (prefix) vždy dvojice písmen:",
+    "options": [
+      "OE nebo OM",
+      "CZ nebo CS",
+      "OK nebo OL"
+    ],
+    "correct": 2,
+    "explanation": "ČR má mezinárodně přidělené prefixy OK a OL. OE patří Rakousku, OM Slovensku; CZ/CS se v mezinárodním rádiovém provozu nepoužívá.",
+    "source": "2018_05 V5, A.(1).a.10"
+  },
+  {
+    "id": "vfl-predpisy-017",
+    "subject": "predpisy",
+    "question": "Falešné volací značky a falešné signály:",
+    "options": [
+      "smí používat jen výcvikové stanice",
+      "se nesmí používat",
+      "smí používat jen při zkouškách rádia"
+    ],
+    "correct": 1,
+    "explanation": "Vysílání falešných identifikačních ani tísňových signálů není dovoleno za žádných okolností — zakázáno Radiokomunikačním řádem ITU.",
+    "source": "2018_05 V5, A.(1).a.12"
+  },
+  {
+    "id": "vfl-predpisy-018",
+    "subject": "predpisy",
+    "question": "Pohyblivá stanice letecké pohyblivé služby je:",
+    "options": [
+      "letecká stanice",
+      "letadlová stanice",
+      "letištní stanice"
+    ],
+    "correct": 1,
+    "explanation": "V terminologii ITU je pohyblivá stanice letecké pohyblivé služby ta na palubě letadla — tedy letadlová stanice. „Letecká stanice“ je naopak stanice na zemi.",
+    "source": "2018_05 V5, A.(1).a.13"
+  },
+  {
+    "id": "vfl-predpisy-019",
+    "subject": "predpisy",
+    "question": "Pevná služba je:",
+    "options": [
+      "radiokomunikační služba mezi stanovenými pevnými body",
+      "radiokomunikační služba mezi pohyblivými stanicemi",
+      "radiokomunikační služba mezi pozemními stanicemi a družicemi"
+    ],
+    "correct": 0,
+    "explanation": "Pevná služba (Fixed Service) je point-to-point spojení mezi stálými geografickými body — opak pohyblivé a družicové služby.",
+    "source": "2018_05 V5, A.(1).a.14"
+  },
+  {
+    "id": "vfl-predpisy-020",
+    "subject": "predpisy",
+    "question": "Služba u letadlové nebo lodní stanice podléhá nejvyšší pravomoci:",
+    "options": [
+      "operátora rádiové stanice",
+      "vlastníka letadla nebo lodi",
+      "velitele nebo osoby, která je odpovědná za letadlo nebo loď"
+    ],
+    "correct": 2,
+    "explanation": "Nejvyšší autoritou u provozu stanice je vždy velitel (PIC u letadla, kapitán u lodi) — nikoli majitel ani sám operátor.",
+    "source": "2018_05 V5, A.(1).a.18"
+  },
+  {
+    "id": "vfl-predpisy-021",
+    "subject": "predpisy",
+    "question": "O prodloužení doby platnosti průkazu odborné způsobilosti se žádá:",
+    "options": [
+      "písemně, minimálně jeden měsíc před koncem platnosti průkazu",
+      "ústně u zkušebního komisaře ČTÚ kdykoli během platnosti",
+      "elektronicky nejpozději v den vypršení platnosti průkazu"
+    ],
+    "correct": 0,
+    "explanation": "Žádost o prodloužení musí být podána písemně a včas — nejméně jeden měsíc před vypršením platnosti.",
+    "source": "2018_05 V5, A.(1).a.20"
+  },
+  {
+    "id": "vfl-predpisy-022",
+    "subject": "predpisy",
+    "question": "Při žádosti o prodloužení platnosti průkazu je třeba také:",
+    "options": [
+      "absolvovat opakovanou zkoušku ve stejném rozsahu jako při prvním vydání",
+      "uhradit příslušný správní poplatek a doložit praxi v obsluze rádiových stanic",
+      "doložit zdravotní způsobilost a aktuální fotografii"
+    ],
+    "correct": 1,
+    "explanation": "Prodloužení vyžaduje pouze úhradu správního poplatku a doložení praxe — opakovaná zkouška ani lékařské potvrzení se nepředkládá.",
+    "source": "2018_05 V5, A.(1).a.21"
+  },
+  {
+    "id": "vfl-predpisy-023",
+    "subject": "predpisy",
+    "question": "V případě, že doba platnosti průkazu již uplynula, může držitel průkazu žádat o nový průkaz:",
+    "options": [
+      "kdykoli, bez časového omezení po vypršení platnosti",
+      "do tří měsíců od pozbytí platnosti průkazu",
+      "v období do jednoho roku ode dne pozbytí platnosti průkazu"
+    ],
+    "correct": 2,
+    "explanation": "Po vypršení platnosti je k dispozici jednoletá ochranná lhůta pro získání nového průkazu zjednodušeným postupem; po jejím uplynutí je nutné celou zkoušku opakovat.",
+    "source": "2018_05 V5, A.(1).a.22"
+  },
+  {
+    "id": "vfl-predpisy-024",
+    "subject": "predpisy",
+    "question": "První znak nebo první dva znaky mezinárodní volací značky označují:",
+    "options": [
+      "typ rádiové služby, ke které stanice patří",
+      "kategorii průkazu odborné způsobilosti operátora",
+      "státní příslušnost stanice"
+    ],
+    "correct": 2,
+    "explanation": "Mezinárodní prefix (např. OK pro ČR, G pro Velkou Británii) identifikuje stát, který značku vydal — podle tabulky přidělené ITU.",
+    "source": "2018_05 V5, A.(1).a.23"
+  },
+  {
+    "id": "vfl-predpisy-025",
+    "subject": "predpisy",
+    "question": "Stejná volací značka:",
+    "options": [
+      "může být přidělena více stanicím v rámci jednoho státu",
+      "nemůže být přidělena dvěma nebo více provozovatelům stanic",
+      "může být přidělena dvěma stanicím téhož provozovatele"
+    ],
+    "correct": 1,
+    "explanation": "Volací značka je vždy jedinečná — slouží jako globální identifikátor konkrétní stanice, takže nesmí být sdílena.",
+    "source": "2018_05 V5, A.(1).a.24"
+  },
+  {
+    "id": "vfl-predpisy-026",
+    "subject": "predpisy",
+    "question": "Inspekční orgány zemí, které provedou kontrolu vybavení radiové stanice:",
+    "options": [
+      "mohou vyžadovat pouze předložení dokladu o oprávnění stanice",
+      "mohou vyžadovat předložení průkazu operátora",
+      "nemají právo požadovat žádné doklady od posádky stanice"
+    ],
+    "correct": 1,
+    "explanation": "Při kontrole má inspekční orgán právo nahlédnout jak do dokladů ke stanici, tak do průkazů odborné způsobilosti obsluhujících osob.",
+    "source": "2018_05 V5, A.(1).a.25"
+  },
+  {
+    "id": "vfl-predpisy-027",
+    "subject": "predpisy",
+    "question": "Mezinárodní telekomunikační unie (ITU) je:",
+    "options": [
+      "soukromou mezinárodní asociací operátorů a výrobců rádiové techniky",
+      "agenturou Evropské unie pro koordinaci telekomunikací členských států",
+      "specializovanou organizací Organizace spojených národů pro oblast telekomunikací"
+    ],
+    "correct": 2,
+    "explanation": "ITU je specializovaná organizace OSN se sídlem v Ženevě; spravuje globální rádiové spektrum, mezinárodní normy a koordinaci satelitních pozic.",
+    "source": "2018_05 V5, A.(1).a.26"
+  },
+  {
+    "id": "vfl-predpisy-028",
+    "subject": "predpisy",
+    "question": "Mezinárodní organizací CEPT se rozumí:",
+    "options": [
+      "Centrální evropská poštovní a telegrafní organizace",
+      "Evropská konference poštovních a telekomunikačních správ",
+      "Společenství evropských provozovatelů telekomunikací"
+    ],
+    "correct": 1,
+    "explanation": "CEPT (Conférence européenne des administrations des postes et des télécommunications) sdružuje evropské regulátory pro koordinaci pošt a telekomunikací — včetně harmonizace rádiových kmitočtů.",
+    "source": "2018_05 V5, A.(1).a.27"
+  },
+  {
+    "id": "vfl-predpisy-029",
+    "subject": "predpisy",
+    "question": "Volací značky se přidělují tak, aby nemohly být zaměněny:",
+    "options": [
+      "s tísňovými, pilnostními a bezpečnostními signály nebo s kódovými zkratkami Q-kódu",
+      "s názvy států ani s názvy mezinárodních organizací",
+      "s frázemi mezinárodní letecké abecedy ICAO"
+    ],
+    "correct": 0,
+    "explanation": "Při přidělování značek se vyhýbá kombinacím podobným MAYDAY, PAN PAN, SECURITÉ a Q-kódům, aby v provozu nedošlo k záměně významu.",
+    "source": "2018_05 V5, A.(1).a.29"
+  },
+  {
+    "id": "vfl-predpisy-030",
+    "subject": "predpisy",
+    "question": "Volací značkou je:",
+    "options": [
+      "každé poznávací označení stanice přidělené podle Radiokomunikačního řádu, které umožňuje zjištění její totožnosti během vysílání",
+      "libovolný identifikátor zvolený provozovatelem stanice pro snadnou orientaci v provozu",
+      "kombinace číslic přidělená výrobcem rádiového zařízení při jeho homologaci"
+    ],
+    "correct": 0,
+    "explanation": "Volací značka je oficiálně přidělené označení dle Radiokomunikačního řádu ITU — nikoli libovolný název ani sériové číslo zařízení.",
+    "source": "2018_05 V5, A.(1).a.30"
+  },
+  {
+    "id": "vfl-predpisy-031",
+    "subject": "predpisy",
+    "question": "Operátor stanice vysílá vlastní volací značku během spojení:",
+    "options": [
+      "pouze při prvním navázání spojení s danou stanicí.",
+      "v každé jednotlivé relaci po každém přepnutí na vysílání.",
+      "předepsaným postupem minimálně na začátku a na konci spojení."
+    ],
+    "correct": 2,
+    "explanation": "Vlastní volací značka se vysílá podle stanovených pravidel nejméně na začátku a na konci spojení; uvnitř relace se uvádí jen v určitých případech (změna kmitočtu, dlouhé relace).",
+    "source": "2018_05 V5, A.(1).a.31"
+  },
+  {
     "id": "vfl-provoz-001",
     "subject": "provoz",
     "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 121,500 MHz vyjadřuje:",
