@@ -4,133 +4,16 @@
     "subject": "predpisy",
     "question": "Zajištění účelného využívání rádiových kmitočtů a správu rádiového spektra vykonává:",
     "options": [
+      "Úřad pro civilní letectví",
       "Ministerstvo dopravy ČR",
-      "Český telekomunikační úřad",
-      "Úřad pro civilní letectví"
+      "Český telekomunikační úřad"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "ČTÚ je ústředním správním úřadem pro elektronické komunikace včetně správy rádiového spektra (zákon č. 127/2005 Sb.).",
-    "source": "2018_05 V5, A.(1).a.1"
+    "source": "2025_09 VFL_4, A.(1).a.1"
   },
   {
     "id": "vfl-predpisy-002",
-    "subject": "predpisy",
-    "question": "Rádiovým spektrem se rozumí elektromagnetické vlny v rozmezí:",
-    "options": [
-      "9 kHz – 3000 GHz",
-      "30 kHz – 300 GHz",
-      "100 kHz – 30 GHz"
-    ],
-    "correct": 0,
-    "explanation": "Mezinárodně dohodnutý rozsah rádiového spektra dle Radiokomunikačního řádu ITU.",
-    "source": "2018_05 V5, A.(1).a.5"
-  },
-  {
-    "id": "vfl-predpisy-003",
-    "subject": "predpisy",
-    "question": "Rádiové kmitočty z pásma 160 MHz spadají do pásma označovaného jako:",
-    "options": [
-      "UHF",
-      "HF",
-      "VHF"
-    ],
-    "correct": 2,
-    "explanation": "VHF (Very High Frequency) = 30–300 MHz. Letecká pohyblivá služba používá 118–137 MHz, námořní 156–174 MHz.",
-    "source": "2018_05 V5, A.(1).a.6"
-  },
-  {
-    "id": "vfl-predpisy-004",
-    "subject": "predpisy",
-    "question": "Mezinárodní volací značka letadlové stanice u letounů zapsaných v leteckém rejstříku ČR je:",
-    "options": [
-      "OK a další tři písmena",
-      "OL a další dvě písmena",
-      "CZ a další tři čísla"
-    ],
-    "correct": 0,
-    "explanation": "Prefix OK je vyhrazen pro civilní letadla ČR, OL pro lodě.",
-    "source": "2018_05 V5, A.(1).a.11"
-  },
-  {
-    "id": "vfl-predpisy-005",
-    "subject": "predpisy",
-    "question": "Mezinárodní tísňový kmitočet v radiotelefonii v letecké pohyblivé službě je:",
-    "options": [
-      "243,0 MHz",
-      "121,5 MHz",
-      "156,8 MHz"
-    ],
-    "correct": 1,
-    "explanation": "121,5 MHz je celosvětový letecký tísňový kmitočet (VHF). 243 MHz je vojenský UHF tísňový kmitočet, 156,8 MHz je námořní kanál 16.",
-    "source": "2018_05 V5, A.(1).a.17"
-  },
-  {
-    "id": "vfl-predpisy-006",
-    "subject": "predpisy",
-    "question": "Doba platnosti průkazů odborné způsobilosti pro leteckou a námořní pohyblivou službu je vyhláškou č. 157/2005 Sb. stanovena na:",
-    "options": [
-      "3 roky",
-      "5 let",
-      "10 let"
-    ],
-    "correct": 1,
-    "explanation": "Standardní doba platnosti je 5 let, prodloužení se žádá písemně minimálně měsíc před koncem platnosti.",
-    "source": "2018_05 V5, A.(1).a.19"
-  },
-  {
-    "id": "vfl-predpisy-007",
-    "subject": "predpisy",
-    "question": "Nejvyšší prioritu a absolutní přednost má zpráva:",
-    "options": [
-      "pilnostní",
-      "bezpečnostní",
-      "tísňová"
-    ],
-    "correct": 2,
-    "explanation": "Pořadí dle důležitosti: tísňová (MAYDAY) → pilnostní (PAN PAN) → bezpečnostní (SECURITÉ) → ostatní.",
-    "source": "2018_05 V5, A.(1).a.15"
-  },
-  {
-    "id": "vfl-predpisy-008",
-    "subject": "predpisy",
-    "question": "Tísňové volání a tísňová zpráva se vysílají jen na rozkaz:",
-    "options": [
-      "velitele nebo osoby odpovědné za loď nebo letadlo",
-      "řídícího letového provozu",
-      "kteréhokoli člena posádky"
-    ],
-    "correct": 0,
-    "explanation": "Pravomoc povolit tísňové vysílání má pouze velitel (PIC), nikdo jiný — ani palubní personál, ani ATC.",
-    "source": "2018_05 V5, A.(1).a.16"
-  },
-  {
-    "id": "vfl-predpisy-009",
-    "subject": "predpisy",
-    "question": "Q-kódem se rozumí:",
-    "options": [
-      "kódová skupina dvou písmen pro signalizaci kvality spojení",
-      "kódová skupina tří písmen začínající vždy písmenem Q, která má určitý konkrétní, mezinárodně dohodnutý význam",
-      "kódová skupina čtyř číslic pro identifikaci stanice"
-    ],
-    "correct": 1,
-    "explanation": "Q-kódy (např. QNH, QFE, QDM, QDR) jsou tříznakové kódy začínající Q s pevně daným významem.",
-    "source": "2018_05 V5, A.(1).a.28"
-  },
-  {
-    "id": "vfl-predpisy-010",
-    "subject": "predpisy",
-    "question": "Za obsluhu vysílacího rádiového zařízení bez platného průkazu odborné způsobilosti lze uložit fyzické osobě pokutu do výše:",
-    "options": [
-      "50 000 Kč",
-      "100 000 Kč",
-      "500 000 Kč"
-    ],
-    "correct": 1,
-    "explanation": "Maximální pokuta za přestupek dle zákona o elektronických komunikacích.",
-    "source": "2018_05 V5, A.(1).a.9"
-  },
-  {
-    "id": "vfl-predpisy-011",
     "subject": "predpisy",
     "question": "Radiokomunikační službou je komunikační činnost, která spočívá v přenosu, vysílání nebo příjmu signálů prostřednictvím:",
     "options": [
@@ -140,88 +23,140 @@
     ],
     "correct": 1,
     "explanation": "Radiokomunikační službu definuje přenos signálů prostřednictvím rádiových vln — odlišuje ji od přenosu po kabelu či optickém vlákně.",
-    "source": "2018_05 V5, A.(1).a.2"
+    "source": "2025_09 VFL_4, A.(1).a.2"
+  },
+  {
+    "id": "vfl-predpisy-003",
+    "subject": "predpisy",
+    "question": "Individuální oprávnění k vyžívání rádiových kmitočtů uděluje:",
+    "options": [
+      "Český telekomunikační úřad",
+      "Ministerstvo průmyslu a obchodu ČR",
+      "Ministerstvo dopravy ČR"
+    ],
+    "correct": 0,
+    "explanation": "Individuální oprávnění (kmitočtové přidělení) uděluje ČTÚ podle zákona č. 127/2005 Sb. o elektronických komunikacích.",
+    "source": "2025_09 VFL_4, A.(1).a.3"
+  },
+  {
+    "id": "vfl-predpisy-004",
+    "subject": "predpisy",
+    "question": "Držitel individuálního oprávnění k využívání rádiových kmitočtů je povinen platit za využívání rádiových kmitočtů:",
+    "options": [
+      "smluvní cenu sjednanou s ČTÚ",
+      "daň dle zákona o spotřebních daních",
+      "poplatek dle nařízení vlády o poplatcích"
+    ],
+    "correct": 2,
+    "explanation": "Výši poplatků za využívání rádiových kmitočtů stanoví nařízení vlády — jde o správní poplatek, nikoli o daň ani smluvní cenu.",
+    "source": "2025_09 VFL_4, A.(1).a.4"
+  },
+  {
+    "id": "vfl-predpisy-005",
+    "subject": "predpisy",
+    "question": "Rádiovým spektrem se rozumí elektromagnetické vlny o kmitočtu (frekvenci):",
+    "options": [
+      "vyšším než 30 MHz",
+      "v rozmezí 9 kHz – 3000 GHz",
+      "nižším než 3000 GHz"
+    ],
+    "correct": 2,
+    "explanation": "Definice rádiového spektra dle Radiokomunikačního řádu ITU. Horní hranice 3000 GHz pokrývá i milimetrové a submilimetrové vlny.",
+    "source": "2025_09 VFL_4, A.(1).a.5"
+  },
+  {
+    "id": "vfl-predpisy-006",
+    "subject": "predpisy",
+    "question": "Rádiové kmitočty z pásma 160 MHz spadají do pásma označovaného jako:",
+    "options": [
+      "VHF",
+      "UHF",
+      "HF"
+    ],
+    "correct": 0,
+    "explanation": "VHF (Very High Frequency) = 30–300 MHz. Letecká pohyblivá služba používá 118–137 MHz, námořní 156–174 MHz.",
+    "source": "2025_09 VFL_4, A.(1).a.6"
+  },
+  {
+    "id": "vfl-predpisy-007",
+    "subject": "predpisy",
+    "question": "Státní kontrolu elektronických komunikací vykonává:",
+    "options": [
+      "Český telekomunikační úřad",
+      "Ministerstvo vnitra ČR",
+      "Národní úřad pro kybernetickou a informační bezpečnost"
+    ],
+    "correct": 0,
+    "explanation": "Státní kontrolu v oblasti elektronických komunikací zajišťuje ČTÚ — totéž tělo, které spravuje rádiové spektrum.",
+    "source": "2025_09 VFL_4, A.(1).a.7"
+  },
+  {
+    "id": "vfl-predpisy-008",
+    "subject": "predpisy",
+    "question": "Fyzická osoba vykonávající obsluhu vysílacího rádiového zařízení bez platného průkazu odborné způsobilosti se dopustila:",
+    "options": [
+      "kárného provinění",
+      "trestného činu",
+      "přestupku"
+    ],
+    "correct": 2,
+    "explanation": "Jde o přestupek podle zákona o elektronických komunikacích — řeší se ve správním řízení a sankcionuje pokutou.",
+    "source": "2025_09 VFL_4, A.(1).a.8"
+  },
+  {
+    "id": "vfl-predpisy-009",
+    "subject": "predpisy",
+    "question": "Za obsluhu vysílacího rádiového zařízení bez platného průkazu odborné způsobilosti lze uložit fyzické osobě pokutu do výše:",
+    "options": [
+      "100 000 Kč",
+      "50 000 Kč",
+      "500 000 Kč"
+    ],
+    "correct": 0,
+    "explanation": "Maximální pokuta za přestupek dle zákona o elektronických komunikacích.",
+    "source": "2025_09 VFL_4, A.(1).a.9"
+  },
+  {
+    "id": "vfl-predpisy-010",
+    "subject": "predpisy",
+    "question": "V mezinárodní volací značce České republiky tvoří první dvě písmena (prefix) vždy dvojice písmen:",
+    "options": [
+      "OK nebo OL",
+      "OE nebo OM",
+      "CZ nebo CS"
+    ],
+    "correct": 0,
+    "explanation": "ČR má mezinárodně přidělené prefixy OK a OL. OE patří Rakousku, OM Slovensku; CZ/CS se v mezinárodním rádiovém provozu nepoužívá.",
+    "source": "2025_09 VFL_4, A.(1).a.10"
+  },
+  {
+    "id": "vfl-predpisy-011",
+    "subject": "predpisy",
+    "question": "Mezinárodní volací značka letadlové stanice u letounů zapsaných v leteckém rejstříku ČR je:",
+    "options": [
+      "OK a další tři písmena",
+      "OL a další dvě písmena",
+      "CZ a další tři čísla"
+    ],
+    "correct": 0,
+    "explanation": "Prefix OK je vyhrazen pro civilní letadla ČR, OL pro lodě.",
+    "source": "2025_09 VFL_4, A.(1).a.11"
   },
   {
     "id": "vfl-predpisy-012",
     "subject": "predpisy",
-    "question": "Individuální oprávnění k vyžívání rádiových kmitočtů uděluje:",
+    "question": "Falešné volací značky a falešné signály:",
     "options": [
-      "Ministerstvo průmyslu a obchodu ČR",
-      "Ministerstvo dopravy ČR",
-      "Český telekomunikační úřad"
+      "se nesmí používat",
+      "smí používat jen výcvikové stanice",
+      "smí používat jen při zkouškách rádia"
     ],
-    "correct": 2,
-    "explanation": "Individuální oprávnění (kmitočtové přidělení) uděluje ČTÚ podle zákona č. 127/2005 Sb. o elektronických komunikacích.",
-    "source": "2018_05 V5, A.(1).a.3"
+    "correct": 0,
+    "explanation": "Vysílání falešných identifikačních ani tísňových signálů není dovoleno za žádných okolností — zakázáno Radiokomunikačním řádem ITU.",
+    "source": "2025_09 VFL_4, A.(1).a.12"
   },
   {
     "id": "vfl-predpisy-013",
-    "subject": "predpisy",
-    "question": "Držitel individuálního oprávnění k využívání rádiových kmitočtů je povinen platit za využívání rádiových kmitočtů:",
-    "options": [
-      "poplatek dle nařízení vlády o poplatcích",
-      "daň dle zákona o spotřebních daních",
-      "smluvní cenu sjednanou s ČTÚ"
-    ],
-    "correct": 0,
-    "explanation": "Výši poplatků za využívání rádiových kmitočtů stanoví nařízení vlády — jde o správní poplatek, nikoli o daň ani smluvní cenu.",
-    "source": "2018_05 V5, A.(1).a.4"
-  },
-  {
-    "id": "vfl-predpisy-014",
-    "subject": "predpisy",
-    "question": "Státní kontrolu elektronických komunikací vykonává:",
-    "options": [
-      "Ministerstvo vnitra ČR",
-      "Národní úřad pro kybernetickou a informační bezpečnost",
-      "Český telekomunikační úřad"
-    ],
-    "correct": 2,
-    "explanation": "Státní kontrolu v oblasti elektronických komunikací zajišťuje ČTÚ — totéž tělo, které spravuje rádiové spektrum.",
-    "source": "2018_05 V5, A.(1).a.7"
-  },
-  {
-    "id": "vfl-predpisy-015",
-    "subject": "predpisy",
-    "question": "Fyzická osoba vykonávající obsluhu vysílacího rádiového zařízení bez platného průkazu odborné způsobilosti se dopustila:",
-    "options": [
-      "trestného činu",
-      "přestupku",
-      "kárného provinění"
-    ],
-    "correct": 1,
-    "explanation": "Jde o přestupek podle zákona o elektronických komunikacích — řeší se ve správním řízení a sankcionuje pokutou.",
-    "source": "2018_05 V5, A.(1).a.8"
-  },
-  {
-    "id": "vfl-predpisy-016",
-    "subject": "predpisy",
-    "question": "V mezinárodní volací značce České republiky tvoří první dvě písmena (prefix) vždy dvojice písmen:",
-    "options": [
-      "OE nebo OM",
-      "CZ nebo CS",
-      "OK nebo OL"
-    ],
-    "correct": 2,
-    "explanation": "ČR má mezinárodně přidělené prefixy OK a OL. OE patří Rakousku, OM Slovensku; CZ/CS se v mezinárodním rádiovém provozu nepoužívá.",
-    "source": "2018_05 V5, A.(1).a.10"
-  },
-  {
-    "id": "vfl-predpisy-017",
-    "subject": "predpisy",
-    "question": "Falešné volací značky a falešné signály:",
-    "options": [
-      "smí používat jen výcvikové stanice",
-      "se nesmí používat",
-      "smí používat jen při zkouškách rádia"
-    ],
-    "correct": 1,
-    "explanation": "Vysílání falešných identifikačních ani tísňových signálů není dovoleno za žádných okolností — zakázáno Radiokomunikačním řádem ITU.",
-    "source": "2018_05 V5, A.(1).a.12"
-  },
-  {
-    "id": "vfl-predpisy-018",
     "subject": "predpisy",
     "question": "Pohyblivá stanice letecké pohyblivé služby je:",
     "options": [
@@ -231,59 +166,124 @@
     ],
     "correct": 1,
     "explanation": "V terminologii ITU je pohyblivá stanice letecké pohyblivé služby ta na palubě letadla — tedy letadlová stanice. „Letecká stanice“ je naopak stanice na zemi.",
-    "source": "2018_05 V5, A.(1).a.13"
+    "source": "2025_09 VFL_4, A.(1).a.13"
+  },
+  {
+    "id": "vfl-predpisy-014",
+    "subject": "predpisy",
+    "question": "Pevná služba je:",
+    "options": [
+      "radiokomunikační služba mezi pozemními stanicemi a družicemi",
+      "radiokomunikační služba mezi pohyblivými stanicemi",
+      "radiokomunikační služba mezi stanovenými pevnými body"
+    ],
+    "correct": 2,
+    "explanation": "Pevná služba (Fixed Service) je point-to-point spojení mezi stálými geografickými body — opak pohyblivé a družicové služby.",
+    "source": "2025_09 VFL_4, A.(1).a.14"
+  },
+  {
+    "id": "vfl-predpisy-015",
+    "subject": "predpisy",
+    "question": "Nejvyšší prioritu a absolutní přednost má zpráva:",
+    "options": [
+      "tísňová",
+      "pilnostní",
+      "bezpečnostní"
+    ],
+    "correct": 0,
+    "explanation": "Pořadí dle důležitosti: tísňová (MAYDAY) → pilnostní (PAN PAN) → bezpečnostní (SECURITÉ) → ostatní.",
+    "source": "2025_09 VFL_4, A.(1).a.15"
+  },
+  {
+    "id": "vfl-predpisy-016",
+    "subject": "predpisy",
+    "question": "Pořadí zpráv dle důležitosti je následující:",
+    "options": [
+      "pilnostní zprávy, tísňové zprávy, meteorologické zprávy, zprávy o pravidelnosti letů, zprávy pro zajištění bezpečnosti letů",
+      "tísňové zprávy, pilnostní zprávy, zprávy o radiovém zaměřování, zprávy pro zajištění bezpečnosti letů, meteorologické zpráva, zprávy o pravidelnosti letů",
+      "tísňové zprávy, pilnostní zprávy, bezpečnostní zprávy, meteorologické zprávy, ostatní"
+    ],
+    "correct": 1,
+    "explanation": "Hierarchie priorit dle ICAO Annex 10: tísňové (MAYDAY) → pilnostní (PAN PAN) → o rádiovém zaměřování → pro zajištění bezpečnosti letů → meteorologické → o pravidelnosti.",
+    "source": "2025_09 VFL_4, A.(1).a.16"
+  },
+  {
+    "id": "vfl-predpisy-017",
+    "subject": "predpisy",
+    "question": "Tísňové volání a tísňová zpráva se vysílají jen na rozkaz:",
+    "options": [
+      "velitele nebo osoby odpovědné za loď nebo letadlo",
+      "řídícího letového provozu",
+      "kteréhokoli člena posádky"
+    ],
+    "correct": 0,
+    "explanation": "Pravomoc povolit tísňové vysílání má pouze velitel (PIC), nikdo jiný — ani palubní personál, ani ATC.",
+    "source": "2025_09 VFL_4, A.(1).a.17"
+  },
+  {
+    "id": "vfl-predpisy-018",
+    "subject": "predpisy",
+    "question": "Mezinárodní tísňový kmitočet v radiotelefonii v letecké pohyblivé službě je:",
+    "options": [
+      "243,0 MHz",
+      "121,5 MHz",
+      "156,8 MHz"
+    ],
+    "correct": 1,
+    "explanation": "121,5 MHz je celosvětový letecký tísňový kmitočet (VHF). 243 MHz je vojenský UHF tísňový kmitočet, 156,8 MHz je námořní kanál 16.",
+    "source": "2025_09 VFL_4, A.(1).a.18"
   },
   {
     "id": "vfl-predpisy-019",
     "subject": "predpisy",
-    "question": "Pevná služba je:",
-    "options": [
-      "radiokomunikační služba mezi stanovenými pevnými body",
-      "radiokomunikační služba mezi pohyblivými stanicemi",
-      "radiokomunikační služba mezi pozemními stanicemi a družicemi"
-    ],
-    "correct": 0,
-    "explanation": "Pevná služba (Fixed Service) je point-to-point spojení mezi stálými geografickými body — opak pohyblivé a družicové služby.",
-    "source": "2018_05 V5, A.(1).a.14"
-  },
-  {
-    "id": "vfl-predpisy-020",
-    "subject": "predpisy",
     "question": "Služba u letadlové nebo lodní stanice podléhá nejvyšší pravomoci:",
     "options": [
-      "operátora rádiové stanice",
       "vlastníka letadla nebo lodi",
+      "operátora rádiové stanice",
       "velitele nebo osoby, která je odpovědná za letadlo nebo loď"
     ],
     "correct": 2,
     "explanation": "Nejvyšší autoritou u provozu stanice je vždy velitel (PIC u letadla, kapitán u lodi) — nikoli majitel ani sám operátor.",
-    "source": "2018_05 V5, A.(1).a.18"
+    "source": "2025_09 VFL_4, A.(1).a.19"
+  },
+  {
+    "id": "vfl-predpisy-020",
+    "subject": "predpisy",
+    "question": "Doba platnosti průkazů radiotelefonistů pro leteckou a námořní pohyblivou službu je při prvním vydání průkazu stanovena na:",
+    "options": [
+      "5 let",
+      "10 let",
+      "3 roky"
+    ],
+    "correct": 1,
+    "explanation": "Při prvním vydání průkazu odborné způsobilosti platnost 10 let. Při následných prodlouženích se platnost prodlužuje o 5 let (viz item 24).",
+    "source": "2025_09 VFL_4, A.(1).a.20"
   },
   {
     "id": "vfl-predpisy-021",
     "subject": "predpisy",
     "question": "O prodloužení doby platnosti průkazu odborné způsobilosti se žádá:",
     "options": [
-      "písemně, minimálně jeden měsíc před koncem platnosti průkazu",
+      "elektronicky nejpozději v den vypršení platnosti průkazu",
       "ústně u zkušebního komisaře ČTÚ kdykoli během platnosti",
-      "elektronicky nejpozději v den vypršení platnosti průkazu"
+      "písemně, minimálně jeden měsíc před koncem platnosti průkazu"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Žádost o prodloužení musí být podána písemně a včas — nejméně jeden měsíc před vypršením platnosti.",
-    "source": "2018_05 V5, A.(1).a.20"
+    "source": "2025_09 VFL_4, A.(1).a.21"
   },
   {
     "id": "vfl-predpisy-022",
     "subject": "predpisy",
     "question": "Při žádosti o prodloužení platnosti průkazu je třeba také:",
     "options": [
+      "doložit zdravotní způsobilost a aktuální fotografii",
       "absolvovat opakovanou zkoušku ve stejném rozsahu jako při prvním vydání",
-      "uhradit příslušný správní poplatek a doložit praxi v obsluze rádiových stanic",
-      "doložit zdravotní způsobilost a aktuální fotografii"
+      "uhradit příslušný správní poplatek a doložit praxi v obsluze rádiových stanic"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Prodloužení vyžaduje pouze úhradu správního poplatku a doložení praxe — opakovaná zkouška ani lékařské potvrzení se nepředkládá.",
-    "source": "2018_05 V5, A.(1).a.21"
+    "source": "2025_09 VFL_4, A.(1).a.22"
   },
   {
     "id": "vfl-predpisy-023",
@@ -291,28 +291,41 @@
     "question": "V případě, že doba platnosti průkazu již uplynula, může držitel průkazu žádat o nový průkaz:",
     "options": [
       "kdykoli, bez časového omezení po vypršení platnosti",
-      "do tří měsíců od pozbytí platnosti průkazu",
-      "v období do jednoho roku ode dne pozbytí platnosti průkazu"
+      "v období do jednoho roku ode dne pozbytí platnosti průkazu",
+      "do tří měsíců od pozbytí platnosti průkazu"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Po vypršení platnosti je k dispozici jednoletá ochranná lhůta pro získání nového průkazu zjednodušeným postupem; po jejím uplynutí je nutné celou zkoušku opakovat.",
-    "source": "2018_05 V5, A.(1).a.22"
+    "source": "2025_09 VFL_4, A.(1).a.23"
   },
   {
     "id": "vfl-predpisy-024",
     "subject": "predpisy",
+    "question": "Doba platnosti průkazů radiotelefonistů námořní a letecké pohyblivé služby se na základě žádosti držitele prodlužuje o:",
+    "options": [
+      "5 let",
+      "10 let",
+      "3 roky"
+    ],
+    "correct": 0,
+    "explanation": "Prodloužení doby platnosti je 5 let — kratší než prvotních 10 let. Žádost se podává písemně nejméně měsíc před koncem platnosti.",
+    "source": "2025_09 VFL_4, A.(1).a.24"
+  },
+  {
+    "id": "vfl-predpisy-025",
+    "subject": "predpisy",
     "question": "První znak nebo první dva znaky mezinárodní volací značky označují:",
     "options": [
-      "typ rádiové služby, ke které stanice patří",
       "kategorii průkazu odborné způsobilosti operátora",
+      "typ rádiové služby, ke které stanice patří",
       "státní příslušnost stanice"
     ],
     "correct": 2,
     "explanation": "Mezinárodní prefix (např. OK pro ČR, G pro Velkou Británii) identifikuje stát, který značku vydal — podle tabulky přidělené ITU.",
-    "source": "2018_05 V5, A.(1).a.23"
+    "source": "2025_09 VFL_4, A.(1).a.25"
   },
   {
-    "id": "vfl-predpisy-025",
+    "id": "vfl-predpisy-026",
     "subject": "predpisy",
     "question": "Stejná volací značka:",
     "options": [
@@ -322,49 +335,62 @@
     ],
     "correct": 1,
     "explanation": "Volací značka je vždy jedinečná — slouží jako globální identifikátor konkrétní stanice, takže nesmí být sdílena.",
-    "source": "2018_05 V5, A.(1).a.24"
-  },
-  {
-    "id": "vfl-predpisy-026",
-    "subject": "predpisy",
-    "question": "Inspekční orgány zemí, které provedou kontrolu vybavení radiové stanice:",
-    "options": [
-      "mohou vyžadovat pouze předložení dokladu o oprávnění stanice",
-      "mohou vyžadovat předložení průkazu operátora",
-      "nemají právo požadovat žádné doklady od posádky stanice"
-    ],
-    "correct": 1,
-    "explanation": "Při kontrole má inspekční orgán právo nahlédnout jak do dokladů ke stanici, tak do průkazů odborné způsobilosti obsluhujících osob.",
-    "source": "2018_05 V5, A.(1).a.25"
+    "source": "2025_09 VFL_4, A.(1).a.26"
   },
   {
     "id": "vfl-predpisy-027",
     "subject": "predpisy",
-    "question": "Mezinárodní telekomunikační unie (ITU) je:",
+    "question": "Inspekční orgány zemí, které provedou kontrolu vybavení radiové stanice:",
     "options": [
-      "soukromou mezinárodní asociací operátorů a výrobců rádiové techniky",
-      "agenturou Evropské unie pro koordinaci telekomunikací členských států",
-      "specializovanou organizací Organizace spojených národů pro oblast telekomunikací"
+      "mohou vyžadovat předložení průkazu operátora",
+      "mohou vyžadovat pouze předložení dokladu o oprávnění stanice",
+      "nemají právo požadovat žádné doklady od posádky stanice"
     ],
-    "correct": 2,
-    "explanation": "ITU je specializovaná organizace OSN se sídlem v Ženevě; spravuje globální rádiové spektrum, mezinárodní normy a koordinaci satelitních pozic.",
-    "source": "2018_05 V5, A.(1).a.26"
+    "correct": 0,
+    "explanation": "Při kontrole má inspekční orgán právo nahlédnout jak do dokladů ke stanici, tak do průkazů odborné způsobilosti obsluhujících osob.",
+    "source": "2025_09 VFL_4, A.(1).a.27"
   },
   {
     "id": "vfl-predpisy-028",
     "subject": "predpisy",
-    "question": "Mezinárodní organizací CEPT se rozumí:",
+    "question": "Mezinárodní telekomunikační unie (ITU) je:",
     "options": [
-      "Centrální evropská poštovní a telegrafní organizace",
-      "Evropská konference poštovních a telekomunikačních správ",
-      "Společenství evropských provozovatelů telekomunikací"
+      "soukromou mezinárodní asociací operátorů a výrobců rádiové techniky",
+      "specializovanou organizací Organizace spojených národů pro oblast telekomunikací",
+      "agenturou Evropské unie pro koordinaci telekomunikací členských států"
     ],
     "correct": 1,
-    "explanation": "CEPT (Conférence européenne des administrations des postes et des télécommunications) sdružuje evropské regulátory pro koordinaci pošt a telekomunikací — včetně harmonizace rádiových kmitočtů.",
-    "source": "2018_05 V5, A.(1).a.27"
+    "explanation": "ITU je specializovaná organizace OSN se sídlem v Ženevě; spravuje globální rádiové spektrum, mezinárodní normy a koordinaci satelitních pozic.",
+    "source": "2025_09 VFL_4, A.(1).a.28"
   },
   {
     "id": "vfl-predpisy-029",
+    "subject": "predpisy",
+    "question": "Mezinárodní organizací CEPT se rozumí:",
+    "options": [
+      "Společenství evropských provozovatelů telekomunikací",
+      "Centrální evropská poštovní a telegrafní organizace",
+      "Evropská konference poštovních a telekomunikačních správ"
+    ],
+    "correct": 2,
+    "explanation": "CEPT (Conférence européenne des administrations des postes et des télécommunications) sdružuje evropské regulátory pro koordinaci pošt a telekomunikací — včetně harmonizace rádiových kmitočtů.",
+    "source": "2025_09 VFL_4, A.(1).a.29"
+  },
+  {
+    "id": "vfl-predpisy-030",
+    "subject": "predpisy",
+    "question": "Q-kódem se rozumí:",
+    "options": [
+      "kódová skupina čtyř číslic pro identifikaci stanice",
+      "kódová skupina dvou písmen pro signalizaci kvality spojení",
+      "kódová skupina tří písmen začínající vždy písmenem Q, která má určitý konkrétní, mezinárodně dohodnutý význam"
+    ],
+    "correct": 2,
+    "explanation": "Q-kódy (např. QNH, QFE, QDM, QDR) jsou tříznakové kódy začínající Q s pevně daným významem.",
+    "source": "2025_09 VFL_4, A.(1).a.30"
+  },
+  {
+    "id": "vfl-predpisy-031",
     "subject": "predpisy",
     "question": "Volací značky se přidělují tak, aby nemohly být zaměněny:",
     "options": [
@@ -374,361 +400,62 @@
     ],
     "correct": 0,
     "explanation": "Při přidělování značek se vyhýbá kombinacím podobným MAYDAY, PAN PAN, SECURITÉ a Q-kódům, aby v provozu nedošlo k záměně významu.",
-    "source": "2018_05 V5, A.(1).a.29"
+    "source": "2025_09 VFL_4, A.(1).a.31"
   },
   {
-    "id": "vfl-predpisy-030",
+    "id": "vfl-predpisy-032",
     "subject": "predpisy",
     "question": "Volací značkou je:",
     "options": [
-      "každé poznávací označení stanice přidělené podle Radiokomunikačního řádu, které umožňuje zjištění její totožnosti během vysílání",
+      "kombinace číslic přidělená výrobcem rádiového zařízení při jeho homologaci",
       "libovolný identifikátor zvolený provozovatelem stanice pro snadnou orientaci v provozu",
-      "kombinace číslic přidělená výrobcem rádiového zařízení při jeho homologaci"
-    ],
-    "correct": 0,
-    "explanation": "Volací značka je oficiálně přidělené označení dle Radiokomunikačního řádu ITU — nikoli libovolný název ani sériové číslo zařízení.",
-    "source": "2018_05 V5, A.(1).a.30"
-  },
-  {
-    "id": "vfl-predpisy-031",
-    "subject": "predpisy",
-    "question": "Operátor stanice vysílá vlastní volací značku během spojení:",
-    "options": [
-      "pouze při prvním navázání spojení s danou stanicí.",
-      "v každé jednotlivé relaci po každém přepnutí na vysílání.",
-      "předepsaným postupem minimálně na začátku a na konci spojení."
+      "každé poznávací označení stanice přidělené podle Radiokomunikačního řádu, které umožňuje zjištění její totožnosti během vysílání"
     ],
     "correct": 2,
-    "explanation": "Vlastní volací značka se vysílá podle stanovených pravidel nejméně na začátku a na konci spojení; uvnitř relace se uvádí jen v určitých případech (změna kmitočtu, dlouhé relace).",
-    "source": "2018_05 V5, A.(1).a.31"
+    "explanation": "Volací značka je oficiálně přidělené označení dle Radiokomunikačního řádu ITU — nikoli libovolný název ani sériové číslo zařízení.",
+    "source": "2025_09 VFL_4, A.(1).a.32"
+  },
+  {
+    "id": "vfl-predpisy-033",
+    "subject": "predpisy",
+    "question": "Telekomunikační tajemství se týká:",
+    "options": [
+      "jen pracovníků poskytovatele radiokomunikační služby",
+      "všech osob, které znají obsah rádiových zpráv nebo se dověděly o jejich existenci či o zprávě, která byla doručena prostřednictvím radiokomunikační služby.",
+      "pouze úředníků Českého telekomunikačního úřadu"
+    ],
+    "correct": 1,
+    "explanation": "Telekomunikační tajemství se vztahuje na KAŽDOU osobu, která obsah zpráv pozná — náhodným posluchačem na rádiu počínaje, profesionálním operátorem konče.",
+    "source": "2025_09 VFL_4, A.(1).a.33"
+  },
+  {
+    "id": "vfl-predpisy-034",
+    "subject": "predpisy",
+    "question": "Každý, kdo se dozví informace o skutečnostech, které jsou předmětem telekomunikačního tajemství,:",
+    "options": [
+      "smí je sdělit komukoli, pokud nejde o utajované informace.",
+      "je oprávněn je sdělit jen orgánům činným v trestním řízení.",
+      "je povinen zachovávat o nich mlčenlivost."
+    ],
+    "correct": 2,
+    "explanation": "Mlčenlivost je absolutní vůči všem třetím stranám. Výjimkou jsou jen zákonem stanovené případy (orgány činné v trestním řízení s úředním usnesením).",
+    "source": "2025_09 VFL_4, A.(1).a.34"
+  },
+  {
+    "id": "vfl-predpisy-035",
+    "subject": "predpisy",
+    "question": "Předmětem telekomunikačního tajemství je zejména:",
+    "options": [
+      "obsah datových zpráv mezi soukromými subjekty bez ohledu na médium.",
+      "pouze záznamy elektronických komunikací uložené operátorem.",
+      "obsah zpráv přepravovaných nebo jinak zprostředkovaných telekomunikačními zařízeními a sítěmi s výjimkou zpráv určených veřejnosti."
+    ],
+    "correct": 2,
+    "explanation": "Předmětem tajemství je obsah PŘEPRAVOVANÝCH zpráv nebo zpráv jinak zprostředkovaných telekomunikační infrastrukturou. Veřejně vysílané zprávy (rozhlas, TV) tajemstvím nejsou.",
+    "source": "2025_09 VFL_4, A.(1).a.35"
   },
   {
     "id": "vfl-provoz-001",
-    "subject": "provoz",
-    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 121,500 MHz vyjadřuje:",
-    "options": [
-      "ONE TWO ONE POINT FIVE",
-      "ONE TWENTY-ONE DECIMAL FIVE",
-      "ONE TWO ONE DECIMAL FIVE"
-    ],
-    "correct": 2,
-    "explanation": "Každá číslice se vyslovuje jednotlivě, oddělovač je 'DECIMAL', nikoli 'POINT'.",
-    "source": "2018_05 V5, A.(1).b.33"
-  },
-  {
-    "id": "vfl-provoz-002",
-    "subject": "provoz",
-    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 118,055 MHz vyjadřuje:",
-    "options": [
-      "ONE ONE EIGHT DECIMAL ZERO FIVE FIVE",
-      "ONE ONE EIGHT DECIMAL ZERO FIVE",
-      "ONE EIGHTEEN POINT ZERO FIFTY-FIVE"
-    ],
-    "correct": 0,
-    "explanation": "U kanálů s roztečí 8,33 kHz se vyslovuje šest číslic včetně dvou desetinných míst za 'DECIMAL'.",
-    "source": "2018_05 V5, A.(1).b.36"
-  },
-  {
-    "id": "vfl-provoz-003",
-    "subject": "provoz",
-    "question": "Číslice ve zprávě FL 300 jsou správně vyslovovány takto:",
-    "options": [
-      "three zero zero,",
-      "three hundred,",
-      "thirty zero,"
-    ],
-    "correct": 1,
-    "explanation": "Výjimka pro výšky/hladiny: vyslovuje se 'three hundred', nikoli po číslicích. Stejně tak QNH 1000 = 'one thousand'.",
-    "source": "2018_05 V5, A.(1).b.40"
-  },
-  {
-    "id": "vfl-provoz-004",
-    "subject": "provoz",
-    "question": "Fráze „STAND BY“ znamená:",
-    "options": [
-      "vyčkávejte na místě",
-      "čekejte, zavolám Vás",
-      "připravte se k vysílání"
-    ],
-    "correct": 1,
-    "explanation": "STAND BY = počkejte, ozvu se. Pozor na záměnu s HOLD POSITION (vyčkávejte na místě — pozemní pohyb).",
-    "source": "2018_05 V5, A.(1).b.82"
-  },
-  {
-    "id": "vfl-provoz-005",
-    "subject": "provoz",
-    "question": "Fráze „WILCO“ znamená:",
-    "options": [
-      "přijal jsem vše z Vašeho posledního vysílání",
-      "potvrďte mi, že jste zprávu přijal",
-      "rozumím Vaší zprávě a budu podle ní postupovat"
-    ],
-    "correct": 2,
-    "explanation": "WILCO = 'Will Comply'. Liší se od ROGER (jen příjem) — WILCO znamená i provedení.",
-    "source": "2018_05 V5, A.(1).b.84"
-  },
-  {
-    "id": "vfl-provoz-006",
-    "subject": "provoz",
-    "question": "Fráze „TAKE-OFF APPROVED“:",
-    "options": [
-      "znamená povolení ke vzletu",
-      "není přípustná",
-      "se používá při zrušeném povolení"
-    ],
-    "correct": 1,
-    "explanation": "Slovo 'take-off' se v ATC frazeologii používá VÝHRADNĚ pro skutečné povolení ke vzletu (CLEARED FOR TAKE-OFF) nebo jeho zrušení. Fráze TAKE-OFF APPROVED neexistuje.",
-    "source": "2018_05 V5, A.(1).b.92"
-  },
-  {
-    "id": "vfl-provoz-007",
-    "subject": "provoz",
-    "question": "Správný Q-kód pro „tlak indikující nadmořskou výšku, přepočtený na střední hladinu moře“:",
-    "options": [
-      "QFE",
-      "QNH",
-      "QNE"
-    ],
-    "correct": 1,
-    "explanation": "QNH = výška nad mořem na výškoměru. QFE = výška nad letištěm (na zemi ukazuje 0). QNE = standardní 1013,25 hPa.",
-    "source": "2018_05 V5, A.(1).b.54"
-  },
-  {
-    "id": "vfl-provoz-008",
-    "subject": "provoz",
-    "question": "Správný Q-kód pro „magnetický kurs pro směr k zaměřovači“:",
-    "options": [
-      "QDR",
-      "QTE",
-      "QDM"
-    ],
-    "correct": 2,
-    "explanation": "QDM = kurs K zaměřovači (Direction to Magnetic). QDR = směr OD zaměřovače (Direction Reciprocal/Radial).",
-    "source": "2018_05 V5, A.(1).b.57"
-  },
-  {
-    "id": "vfl-provoz-009",
-    "subject": "provoz",
-    "question": "Pořadí zpráv dopravovaných leteckou pohyblivou službou je:",
-    "options": [
-      "tísňové, pilnostní, o rádiovém zaměřování, pro zajištění bezpečnosti letů, meteorologické, o pravidelnosti letů",
-      "tísňové, bezpečnostní, pilnostní, meteorologické, ostatní",
-      "pilnostní, tísňové, bezpečnostní, provozní, ostatní"
-    ],
-    "correct": 0,
-    "explanation": "Standardní pořadí dle Předpisu L 10/II. Pozor: zaměřování má vyšší prioritu než meteo.",
-    "source": "2018_05 V5, A.(1).b.13"
-  },
-  {
-    "id": "vfl-provoz-010",
-    "subject": "provoz",
-    "question": "Vysílání pokusných signálů nesmí trvat déle než:",
-    "options": [
-      "30 vteřin",
-      "10 vteřin",
-      "1 minutu"
-    ],
-    "correct": 1,
-    "explanation": "Zkouška rádia musí být krátká, aby se nerušil běžný provoz na kmitočtu.",
-    "source": "2018_05 V5, A.(1).b.5"
-  },
-  {
-    "id": "vfl-provoz-011",
-    "subject": "provoz",
-    "question": "Při zkušebním vysílání dokonalá čitelnost je uváděna stupněm:",
-    "options": [
-      "5 (perfectly readable)",
-      "1 (perfectly readable)",
-      "9 (perfectly readable)"
-    ],
-    "correct": 0,
-    "explanation": "Pětistupňová stupnice: 1 = nečitelné, 5 = dokonale čitelné. Pozor: stupnice S (síla signálu) jde do 9, ale to je něco jiného.",
-    "source": "2018_05 V5, A.(1).b.6"
-  },
-  {
-    "id": "vfl-provoz-012",
-    "subject": "provoz",
-    "question": "Zkratka CAVOK znamená:",
-    "options": [
-      "Bezoblačné a bez výstrah",
-      "Dohlednost, oblačnost a současné počasí lepší než předepsané hodnoty nebo podmínky",
-      "Calm Air, Visibility OK"
-    ],
-    "correct": 1,
-    "explanation": "Ceiling And Visibility OK — formálně: viditelnost ≥10 km, bez význačné oblačnosti pod 5000 ft, bez význačných meteojevů.",
-    "source": "2018_05 V5, A.(1).b.63"
-  },
-  {
-    "id": "vfl-provoz-013",
-    "subject": "provoz",
-    "question": "Zkratka ATIS znamená:",
-    "options": [
-      "Air Traffic Information Service",
-      "Automatic Terminal Information Service",
-      "Automatická informační služba koncové řízení oblasti"
-    ],
-    "correct": 2,
-    "explanation": "ATIS = nepřetržitě vysílaná informační zpráva pro letiště (vítr, dráha, QNH atd.). Otázka se ptá na český význam.",
-    "source": "2018_05 V5, A.(1).b.62"
-  },
-  {
-    "id": "vfl-provoz-014",
-    "subject": "provoz",
-    "question": "Volací znak INFORMATION je přiřazen:",
-    "options": [
-      "letovým informačním střediskům např. FIC Praha,",
-      "letištím poskytujícím službu AFIS,",
-      "letištní řídící věži,"
-    ],
-    "correct": 0,
-    "explanation": "INFORMATION = FIC (Flight Information Centre). Pozor: INFO se používá pro AFIS na neřízených letištích.",
-    "source": "2018_05 V5, A.(1).b.81"
-  },
-  {
-    "id": "vfl-provoz-015",
-    "subject": "provoz",
-    "question": "Po volání letecké stanice, na které tato stanice neodpoví, je letadlová stanice povinna:",
-    "options": [
-      "okamžitě opakovat volání",
-      "vyčkat nejméně 10 sekund, než provede další volání",
-      "přejít na nouzový kmitočet 121,5 MHz"
-    ],
-    "correct": 1,
-    "explanation": "Minimálně 10 s pauza, aby se předešlo zahlcení kmitočtu opakovaným voláním.",
-    "source": "2018_05 V5, A.(1).b.20"
-  },
-  {
-    "id": "vfl-provoz-016",
-    "subject": "provoz",
-    "question": "Správné zkrácení volací značky OKABC je:",
-    "options": [
-      "OBC",
-      "OAB",
-      "OKC"
-    ],
-    "correct": 0,
-    "explanation": "Zkrácená značka = první znak prefixu + poslední dva znaky přípony. Použije se pouze, byla-li takto oslovena leteckou stanicí.",
-    "source": "2018_05 V5, A.(1).b.29"
-  },
-  {
-    "id": "vfl-provoz-017",
-    "subject": "provoz",
-    "question": "PAN PAN MEDICAL je radiotelefonní signál zprávy:",
-    "options": [
-      "tísňové",
-      "pilnostní",
-      "bezpečnostní"
-    ],
-    "correct": 1,
-    "explanation": "PAN PAN = pilnost (urgency). Doplněk MEDICAL signalizuje sanitní let nebo zdravotní problém na palubě bez bezprostředního ohrožení.",
-    "source": "2018_05 V5, A.(1).b.15"
-  },
-  {
-    "id": "vfl-elektrotechnika-001",
-    "subject": "elektrotechnika",
-    "question": "Jmenovité napětí článku olověného akumulátoru je:",
-    "options": [
-      "1,2 V",
-      "1,5 V",
-      "2 V"
-    ],
-    "correct": 2,
-    "explanation": "Olověný (Pb) článek = 2 V. NiCd/NiMH = 1,2 V. Suchý galvanický článek = 1,5 V.",
-    "source": "2018_05 V5, A.(1).c.5"
-  },
-  {
-    "id": "vfl-elektrotechnika-002",
-    "subject": "elektrotechnika",
-    "question": "Všesměrová anténa má vyzařovací charakteristiku:",
-    "options": [
-      "kruhovou",
-      "osmičkovou",
-      "kapkovitou"
-    ],
-    "correct": 0,
-    "explanation": "Všesměrová (omnidirectional) = kruh v horizontální rovině. Osmička je charakteristika dipólu kolmo k zemi.",
-    "source": "2018_05 V5, A.(1).c.12"
-  },
-  {
-    "id": "vfl-elektrotechnika-003",
-    "subject": "elektrotechnika",
-    "question": "Znakem F3E je označeno vysílání:",
-    "options": [
-      "radiotelefonie s amplitudovou modulací",
-      "radiotelegrafie s frekvenčním klíčováním",
-      "radiotelefonie s kmitočtovou modulací"
-    ],
-    "correct": 2,
-    "explanation": "ITU označení emise: F = FM, 3 = analogová informace (řeč), E = telefonie. AM telefonie by byla A3E.",
-    "source": "2018_05 V5, A.(1).c.17"
-  },
-  {
-    "id": "vfl-elektrotechnika-004",
-    "subject": "elektrotechnika",
-    "question": "Vztah mezi délkou vlny (λ) a kmitočtem (f), když c je rychlost světla, je:",
-    "options": [
-      "f = λ × c",
-      "f = c / λ",
-      "λ = f × c"
-    ],
-    "correct": 1,
-    "explanation": "Pro 121,5 MHz: λ = 3·10⁸ / 121,5·10⁶ ≈ 2,47 m. Pásmo VHF (160 MHz) má λ ≈ 2 m.",
-    "source": "2018_05 V5, A.(1).c.16"
-  },
-  {
-    "id": "vfl-elektrotechnika-005",
-    "subject": "elektrotechnika",
-    "question": "Funkce „SQUELCH“ VKV radiostanice je určena:",
-    "options": [
-      "ke zvýšení vysílacího výkonu při slabém signálu.",
-      "k automatickému ladění na nejsilnější stanici.",
-      "k potlačení slabších rušivých signálů včetně vlastního šumu přijímače."
-    ],
-    "correct": 2,
-    "explanation": "Squelch (šumová brána) ztiší přijímač, dokud nedorazí signál nad nastavenou úrovní — odstraní šum mezi přenosy.",
-    "source": "2018_05 V5, A.(1).c.23"
-  },
-  {
-    "id": "vfl-elektrotechnika-006",
-    "subject": "elektrotechnika",
-    "question": "Radiostanice odebírající z baterie 12 V proud 500 mA má příkon:",
-    "options": [
-      "6 W",
-      "12 W",
-      "60 W"
-    ],
-    "correct": 0,
-    "explanation": "P = U × I = 12 V × 0,5 A = 6 W.",
-    "source": "2018_05 V5, A.(1).c.29"
-  },
-  {
-    "id": "vfl-elektrotechnika-007",
-    "subject": "elektrotechnika",
-    "question": "V suchém, bezprašném prostředí považujeme za bezpečné napětí:",
-    "options": [
-      "stejnosměrné do 24 V a střídavé do 12 V",
-      "stejnosměrné do 60 V a střídavé do 25 V",
-      "stejnosměrné do 120 V a střídavé do 50 V"
-    ],
-    "correct": 1,
-    "explanation": "ČSN bezpečné malé napětí (SELV) v normálních podmínkách: 60 V DC / 25 V AC.",
-    "source": "2018_05 V5, A.(1).c.21"
-  },
-  {
-    "id": "vfl-elektrotechnika-008",
-    "subject": "elektrotechnika",
-    "question": "Délka rádiové vlny v pásmu 160 MHz (VHF) je:",
-    "options": [
-      "cca. 0,2 m",
-      "cca. 2 m",
-      "cca. 20 m"
-    ],
-    "correct": 1,
-    "explanation": "λ = c/f = 3·10⁸ / 160·10⁶ ≈ 1,87 m, zaokrouhleně 2 m. Odtud označení 'two-meter band'.",
-    "source": "2018_05 V5, A.(1).c.26"
-  },
-  {
-    "id": "vfl-provoz-018",
     "subject": "provoz",
     "question": "Letecká pohyblivá služba je:",
     "options": [
@@ -738,49 +465,75 @@
     ],
     "correct": 0,
     "explanation": "Letecká pohyblivá služba (Aeronautical Mobile Service) zahrnuje radiokomunikaci mezi pozemními leteckými stanicemi a letadly, i mezi letadly navzájem.",
-    "source": "2018_05 V5, A.(1).b.1"
+    "source": "2025_09 VFL_4, A.(1).b.1"
   },
   {
-    "id": "vfl-provoz-019",
+    "id": "vfl-provoz-002",
     "subject": "provoz",
     "question": "Služba rádiového určování pro účely radionavigace je:",
     "options": [
+      "rádiová zaměřovací služba",
       "radiolokační služba",
-      "radionavigační služba",
-      "rádiová zaměřovací služba"
+      "radionavigační služba"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Radionavigační služba (radio navigation service) je podmnožinou rádiového určování zaměřená na navigaci, na rozdíl od radiolokace pro detekci objektů.",
-    "source": "2018_05 V5, A.(1).b.2"
+    "source": "2025_09 VFL_4, A.(1).b.2"
   },
   {
-    "id": "vfl-provoz-020",
+    "id": "vfl-provoz-003",
     "subject": "provoz",
     "question": "Letecká pevná služba (AFS dle L10) je:",
     "options": [
-      "telekomunikační služba mezi stanovenými pevnými body",
       "radiokomunikační služba mezi letadly a pozemními stanicemi",
+      "telekomunikační služba mezi stanovenými pevnými body",
       "služba pro vysílání leteckých informačních zpráv pro veřejnost"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "AFS (Aeronautical Fixed Service) — telekomunikační síť pevných pozemních bodů (např. AFTN) sloužící pro výměnu letových plánů, NOTAM, meteo zpráv.",
-    "source": "2018_05 V5, A.(1).b.3"
+    "source": "2025_09 VFL_4, A.(1).b.3"
   },
   {
-    "id": "vfl-provoz-021",
+    "id": "vfl-provoz-004",
     "subject": "provoz",
     "question": "Letecká rozhlasová služba (dle L10) je:",
     "options": [
-      "služba určená k vysílání informací týkajících se leteckého provozu",
       "komerční rozhlasové vysílání pro cestující na palubě letadel",
+      "služba určená k vysílání informací týkajících se leteckého provozu",
       "služba pro výměnu zpráv mezi leteckými dispečery a posádkami"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Letecká rozhlasová služba (Aeronautical Broadcasting Service) je jednosměrné vysílání informací (např. ATIS, VOLMET) k využití letadly.",
-    "source": "2018_05 V5, A.(1).b.4"
+    "source": "2025_09 VFL_4, A.(1).b.4"
   },
   {
-    "id": "vfl-provoz-022",
+    "id": "vfl-provoz-005",
+    "subject": "provoz",
+    "question": "vysílání pokusných signálů nesmí trvat déle než:",
+    "options": [
+      "30 vteřin",
+      "10 vteřin",
+      "1 minutu"
+    ],
+    "correct": 1,
+    "explanation": "Zkouška rádia musí být krátká, aby se nerušil běžný provoz na kmitočtu.",
+    "source": "2025_09 VFL_4, A.(1).b.5"
+  },
+  {
+    "id": "vfl-provoz-006",
+    "subject": "provoz",
+    "question": "Při zkušebním vysílání dokonalá čitelnost je uváděna stupněm:",
+    "options": [
+      "9 (perfectly readable)",
+      "1 (perfectly readable)",
+      "5 (Perfectly Readable)"
+    ],
+    "correct": 2,
+    "explanation": "Pětistupňová stupnice: 1 = nečitelné, 5 = dokonale čitelné. Pozor: stupnice S (síla signálu) jde do 9, ale to je něco jiného.",
+    "source": "2025_09 VFL_4, A.(1).b.6"
+  },
+  {
+    "id": "vfl-provoz-007",
     "subject": "provoz",
     "question": "Zkušební vysílání musí obsahovat:",
     "options": [
@@ -790,101 +543,127 @@
     ],
     "correct": 1,
     "explanation": "Zkouška spojení musí jasně identifikovat obě stanice a kmitočet, aby ji okolní provoz správně interpretoval.",
-    "source": "2018_05 V5, A.(1).b.7"
+    "source": "2025_09 VFL_4, A.(1).b.7"
   },
   {
-    "id": "vfl-provoz-023",
+    "id": "vfl-provoz-008",
     "subject": "provoz",
     "question": "Při zkoušce rádia se použije fráze:",
     "options": [
+      "RADIO CHECK nebo HOW DO YOU READ?",
       "TEST TEST TEST nebo CAN YOU HEAR ME?",
-      "MIC CHECK nebo SIGNAL CHECK",
-      "RADIO CHECK nebo HOW DO YOU READ?"
+      "MIC CHECK nebo SIGNAL CHECK"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Standardní ICAO fráze pro zkoušku spojení — alternativy nejsou předepsané.",
-    "source": "2018_05 V5, A.(1).b.8"
+    "source": "2025_09 VFL_4, A.(1).b.8"
   },
   {
-    "id": "vfl-provoz-024",
+    "id": "vfl-provoz-009",
     "subject": "provoz",
     "question": "Rychlost hovoru při radiotelefonním spojení nemá převyšovat:",
     "options": [
+      "150 slov za minutu",
       "60 slov za minutu",
-      "100 slov za minutu",
-      "150 slov za minutu"
+      "100 slov za minutu"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Maximum 100 slov za minutu zajišťuje srozumitelnost zejména pro neanglické rodilé mluvčí.",
-    "source": "2018_05 V5, A.(1).b.9"
+    "source": "2025_09 VFL_4, A.(1).b.9"
   },
   {
-    "id": "vfl-provoz-025",
+    "id": "vfl-provoz-010",
     "subject": "provoz",
     "question": "Radiotelefonní spojení letadlo – země by se mělo provádět:",
     "options": [
       "výhradně v anglickém jazyce na všech mezinárodních letištích",
-      "v jazyce posádky letadla, pokud to pozemní stanice povolí",
-      "všeobecně v jazyce ve kterém komunikuje pozemní stanice"
+      "všeobecně v jazyce ve kterém komunikuje pozemní stanice",
+      "v jazyce posádky letadla, pokud to pozemní stanice povolí"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Jazyk komunikace určuje pozemní stanice; v ČR se používá čeština nebo angličtina (povinná v ŘLP).",
-    "source": "2018_05 V5, A.(1).b.10"
+    "source": "2025_09 VFL_4, A.(1).b.10"
   },
   {
-    "id": "vfl-provoz-026",
+    "id": "vfl-provoz-011",
     "subject": "provoz",
     "question": "Zprávy musí být vysílány:",
     "options": [
-      "v otevřené řeči a ve schválených frázích",
+      "v libovolné podobě, kterou pochopí obě stanice",
       "v šifrované podobě podle dohodnutého kódu",
-      "v libovolné podobě, kterou pochopí obě stanice"
+      "v otevřené řeči a ve schválených frázích"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Plaintext (jasná řeč) + standardizované ICAO fráze — zakódování zpráv v provozu není přípustné.",
-    "source": "2018_05 V5, A.(1).b.11"
+    "source": "2025_09 VFL_4, A.(1).b.11"
   },
   {
-    "id": "vfl-provoz-027",
+    "id": "vfl-provoz-012",
     "subject": "provoz",
     "question": "Při vysílání:",
     "options": [
-      "mluvíme co nejhlasitěji, aby byl signál čitelný",
       "zachováváme stále stejnou výši hlasu ve všech fázích hovoru",
+      "mluvíme co nejhlasitěji, aby byl signál čitelný",
       "tempo přizpůsobujeme stresu situace"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Konstantní hlasitost a tempo zajišťují stabilní úroveň signálu a srozumitelnost — důležité zejména v tísňových situacích.",
-    "source": "2018_05 V5, A.(1).b.12"
+    "source": "2025_09 VFL_4, A.(1).b.12"
   },
   {
-    "id": "vfl-provoz-028",
+    "id": "vfl-provoz-013",
+    "subject": "provoz",
+    "question": "Pořadí zpráv dopravovaných leteckou pohyblivou službou je:",
+    "options": [
+      "pilnostní, tísňové, bezpečnostní, provozní, ostatní",
+      "tísňové, bezpečnostní, pilnostní, meteorologické, ostatní",
+      "tísňové, pilnostní, o rádiovém zaměřování, pro zajištění bezpečnosti letů, meteorologické, o pravidelnosti letů"
+    ],
+    "correct": 2,
+    "explanation": "Standardní pořadí dle Předpisu L 10/II. Pozor: zaměřování má vyšší prioritu než meteo.",
+    "source": "2025_09 VFL_4, A.(1).b.13"
+  },
+  {
+    "id": "vfl-provoz-014",
     "subject": "provoz",
     "question": "3x opakovaný tísňový signál MAYDAY musí být použit:",
     "options": [
+      "pouze pokud žádná stanice neodpoví do 30 sekund",
       "po každé větě tísňové zprávy",
-      "na začátku první zprávy tísňové korespondence",
-      "pouze pokud žádná stanice neodpoví do 30 sekund"
+      "na začátku první zprávy tísňové korespondence"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Trojí MAYDAY otevírá tísňovou korespondenci a slouží k upozornění všech stanic poslouchajících daný kmitočet.",
-    "source": "2018_05 V5, A.(1).b.14"
+    "source": "2025_09 VFL_4, A.(1).b.14"
   },
   {
-    "id": "vfl-provoz-029",
+    "id": "vfl-provoz-015",
+    "subject": "provoz",
+    "question": "PAN PAN MEDICAL je radiotelefonní signál zprávy:",
+    "options": [
+      "pilnostní",
+      "tísňové",
+      "bezpečnostní"
+    ],
+    "correct": 0,
+    "explanation": "PAN PAN = pilnost (urgency). Doplněk MEDICAL signalizuje sanitní let nebo zdravotní problém na palubě bez bezprostředního ohrožení.",
+    "source": "2025_09 VFL_4, A.(1).b.15"
+  },
+  {
+    "id": "vfl-provoz-016",
     "subject": "provoz",
     "question": "Tísňová korespondence:",
     "options": [
-      "má přednost před všemi ostatními druhy spojení",
+      "musí být ukončena do 5 minut, jinak ztrácí prioritu",
       "má přednost jen před komerčním provozem, ne před pilnostními zprávami",
-      "musí být ukončena do 5 minut, jinak ztrácí prioritu"
+      "má přednost před všemi ostatními druhy spojení"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Tísňová (DISTRESS, MAYDAY) má absolutní přednost — všechny ostatní stanice musí umlknout nebo přejít na jiný kmitočet.",
-    "source": "2018_05 V5, A.(1).b.16"
+    "source": "2025_09 VFL_4, A.(1).b.16"
   },
   {
-    "id": "vfl-provoz-030",
+    "id": "vfl-provoz-017",
     "subject": "provoz",
     "question": "Pilnostní zpráva:",
     "options": [
@@ -894,140 +673,166 @@
     ],
     "correct": 0,
     "explanation": "Pilnostní (URGENCY, PAN PAN) je druhý nejvyšší stupeň — vyšší než bezpečnostní (SECURITÉ), ale nižší než tísňová.",
-    "source": "2018_05 V5, A.(1).b.17"
+    "source": "2025_09 VFL_4, A.(1).b.17"
   },
   {
-    "id": "vfl-provoz-031",
+    "id": "vfl-provoz-018",
     "subject": "provoz",
     "question": "Tísňový a pilnostní provoz musí být zahájen na kmitočtu:",
     "options": [
+      "nejbližší přidělené stanici ŘLP",
       "121,5 MHz, který je vyhrazen pro tyto účely",
-      "který je v dané chvíli používán",
-      "nejbližší přidělené stanici ŘLP"
+      "který je v dané chvíli používán"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Tísňové vysílání se zahajuje na aktuálním kmitočtu — přechod na 121,5 MHz se provádí, jen pokud na původním kmitočtu nikdo neodpovídá.",
-    "source": "2018_05 V5, A.(1).b.18"
+    "source": "2025_09 VFL_4, A.(1).b.18"
   },
   {
-    "id": "vfl-provoz-032",
+    "id": "vfl-provoz-019",
     "subject": "provoz",
     "question": "Každá stanice, která ví o tísňovém provozu má povinnost:",
     "options": [
       "okamžitě zopakovat tísňovou zprávu, aby ji slyšely všechny stanice",
-      "přejít na 121,5 MHz a hlásit svoji polohu",
-      "na tomto kmitočtu nevysílat ale tento provoz sledovat"
+      "na tomto kmitočtu nevysílat ale tento provoz sledovat",
+      "přejít na 121,5 MHz a hlásit svoji polohu"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Stanice musí zachovat ticho a poslouchat — nezasahovat do tísňového provozu, ale pomoci pokud ji o to MAYDAY stanice požádá.",
-    "source": "2018_05 V5, A.(1).b.19"
+    "source": "2025_09 VFL_4, A.(1).b.19"
   },
   {
-    "id": "vfl-provoz-033",
+    "id": "vfl-provoz-020",
+    "subject": "provoz",
+    "question": "Po volání letecké stanice, na které tato stanice neodpoví, je letadlová stanice povinna:",
+    "options": [
+      "okamžitě opakovat volání",
+      "vyčkat nejméně 10 sekund, než provede další volání",
+      "přejít na nouzový kmitočet 121,5 MHz"
+    ],
+    "correct": 1,
+    "explanation": "Minimálně 10 s pauza, aby se předešlo zahlcení kmitočtu opakovaným voláním.",
+    "source": "2025_09 VFL_4, A.(1).b.20"
+  },
+  {
+    "id": "vfl-provoz-021",
     "subject": "provoz",
     "question": "Jména, zkratky a slova, jejichž výslovnost může vyvolat pochybnost se v radiotelefonním provozu musí:",
     "options": [
       "vysílat výhradně morseovkou",
-      "vysílat dvakrát po sobě v plné formě",
-      "hláskovat pomocí mezinárodní hláskovací abecedy"
+      "hláskovat pomocí mezinárodní hláskovací abecedy",
+      "vysílat dvakrát po sobě v plné formě"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "ICAO hláskovací abeceda (Alpha-Bravo-Charlie...) odstraňuje nejednoznačnost u zaměnitelných hlásek (M/N, B/P, atd.).",
-    "source": "2018_05 V5, A.(1).b.21"
+    "source": "2025_09 VFL_4, A.(1).b.21"
   },
   {
-    "id": "vfl-provoz-034",
+    "id": "vfl-provoz-022",
     "subject": "provoz",
     "question": "Letadlová stanice potvrzuje příjem důležitých zpráv řízení letového provozu nebo jejich částí:",
     "options": [
-      "jejich opakováním a připojením vlastní volací značky",
       "frází ROGER a vlastní volací značkou",
+      "jejich opakováním a připojením vlastní volací značky",
       "frází WILCO bez nutnosti opakovat obsah"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Tzv. readback — pilot doslova zopakuje povolení/instrukci, aby řídící mohl ověřit správné porozumění.",
-    "source": "2018_05 V5, A.(1).b.22"
+    "source": "2025_09 VFL_4, A.(1).b.22"
   },
   {
-    "id": "vfl-provoz-035",
+    "id": "vfl-provoz-023",
     "subject": "provoz",
-    "question": "Letadlo přechází z jednoho rádiového kmitočtu na druhý:",
+    "question": "Letadlo přechází z jednoho rádiového kmitočtu na druhý v řízeném prostoru:",
     "options": [
-      "kdykoli to považuje za vhodné z provozních důvodů",
-      "z příkazu letecké stanice v souladu s dohodnutými postupy",
-      "automaticky při překročení hranice mezi sektory FIR"
+      "jen po vlastním rozhodnutí pilota, je-li to z provozních důvodů nutné",
+      "z příkazu letecké stanice nebo v souladu s předepsanými postupy",
+      "automaticky po přechodu hranice FIR, bez nutnosti potvrzení"
     ],
     "correct": 1,
-    "explanation": "Změna kmitočtu vždy z příkazu ŘLP (např. „CONTACT PRAHA APPROACH 119.5\") — pilot neopouští kmitočet bez instrukce.",
-    "source": "2018_05 V5, A.(1).b.23"
+    "explanation": "V řízeném prostoru pilot mění kmitočet jen z příkazu ATC nebo podle dříve dohodnutých postupů (např. publikovaných standardních příletových tratí).",
+    "source": "2025_09 VFL_4, A.(1).b.23"
   },
   {
-    "id": "vfl-provoz-036",
+    "id": "vfl-provoz-024",
     "subject": "provoz",
     "question": "Letadlo za letu:",
     "options": [
-      "nesmí měnit svou volací značku",
+      "smí změnit volací značku po vstupu do jiného FIR",
       "smí změnit volací značku jen po souhlasu ŘLP",
-      "smí změnit volací značku po vstupu do jiného FIR"
+      "nesmí měnit svou volací značku"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Volací značka musí zůstat během celého letu stejná — záměna by způsobila chaos v identifikaci v ATC systémech.",
-    "source": "2018_05 V5, A.(1).b.24"
+    "source": "2025_09 VFL_4, A.(1).b.24"
   },
   {
-    "id": "vfl-provoz-037",
+    "id": "vfl-provoz-025",
     "subject": "provoz",
     "question": "Za letu musí letadlová stanice:",
     "options": [
-      "vysílat svou polohu každých 10 minut",
       "udržovat stálou poslechovou hlídku",
+      "vysílat svou polohu každých 10 minut",
       "potvrzovat svůj kmitočet každých 15 minut"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Souvislé poslouchání přiděleného kmitočtu — letadlo musí být kdykoliv dosažitelné ze strany ŘLP.",
-    "source": "2018_05 V5, A.(1).b.25"
+    "source": "2025_09 VFL_4, A.(1).b.25"
   },
   {
-    "id": "vfl-provoz-038",
+    "id": "vfl-provoz-026",
     "subject": "provoz",
     "question": "Poznávací značka civilního letadla je složena:",
     "options": [
-      "pouze z mezinárodního prefixu státu",
       "z výrobního čísla letadla a roku zápisu",
+      "pouze z mezinárodního prefixu státu",
       "ze značky státní příslušnosti a rejstříkové značky"
     ],
     "correct": 2,
     "explanation": "Např. „OK-ABC\": OK = státní prefix ČR, ABC = rejstříková značka konkrétního letadla.",
-    "source": "2018_05 V5, A.(1).b.26"
+    "source": "2025_09 VFL_4, A.(1).b.26"
   },
   {
-    "id": "vfl-provoz-039",
+    "id": "vfl-provoz-027",
     "subject": "provoz",
     "question": "Volací značku letadla lze v některých případech tvořit:",
     "options": [
-      "radiotelefonním označením provozovatele letadla, za kterým následuje označení (číslo) letu v souladu s předpisem ICAO",
+      "názvem výchozího letiště a časem odletu v UTC",
       "iniciálami velitele letadla a číslem letu",
-      "názvem výchozího letiště a časem odletu v UTC"
+      "radiotelefonním označením provozovatele letadla, za kterým následuje označení (číslo) letu v souladu s předpisem ICAO"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Komerční let často používá radiotelefonní označení dopravce + číslo letu, např. „CSA 1234\" namísto OK-XYZ.",
-    "source": "2018_05 V5, A.(1).b.27"
+    "source": "2025_09 VFL_4, A.(1).b.27"
   },
   {
-    "id": "vfl-provoz-040",
+    "id": "vfl-provoz-028",
     "subject": "provoz",
     "question": "Zkrácenou volací značku použije letadlová stanice:",
     "options": [
-      "pouze v případě, že byla tímto způsobem oslovena leteckou stanicí",
       "kdykoli pro úsporu času, pokud nehrozí záměna",
+      "pouze v případě, že byla tímto způsobem oslovena leteckou stanicí",
       "až po druhém kontaktu se stejnou stanicí"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Zkrácení iniciuje ATC — pilot opětuje pouze formu, kterou mu řídící použil.",
-    "source": "2018_05 V5, A.(1).b.28"
+    "source": "2025_09 VFL_4, A.(1).b.28"
   },
   {
-    "id": "vfl-provoz-041",
+    "id": "vfl-provoz-029",
+    "subject": "provoz",
+    "question": "Správné zkrácení volací značky OKABC je:",
+    "options": [
+      "OBC",
+      "OAB",
+      "OKC"
+    ],
+    "correct": 0,
+    "explanation": "Zkrácená značka = první znak prefixu + poslední dva znaky přípony. Použije se pouze, byla-li takto oslovena leteckou stanicí.",
+    "source": "2025_09 VFL_4, A.(1).b.29"
+  },
+  {
+    "id": "vfl-provoz-030",
     "subject": "provoz",
     "question": "Jakmile je spojení navázáno:",
     "options": [
@@ -1037,10 +842,10 @@
     ],
     "correct": 1,
     "explanation": "Po prvním navázání není nutné opakovat značky v každé výměně — zkracuje to provoz a uvolňuje kmitočet.",
-    "source": "2018_05 V5, A.(1).b.30"
+    "source": "2025_09 VFL_4, A.(1).b.30"
   },
   {
-    "id": "vfl-provoz-042",
+    "id": "vfl-provoz-031",
     "subject": "provoz",
     "question": "Všechna čísla se vyslovují:",
     "options": [
@@ -1050,181 +855,246 @@
     ],
     "correct": 1,
     "explanation": "Standardně jednotlivě (1-2-1-5 = ONE TWO ONE FIVE), s výjimkou výškových/dohlednostních údajů, kde se vyslovují jako celá čísla.",
-    "source": "2018_05 V5, A.(1).b.31"
+    "source": "2025_09 VFL_4, A.(1).b.31"
+  },
+  {
+    "id": "vfl-provoz-032",
+    "subject": "provoz",
+    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 119,500 MHz vyjadřuje:",
+    "options": [
+      "ONE ONE NINE DECIMAL FIVE",
+      "ONE ONE NINE POINT FIVE",
+      "ONE NINETEEN DECIMAL FIVE"
+    ],
+    "correct": 0,
+    "explanation": "Každá číslice jednotlivě, oddělovač „DECIMAL\" (nikoli „POINT\").",
+    "source": "2025_09 VFL_4, A.(1).b.32"
+  },
+  {
+    "id": "vfl-provoz-033",
+    "subject": "provoz",
+    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 121,500 MHz vyjadřuje:",
+    "options": [
+      "ONE TWENTY-ONE DECIMAL FIVE",
+      "ONE TWO ONE POINT FIVE",
+      "ONE TWO ONE DECIMAL FIVE"
+    ],
+    "correct": 2,
+    "explanation": "Každá číslice se vyslovuje jednotlivě, oddělovač je 'DECIMAL', nikoli 'POINT'.",
+    "source": "2025_09 VFL_4, A.(1).b.33"
+  },
+  {
+    "id": "vfl-provoz-034",
+    "subject": "provoz",
+    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 121,050 MHz vyjadřuje:",
+    "options": [
+      "ONE TWENTY-ONE POINT ZERO FIVE",
+      "ONE TWO ONE DECIMAL ZERO FIVE",
+      "ONE TWO ONE DECIMAL ZERO FIVE ZERO"
+    ],
+    "correct": 2,
+    "explanation": "U kanálů s roztečí 8,33 kHz se vyslovuje šest číslic včetně tří desetinných míst za „DECIMAL\".",
+    "source": "2025_09 VFL_4, A.(1).b.34"
+  },
+  {
+    "id": "vfl-provoz-035",
+    "subject": "provoz",
+    "question": "V radiotelefonním provozu v pásmech VKV se vysílací kanál vyjadřuje:",
+    "options": [
+      "pouze pětimístným číslem desetinnou čárkou",
+      "čtyřmi nebo šesti číslicemi",
+      "vždy pouze třemi číslicemi"
+    ],
+    "correct": 1,
+    "explanation": "8,33 kHz rozteč = 6 číslic (jeden „kanál\" reprezentuje konkrétní kmitočet), 25 kHz = 4. Nově 2025 PDF používá terminologii „vysílací kanál\" místo dřívějšího „kmitočet\".",
+    "source": "2025_09 VFL_4, A.(1).b.35"
+  },
+  {
+    "id": "vfl-provoz-036",
+    "subject": "provoz",
+    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 118,055 MHz vyjadřuje:",
+    "options": [
+      "ONE EIGHTEEN POINT ZERO FIFTY-FIVE",
+      "ONE ONE EIGHT DECIMAL ZERO FIVE",
+      "ONE ONE EIGHT DECIMAL ZERO FIVE FIVE"
+    ],
+    "correct": 2,
+    "explanation": "U kanálů s roztečí 8,33 kHz se vyslovuje šest číslic včetně dvou desetinných míst za 'DECIMAL'.",
+    "source": "2025_09 VFL_4, A.(1).b.36"
+  },
+  {
+    "id": "vfl-provoz-037",
+    "subject": "provoz",
+    "question": "Odchylky od spisovné češtiny při vysílání čísel jsou:",
+    "options": [
+      "u číslic: 3, 6, 0",
+      "u číslic: 1, 5, 9",
+      "u číslic: 2, 4, 7, 8"
+    ],
+    "correct": 2,
+    "explanation": "Spec. výslovnost: „dva\" → „dvojka\", „čtyři\" → „čtverka\", „sedm\" → „sedma\", „osm\" → „osmička\" (přesnost při slabém signálu).",
+    "source": "2025_09 VFL_4, A.(1).b.37"
+  },
+  {
+    "id": "vfl-provoz-038",
+    "subject": "provoz",
+    "question": "Odchylky od spisovné angličtiny při vysílání čísel jsou:",
+    "options": [
+      "u číslic: 3, 4, 9",
+      "u číslic: 1, 5, 0",
+      "u číslic: 2, 6, 8"
+    ],
+    "correct": 0,
+    "explanation": "ICAO výslovnost: THREE → „TREE\", FOUR → „FOWER\", NINE → „NINER\" (odlišení od FIVE a německého „nein\").",
+    "source": "2025_09 VFL_4, A.(1).b.38"
+  },
+  {
+    "id": "vfl-provoz-039",
+    "subject": "provoz",
+    "question": "Nastavení výškoměru na hodnotu 1000 hPa se vysílá takto:",
+    "options": [
+      "QNH ten hundred,",
+      "one zero zero zero",
+      "QNH ONE THOUSAND,"
+    ],
+    "correct": 2,
+    "explanation": "Pro nastavení QNH se vždy vysílá zkratka „QNH\" + celé číslo. Trailing comma z PDF zachována.",
+    "source": "2025_09 VFL_4, A.(1).b.39"
+  },
+  {
+    "id": "vfl-provoz-040",
+    "subject": "provoz",
+    "question": "Nastavení výškoměru na hodnutu 1009 hPa se vysílá takto:",
+    "options": [
+      "QNH ten zero nine",
+      "QNH ONE THOUSAND NINE",
+      "QNH ONE ZERO ZERO NINE"
+    ],
+    "correct": 2,
+    "explanation": "QNH se vysílá vždy zkratkou + jednotlivými číslicemi: 1009 → ONE ZERO ZERO NINE. Pozor: PDF má překlep v Q (hodnutu = hodnotu).",
+    "source": "2025_09 VFL_4, A.(1).b.40"
+  },
+  {
+    "id": "vfl-provoz-041",
+    "subject": "provoz",
+    "question": "Letová hladina FL 300 se vysílá takto:",
+    "options": [
+      "Flight Level THREE HUNDRED,",
+      "Flight Level THREE ZERO ZERO,",
+      "FL three hundred,"
+    ],
+    "correct": 0,
+    "explanation": "Letové hladiny dělitelné stem se vysílají jako „THREE HUNDRED\" (ne THREE ZERO ZERO). Zachována trailing comma z PDF.",
+    "source": "2025_09 VFL_4, A.(1).b.41"
+  },
+  {
+    "id": "vfl-provoz-042",
+    "subject": "provoz",
+    "question": "Letová hladina FL 180 se vysílá takto:",
+    "options": [
+      "Flight Level ONE HUNDRED EIGHTY",
+      "Flight Level ONE EIGHT ZERO",
+      "Flight Level ONE EIGHTY"
+    ],
+    "correct": 1,
+    "explanation": "Letové hladiny NEDĚLITELNÉ stem se vysílají po číslicích: 180 → ONE EIGHT ZERO (ne ONE EIGHTY).",
+    "source": "2025_09 VFL_4, A.(1).b.42"
   },
   {
     "id": "vfl-provoz-043",
     "subject": "provoz",
-    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 119,500 MHz vyjadřuje:",
+    "question": "Potvrzení příjmu leteckou stanicí musí obsahovat:",
     "options": [
-      "ONE ONE NINE POINT FIVE",
-      "ONE NINETEEN DECIMAL FIVE",
-      "ONE ONE NINE DECIMAL FIVE"
+      "obě volací značky a opakování celé přijaté zprávy",
+      "jen volací značku letecké stanice a frázi ROGER",
+      "volací značku letadla za kterou následuje, je-li to nutné, volací značka letecké stanice"
     ],
     "correct": 2,
-    "explanation": "Každá číslice jednotlivě, oddělovač „DECIMAL\" (nikoli „POINT\").",
-    "source": "2018_05 V5, A.(1).b.32"
+    "explanation": "Pořadí: nejprve značka volaného (letadlo), pak volajícího (stanice) — opak situace, kdy letadlo volá stanici.",
+    "source": "2025_09 VFL_4, A.(1).b.43"
   },
   {
     "id": "vfl-provoz-044",
     "subject": "provoz",
-    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet 121,050 MHz vyjadřuje:",
+    "question": "Rádiové spojení může být ukončeno:",
     "options": [
-      "ONE TWO ONE DECIMAL ZERO FIVE",
-      "ONE TWO ONE DECIMAL ZERO FIVE ZERO",
-      "ONE TWENTY-ONE POINT ZERO FIVE"
+      "na pokyn letecké stanice",
+      "pouze frází OUT od letadla",
+      "automaticky po 30 sekundách ticha"
     ],
-    "correct": 1,
-    "explanation": "U kanálů s roztečí 8,33 kHz se vyslovuje šest číslic včetně tří desetinných míst za „DECIMAL\".",
-    "source": "2018_05 V5, A.(1).b.34"
+    "correct": 0,
+    "explanation": "ATC rozhoduje o ukončení (typicky před přechodem letadla mimo dosah nebo do jiného sektoru).",
+    "source": "2025_09 VFL_4, A.(1).b.44"
   },
   {
     "id": "vfl-provoz-045",
     "subject": "provoz",
-    "question": "V radiotelefonním provozu v pásmech VKV se kmitočet vyjadřuje:",
+    "question": "Volací značka letecké stanice je tvořena:",
     "options": [
-      "pouze třemi číslicemi za desetinnou čárkou",
-      "vždy celkem pěti číslicemi včetně desetinné čárky",
-      "čtyřmi nebo šesti číslicemi"
+      "jménem řídícího ve službě a frekvencí stanice",
+      "trojpísmenným kódem ICAO daného letiště",
+      "zeměpisným názvem její polohy a službou, která je k dispozici"
     ],
     "correct": 2,
-    "explanation": "Klasický 25 kHz rozteč = 4 čísla (např. 118,1), 8,33 kHz rozteč = 6 čísel (např. 118,055).",
-    "source": "2018_05 V5, A.(1).b.35"
+    "explanation": "Např. „Praha Tower\", „Brno Approach\", „Ostrava Information\" — místo + typ poskytované služby.",
+    "source": "2025_09 VFL_4, A.(1).b.45"
   },
   {
     "id": "vfl-provoz-046",
     "subject": "provoz",
-    "question": "Odchylky od spisovné češtiny při vysílání čísel jsou:",
+    "question": "Stanice letecké pohyblivé služby používají:",
     "options": [
-      "u číslic: 1, 5, 9",
-      "u číslic: 2, 4, 7, 8",
-      "u číslic: 3, 6, 0"
+      "letní/zimní čas podle aktuálního období",
+      "místní standardní čas zóny letiště",
+      "koordinovaný světový čas"
     ],
-    "correct": 1,
-    "explanation": "Spec. výslovnost: „dva\" → „dvojka\", „čtyři\" → „čtverka\", „sedm\" → „sedma\", „osm\" → „osmička\" (přesnost při slabém signálu).",
-    "source": "2018_05 V5, A.(1).b.37"
+    "correct": 2,
+    "explanation": "UTC (Zulu time) je celosvětový standard v letectví — eliminuje záměny mezi časovými pásmy a letním časem.",
+    "source": "2025_09 VFL_4, A.(1).b.46"
   },
   {
     "id": "vfl-provoz-047",
     "subject": "provoz",
-    "question": "Odchylky od spisovné angličtiny při vysílání čísel jsou:",
+    "question": "Hláskovací abeceda — písmena A, E, I (Mezinárodní):",
     "options": [
-      "u číslic: 1, 5, 0",
-      "u číslic: 2, 6, 8",
-      "u číslic: 3, 4, 9"
+      "A – Adam, E – Edward, I – Ida",
+      "A – Alpha, E – Echo, I – India",
+      "A – Able, E – Easy, I – Item"
     ],
-    "correct": 2,
-    "explanation": "ICAO výslovnost: THREE → „TREE\", FOUR → „FOWER\", NINE → „NINER\" (odlišení od FIVE a německého „nein\").",
-    "source": "2018_05 V5, A.(1).b.38"
+    "correct": 1,
+    "explanation": "ICAO/NATO hláskovací abeceda od r. 1956. Distractor 2 je předchozí NATO abeceda (1941–1956), distractor 3 je policejní LAPD.",
+    "source": "2025_09 VFL_4, A.(1).b.47"
   },
   {
     "id": "vfl-provoz-048",
     "subject": "provoz",
-    "question": "Číslice ve zprávě QNH 1000 jsou správně vyslovovány takto:",
+    "question": "Hláskovací abeceda — písmena B, F, J (Mezinárodní):",
     "options": [
-      "one zero zero zero,",
-      "ten hundred,",
-      "one thousand,"
+      "B – Boy, F – Frank, J – John",
+      "B – Bravo, F – Foxtrot, J – Juliett",
+      "B – Baker, F – Fox, J – Jig"
     ],
-    "correct": 2,
-    "explanation": "QNH/výškové hodnoty se vyslovují jako celá čísla. Trailing comma zachována dle PDF formátování.",
-    "source": "2018_05 V5, A.(1).b.39"
+    "correct": 1,
+    "explanation": "„Juliett\" s dvojitým T je oficiální ICAO pravopis, aby Francouzi nevyslovovali koncové „t\" jako němé.",
+    "source": "2025_09 VFL_4, A.(1).b.48"
   },
   {
     "id": "vfl-provoz-049",
     "subject": "provoz",
-    "question": "Potvrzení příjmu leteckou stanicí musí obsahovat:",
+    "question": "Hláskovací abeceda — písmena C, G, K (Mezinárodní):",
     "options": [
-      "jen volací značku letecké stanice a frázi ROGER",
-      "volací značku letadla za kterou následuje, je-li to nutné, volací značka letecké stanice",
-      "obě volací značky a opakování celé přijaté zprávy"
+      "C – Charlie, G – George, K – King",
+      "C – Charles, G – George, K – King",
+      "C – Charlie, G – Golf, K – Kilo"
     ],
-    "correct": 1,
-    "explanation": "Pořadí: nejprve značka volaného (letadlo), pak volajícího (stanice) — opak situace, kdy letadlo volá stanici.",
-    "source": "2018_05 V5, A.(1).b.41"
+    "correct": 2,
+    "explanation": "ICAO. Distractor 2 je LAPD abeceda, distractor 3 míchá ICAO „Charlie\" se staršími slovy.",
+    "source": "2025_09 VFL_4, A.(1).b.49"
   },
   {
     "id": "vfl-provoz-050",
     "subject": "provoz",
-    "question": "Rádiové spojení může být ukončeno:",
-    "options": [
-      "pouze frází OUT od letadla",
-      "automaticky po 30 sekundách ticha",
-      "na pokyn letecké stanice"
-    ],
-    "correct": 2,
-    "explanation": "ATC rozhoduje o ukončení (typicky před přechodem letadla mimo dosah nebo do jiného sektoru).",
-    "source": "2018_05 V5, A.(1).b.42"
-  },
-  {
-    "id": "vfl-provoz-051",
-    "subject": "provoz",
-    "question": "Volací značka letecké stanice je tvořena:",
-    "options": [
-      "zeměpisným názvem její polohy a službou, která je k dispozici",
-      "trojpísmenným kódem ICAO daného letiště",
-      "jménem řídícího ve službě a frekvencí stanice"
-    ],
-    "correct": 0,
-    "explanation": "Např. „Praha Tower\", „Brno Approach\", „Ostrava Information\" — místo + typ poskytované služby.",
-    "source": "2018_05 V5, A.(1).b.43"
-  },
-  {
-    "id": "vfl-provoz-052",
-    "subject": "provoz",
-    "question": "Stanice letecké pohyblivé služby používají:",
-    "options": [
-      "místní standardní čas zóny letiště",
-      "koordinovaný světový čas",
-      "letní/zimní čas podle aktuálního období"
-    ],
-    "correct": 1,
-    "explanation": "UTC (Zulu time) je celosvětový standard v letectví — eliminuje záměny mezi časovými pásmy a letním časem.",
-    "source": "2018_05 V5, A.(1).b.44"
-  },
-  {
-    "id": "vfl-provoz-053",
-    "subject": "provoz",
-    "question": "Hláskovací abeceda — písmena A, E, I (Národní/Mezinárodní):",
-    "options": [
-      "A – Alpha, E – Echo, I – India",
-      "A – Adam, E – Edward, I – Ida",
-      "A – Able, E – Easy, I – Item"
-    ],
-    "correct": 0,
-    "explanation": "ICAO/NATO hláskovací abeceda od r. 1956. Distractor 2 je předchozí NATO abeceda (1941–1956), distractor 3 je policejní LAPD.",
-    "source": "2018_05 V5, A.(1).b.45"
-  },
-  {
-    "id": "vfl-provoz-054",
-    "subject": "provoz",
-    "question": "Hláskovací abeceda — písmena B, F, J (Národní/Mezinárodní):",
-    "options": [
-      "B – Bravo, F – Foxtrot, J – Juliett",
-      "B – Boy, F – Frank, J – John",
-      "B – Baker, F – Fox, J – Jig"
-    ],
-    "correct": 0,
-    "explanation": "„Juliett\" s dvojitým T je oficiální ICAO pravopis, aby Francouzi nevyslovovali koncové „t\" jako němé.",
-    "source": "2018_05 V5, A.(1).b.46"
-  },
-  {
-    "id": "vfl-provoz-055",
-    "subject": "provoz",
-    "question": "Hláskovací abeceda — písmena C, G, K (Národní/Mezinárodní):",
-    "options": [
-      "C – Charlie, G – Golf, K – Kilo",
-      "C – Charles, G – George, K – King",
-      "C – Charlie, G – George, K – King"
-    ],
-    "correct": 0,
-    "explanation": "ICAO. Distractor 2 je LAPD abeceda, distractor 3 míchá ICAO „Charlie\" se staršími slovy.",
-    "source": "2018_05 V5, A.(1).b.47"
-  },
-  {
-    "id": "vfl-provoz-056",
-    "subject": "provoz",
-    "question": "Hláskovací abeceda — písmena D, H, L (Národní/Mezinárodní):",
+    "question": "Hláskovací abeceda — písmena D, H, L (Mezinárodní):",
     "options": [
       "D – Delta, H – Hotel, L – Lima",
       "D – David, H – Henry, L – Lincoln",
@@ -1232,127 +1102,153 @@
     ],
     "correct": 0,
     "explanation": "ICAO. „Lima\" se nečte podle Pearl Harbor letecké rádiové angličtiny jako 'lyma', ale 'LEE-mah'.",
-    "source": "2018_05 V5, A.(1).b.48"
+    "source": "2025_09 VFL_4, A.(1).b.50"
+  },
+  {
+    "id": "vfl-provoz-051",
+    "subject": "provoz",
+    "question": "Hláskovací abeceda — písmena M, Q, U (Mezinárodní):",
+    "options": [
+      "M – Mary, Q – Queen, U – Union",
+      "M – Mike, Q – Quebec, U – Uniform",
+      "M – Mike, Q – Queen, U – Uncle"
+    ],
+    "correct": 1,
+    "explanation": "ICAO. „Quebec\" se vyslovuje „keh-BEK\" — anglický důraz na druhou slabiku.",
+    "source": "2025_09 VFL_4, A.(1).b.51"
+  },
+  {
+    "id": "vfl-provoz-052",
+    "subject": "provoz",
+    "question": "Hláskovací abeceda — písmena N, R, V (Mezinárodní):",
+    "options": [
+      "N – Nan, R – Roger, V – Victor",
+      "N – Nora, R – Robert, V – Victor",
+      "N – November, R – Romeo, V – Victor"
+    ],
+    "correct": 2,
+    "explanation": "ICAO. V starší NATO abecedě bylo R = „Roger\" (proto i dnes „ROGER\" jako fráze pro „přijal jsem\").",
+    "source": "2025_09 VFL_4, A.(1).b.52"
+  },
+  {
+    "id": "vfl-provoz-053",
+    "subject": "provoz",
+    "question": "Hláskovací abeceda — písmena O, S, W (Mezinárodní):",
+    "options": [
+      "O – Ocean, S – Sam, W – William",
+      "O – Oscar, S – Sierra, W – Whisky",
+      "O – Oboe, S – Sugar, W – William"
+    ],
+    "correct": 1,
+    "explanation": "ICAO. „Whisky\" v PDF bez „e\" (britská varianta) — verbatim zachováno.",
+    "source": "2025_09 VFL_4, A.(1).b.53"
+  },
+  {
+    "id": "vfl-provoz-054",
+    "subject": "provoz",
+    "question": "Hláskovací abeceda — písmena P, T, X (Mezinárodní):",
+    "options": [
+      "P – Peter, T – Tare, X – X-ray",
+      "P – Peter, T – Thomas, X – X-ray",
+      "P – Papa, T – Tango, X – X-ray"
+    ],
+    "correct": 2,
+    "explanation": "ICAO. „Papa\" s důrazem na druhou slabiku „pah-PAH\".",
+    "source": "2025_09 VFL_4, A.(1).b.54"
+  },
+  {
+    "id": "vfl-provoz-055",
+    "subject": "provoz",
+    "question": "Hláskovací abeceda — písmena Y, Z (Mezinárodní):",
+    "options": [
+      "Y – Yoke, Z – Zebra",
+      "Y – Young, Z – Zebra",
+      "Y – Yankee, Z – Zulu"
+    ],
+    "correct": 2,
+    "explanation": "ICAO. Distractor 2 je LAPD, distractor 3 je předchozí NATO abeceda (1941–1956).",
+    "source": "2025_09 VFL_4, A.(1).b.55"
+  },
+  {
+    "id": "vfl-provoz-056",
+    "subject": "provoz",
+    "question": "Správný Q-kód pro „tlak indikující nadmořskou výšku, přepočtený na střední hladinu moře“:",
+    "options": [
+      "QNE",
+      "QFE",
+      "QNH"
+    ],
+    "correct": 2,
+    "explanation": "QNH = výška nad mořem na výškoměru. QFE = výška nad letištěm (na zemi ukazuje 0). QNE = standardní 1013,25 hPa.",
+    "source": "2025_09 VFL_4, A.(1).b.56"
   },
   {
     "id": "vfl-provoz-057",
     "subject": "provoz",
-    "question": "Hláskovací abeceda — písmena M, Q, U (Národní/Mezinárodní):",
-    "options": [
-      "M – Mike, Q – Quebec, U – Uniform",
-      "M – Mary, Q – Queen, U – Union",
-      "M – Mike, Q – Queen, U – Uncle"
-    ],
-    "correct": 0,
-    "explanation": "ICAO. „Quebec\" se vyslovuje „keh-BEK\" — anglický důraz na druhou slabiku.",
-    "source": "2018_05 V5, A.(1).b.49"
-  },
-  {
-    "id": "vfl-provoz-058",
-    "subject": "provoz",
-    "question": "Hláskovací abeceda — písmena N, R, V (Národní/Mezinárodní):",
-    "options": [
-      "N – November, R – Romeo, V – Victor",
-      "N – Nora, R – Robert, V – Victor",
-      "N – Nan, R – Roger, V – Victor"
-    ],
-    "correct": 0,
-    "explanation": "ICAO. V starší NATO abecedě bylo R = „Roger\" (proto i dnes „ROGER\" jako fráze pro „přijal jsem\").",
-    "source": "2018_05 V5, A.(1).b.50"
-  },
-  {
-    "id": "vfl-provoz-059",
-    "subject": "provoz",
-    "question": "Hláskovací abeceda — písmena O, S, W (Národní/Mezinárodní):",
-    "options": [
-      "O – Oscar, S – Sierra, W – Whisky",
-      "O – Ocean, S – Sam, W – William",
-      "O – Oboe, S – Sugar, W – William"
-    ],
-    "correct": 0,
-    "explanation": "ICAO. „Whisky\" v PDF bez „e\" (britská varianta) — verbatim zachováno.",
-    "source": "2018_05 V5, A.(1).b.51"
-  },
-  {
-    "id": "vfl-provoz-060",
-    "subject": "provoz",
-    "question": "Hláskovací abeceda — písmena P, T, X (Národní/Mezinárodní):",
-    "options": [
-      "P – Papa, T – Tango, X – X-ray",
-      "P – Peter, T – Thomas, X – X-ray",
-      "P – Peter, T – Tare, X – X-ray"
-    ],
-    "correct": 0,
-    "explanation": "ICAO. „Papa\" s důrazem na druhou slabiku „pah-PAH\".",
-    "source": "2018_05 V5, A.(1).b.52"
-  },
-  {
-    "id": "vfl-provoz-061",
-    "subject": "provoz",
-    "question": "Hláskovací abeceda — písmena Y, Z (Národní/Mezinárodní):",
-    "options": [
-      "Y – Yankee, Z – Zulu",
-      "Y – Young, Z – Zebra",
-      "Y – Yoke, Z – Zebra"
-    ],
-    "correct": 0,
-    "explanation": "ICAO. Distractor 2 je LAPD, distractor 3 je předchozí NATO abeceda (1941–1956).",
-    "source": "2018_05 V5, A.(1).b.53"
-  },
-  {
-    "id": "vfl-provoz-062",
-    "subject": "provoz",
-    "question": "Kód QFE se vztahuje k:",
+    "question": "Q-kód kód QFE se vztahuje k:",
     "options": [
       "tlaku přepočtenému na střední hladinu moře",
       "tlaku vzduchu vztaženému k nadmořské výšce letiště",
       "standardnímu tlaku 1013,25 hPa použitému nad přechodovou hladinou"
     ],
     "correct": 1,
-    "explanation": "QFE = letištní tlak; nastaveno na výškoměru ukazuje výšku nad prahem dráhy. QNH = na hladinu moře, QNE = standardní 1013.",
-    "source": "2018_05 V5, A.(1).b.55"
+    "explanation": "QFE = letištní tlak. Při nastavení QFE na výškoměru ukazuje výška nad prahem dráhy (na stojánce = 0). QNH = na hladinu moře, QNE = standardní 1013.",
+    "source": "2025_09 VFL_4, A.(1).b.57"
   },
   {
-    "id": "vfl-provoz-063",
+    "id": "vfl-provoz-058",
     "subject": "provoz",
     "question": "V případě, že letadlo stojí na ploše letiště a hodnota tlaku je nastavena na QFE, bude výškoměr ukazovat:",
     "options": [
       "nadmořskou výšku letiště v metrech",
-      "1013 stop bez ohledu na polohu",
-      "nulu"
+      "nulu",
+      "1013 stop bez ohledu na polohu"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "QFE je odvozen tak, aby výškoměr na stojánce ukazoval 0 — ideální pro lety okruhu a vizuální navigaci.",
-    "source": "2018_05 V5, A.(1).b.56"
+    "source": "2025_09 VFL_4, A.(1).b.58"
   },
   {
-    "id": "vfl-provoz-064",
+    "id": "vfl-provoz-059",
     "subject": "provoz",
-    "question": "Správný Q-kód pro „magnetické zaměření od zaměřovače“:",
+    "question": "Správný Q-kód pro „magnetický kurs pro směr k zaměřovači“:",
     "options": [
       "QDM",
       "QDR",
       "QTE"
     ],
-    "correct": 1,
-    "explanation": "QDR = magnetic bearing FROM station (radial); QDM = magnetic bearing TO station; QTE = true bearing from station.",
-    "source": "2018_05 V5, A.(1).b.58"
+    "correct": 0,
+    "explanation": "QDM = kurs K zaměřovači (Direction to Magnetic). QDR = směr OD zaměřovače (Direction Reciprocal/Radial).",
+    "source": "2025_09 VFL_4, A.(1).b.59"
   },
   {
-    "id": "vfl-provoz-065",
+    "id": "vfl-provoz-060",
+    "subject": "provoz",
+    "question": "Správný Q-kód pro „magnetické zaměření od zaměřovače“:",
+    "options": [
+      "QDR",
+      "QDM",
+      "QTE"
+    ],
+    "correct": 0,
+    "explanation": "QDR = magnetic bearing FROM station (radial); QDM = magnetic bearing TO station; QTE = true bearing from station.",
+    "source": "2025_09 VFL_4, A.(1).b.60"
+  },
+  {
+    "id": "vfl-provoz-061",
     "subject": "provoz",
     "question": "Zkratka AFIS znamená:",
     "options": [
-      "Letištní letový informační servis",
       "Stanoviště letištní letové informační služby",
+      "Letištní letový informační servis",
       "Automatická letecká informační stanice"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "AFIS = Aerodrome Flight Information Service — poskytuje informace na neřízených letištích bez ATC věže.",
-    "source": "2018_05 V5, A.(1).b.59"
+    "source": "2025_09 VFL_4, A.(1).b.61"
   },
   {
-    "id": "vfl-provoz-066",
+    "id": "vfl-provoz-062",
     "subject": "provoz",
     "question": "Zkratka AIP znamená:",
     "options": [
@@ -1362,10 +1258,10 @@
     ],
     "correct": 0,
     "explanation": "AIP = Aeronautical Information Publication — kompletní statická příručka pro lety v dané zemi (letiště, postupy, kmitočty).",
-    "source": "2018_05 V5, A.(1).b.60"
+    "source": "2025_09 VFL_4, A.(1).b.62"
   },
   {
-    "id": "vfl-provoz-067",
+    "id": "vfl-provoz-063",
     "subject": "provoz",
     "question": "Zkratka ATC znamená:",
     "options": [
@@ -1375,36 +1271,62 @@
     ],
     "correct": 1,
     "explanation": "ATC = Air Traffic Control — souhrn služeb řízení letového provozu (TWR, APP, ACC).",
-    "source": "2018_05 V5, A.(1).b.61"
+    "source": "2025_09 VFL_4, A.(1).b.63"
   },
   {
-    "id": "vfl-provoz-068",
+    "id": "vfl-provoz-064",
+    "subject": "provoz",
+    "question": "Zkratka ATIS znamená:",
+    "options": [
+      "Automatická informační služba koncové řízení oblasti",
+      "Air Traffic Information Service",
+      "Automatic Terminal Information Service"
+    ],
+    "correct": 0,
+    "explanation": "ATIS = nepřetržitě vysílaná informační zpráva pro letiště (vítr, dráha, QNH atd.). Otázka se ptá na český význam.",
+    "source": "2025_09 VFL_4, A.(1).b.64"
+  },
+  {
+    "id": "vfl-provoz-065",
+    "subject": "provoz",
+    "question": "Zkratka CAVOK znamená:",
+    "options": [
+      "Dohlednost, oblačnost a současné počasí lepší než předepsané hodnoty nebo podmínky",
+      "Bezoblačné a bez výstrah",
+      "Calm Air, Visibility OK"
+    ],
+    "correct": 0,
+    "explanation": "Ceiling And Visibility OK — formálně: viditelnost ≥10 km, bez význačné oblačnosti pod 5000 ft, bez význačných meteojevů.",
+    "source": "2025_09 VFL_4, A.(1).b.65"
+  },
+  {
+    "id": "vfl-provoz-066",
     "subject": "provoz",
     "question": "Zkratka CTR znamená:",
     "options": [
-      "Letištní okruh",
       "Řízený okrsek",
+      "Letištní okruh",
       "Kontrolní oblast"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "CTR = Control Zone (Řízený okrsek) — řízený vzdušný prostor okolo letiště od povrchu, obvykle do FL 95.",
-    "source": "2018_05 V5, A.(1).b.64"
+    "source": "2025_09 VFL_4, A.(1).b.66"
   },
   {
-    "id": "vfl-provoz-069",
+    "id": "vfl-provoz-067",
     "subject": "provoz",
     "question": "Zkratka DME znamená:",
     "options": [
-      "Měřič vzdálenosti",
       "Digitální měřič kurzu",
+      "Měřič vzdálenosti",
       "Distanční modulátor letadla"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "DME = Distance Measuring Equipment — radionavigační prostředek měřící šikmou vzdálenost letadla od pozemní stanice.",
-    "source": "2018_05 V5, A.(1).b.65"
+    "source": "2025_09 VFL_4, A.(1).b.67"
   },
   {
-    "id": "vfl-provoz-070",
+    "id": "vfl-provoz-068",
     "subject": "provoz",
     "question": "Zkratka FIR znamená:",
     "options": [
@@ -1414,23 +1336,23 @@
     ],
     "correct": 0,
     "explanation": "FIR = Flight Information Region — vzdušný prostor s poskytováním letové informační a pohotovostní služby (např. LKAA = Praha FIR).",
-    "source": "2018_05 V5, A.(1).b.66"
+    "source": "2025_09 VFL_4, A.(1).b.68"
   },
   {
-    "id": "vfl-provoz-071",
+    "id": "vfl-provoz-069",
     "subject": "provoz",
     "question": "Zkratka IFR znamená:",
     "options": [
-      "Pravidla pro let za viditelnosti",
       "Pravidla pro let podle přístrojů",
+      "Pravidla pro let za viditelnosti",
       "Pravidla pro let v noci"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "IFR = Instrument Flight Rules — let podle přístrojů, opak je VFR (Visual Flight Rules).",
-    "source": "2018_05 V5, A.(1).b.67"
+    "source": "2025_09 VFL_4, A.(1).b.69"
   },
   {
-    "id": "vfl-provoz-072",
+    "id": "vfl-provoz-070",
     "subject": "provoz",
     "question": "Zkratka RVR znamená:",
     "options": [
@@ -1440,10 +1362,10 @@
     ],
     "correct": 0,
     "explanation": "RVR = Runway Visual Range — vzdálenost, na kterou pilot na ose dráhy vidí značení dráhy (měřeno transmissometrem).",
-    "source": "2018_05 V5, A.(1).b.68"
+    "source": "2025_09 VFL_4, A.(1).b.70"
   },
   {
-    "id": "vfl-provoz-073",
+    "id": "vfl-provoz-071",
     "subject": "provoz",
     "question": "Zkratka TWR znamená:",
     "options": [
@@ -1453,116 +1375,116 @@
     ],
     "correct": 0,
     "explanation": "TWR = Aerodrome Control Tower — řídí provoz na letištní ploše a v CTR (okruh, vzlety, přistání).",
-    "source": "2018_05 V5, A.(1).b.69"
+    "source": "2025_09 VFL_4, A.(1).b.71"
+  },
+  {
+    "id": "vfl-provoz-072",
+    "subject": "provoz",
+    "question": "Zkratka VFR znamená:",
+    "options": [
+      "Vizuální fixovaný režim",
+      "Velmi rychlý let",
+      "Pravidla pro let za viditelnosti"
+    ],
+    "correct": 2,
+    "explanation": "VFR = Visual Flight Rules — pilot se orientuje vizuálně podle země a vyhýbá se mrakům; vyžaduje minimální dohlednost.",
+    "source": "2025_09 VFL_4, A.(1).b.72"
+  },
+  {
+    "id": "vfl-provoz-073",
+    "subject": "provoz",
+    "question": "Zkratka UTC znamená:",
+    "options": [
+      "Světový koordinovaný čas",
+      "Univerzální transportní čas",
+      "Časová zóna UTC+0"
+    ],
+    "correct": 0,
+    "explanation": "UTC = Coordinated Universal Time (Světový koordinovaný čas) — celosvětový standard, identický s GMT s přesností do sekundy.",
+    "source": "2025_09 VFL_4, A.(1).b.73"
   },
   {
     "id": "vfl-provoz-074",
     "subject": "provoz",
-    "question": "Zkratka VFR znamená:",
+    "question": "Správná zkratka pro „kmitočet“:",
     "options": [
-      "Pravidla pro let za viditelnosti",
-      "Velmi rychlý let",
-      "Vizuální fixovaný režim"
+      "KHZ",
+      "FREQ",
+      "FRQ"
     ],
-    "correct": 0,
-    "explanation": "VFR = Visual Flight Rules — pilot se orientuje vizuálně podle země a vyhýbá se mrakům; vyžaduje minimální dohlednost.",
-    "source": "2018_05 V5, A.(1).b.70"
+    "correct": 1,
+    "explanation": "FREQ je standardní ICAO zkratka pro „frequency\" v meteo a NOTAM zprávách.",
+    "source": "2025_09 VFL_4, A.(1).b.74"
   },
   {
     "id": "vfl-provoz-075",
     "subject": "provoz",
-    "question": "Zkratka UTC znamená:",
+    "question": "Správná zkratka pro „vzletová a přistávací dráha“:",
     "options": [
-      "Univerzální transportní čas",
-      "Světový koordinovaný čas",
-      "Časová zóna UTC+0"
+      "RNW",
+      "RUN",
+      "RWY"
     ],
-    "correct": 1,
-    "explanation": "UTC = Coordinated Universal Time (Světový koordinovaný čas) — celosvětový standard, identický s GMT s přesností do sekundy.",
-    "source": "2018_05 V5, A.(1).b.71"
+    "correct": 2,
+    "explanation": "RWY = Runway — používá se v ATIS, NOTAM, povoleních (např. „RWY 24 IN USE\").",
+    "source": "2025_09 VFL_4, A.(1).b.75"
   },
   {
     "id": "vfl-provoz-076",
     "subject": "provoz",
-    "question": "Správná zkratka pro „kmitočet“:",
+    "question": "Správná zkratka pro „automatická informační služba koncové řízené oblasti“:",
     "options": [
-      "FREQ",
-      "KHZ",
-      "FRQ"
+      "ACIS",
+      "AUTO",
+      "ATIS"
     ],
-    "correct": 0,
-    "explanation": "FREQ je standardní ICAO zkratka pro „frequency\" v meteo a NOTAM zprávách.",
-    "source": "2018_05 V5, A.(1).b.72"
+    "correct": 2,
+    "explanation": "ATIS = Automatic Terminal Information Service — automaticky vysílaná informace o letišti (vítr, počasí, dráha v užívání).",
+    "source": "2025_09 VFL_4, A.(1).b.76"
   },
   {
     "id": "vfl-provoz-077",
     "subject": "provoz",
-    "question": "Správná zkratka pro „vzletová a přistávací dráha“:",
+    "question": "Správná zkratka pro „letová informační oblast“:",
     "options": [
-      "RUN",
-      "RWY",
-      "RNW"
+      "FZN",
+      "FIA",
+      "FIR"
     ],
-    "correct": 1,
-    "explanation": "RWY = Runway — používá se v ATIS, NOTAM, povoleních (např. „RWY 24 IN USE\").",
-    "source": "2018_05 V5, A.(1).b.73"
+    "correct": 2,
+    "explanation": "FIR = Flight Information Region. Často zaměňováno s FIA (Flight Information Area), což ale není ICAO termín.",
+    "source": "2025_09 VFL_4, A.(1).b.77"
   },
   {
     "id": "vfl-provoz-078",
     "subject": "provoz",
-    "question": "Správná zkratka pro „automatická informační služba koncové řízené oblasti“:",
+    "question": "Zkratka FZRA znamená:",
     "options": [
-      "AUTO",
-      "ATIS",
-      "ACIS"
+      "slabá přeháňka",
+      "mrazivý vítr",
+      "namrzající déšť"
     ],
-    "correct": 1,
-    "explanation": "ATIS = Automatic Terminal Information Service — automaticky vysílaná informace o letišti (vítr, počasí, dráha v užívání).",
-    "source": "2018_05 V5, A.(1).b.74"
+    "correct": 2,
+    "explanation": "METAR kód: FZ = freezing, RA = rain → FZRA = freezing rain (namrzající déšť). Velmi nebezpečné pro letadla.",
+    "source": "2025_09 VFL_4, A.(1).b.78"
   },
   {
     "id": "vfl-provoz-079",
     "subject": "provoz",
-    "question": "Správná zkratka pro „letová informační oblast“:",
+    "question": "Zkratka BKN znamená:",
     "options": [
-      "FIA",
-      "FIR",
-      "FZN"
+      "oblačno",
+      "skoro jasno",
+      "polojasno"
     ],
-    "correct": 1,
-    "explanation": "FIR = Flight Information Region. Často zaměňováno s FIA (Flight Information Area), což ale není ICAO termín.",
-    "source": "2018_05 V5, A.(1).b.75"
+    "correct": 0,
+    "explanation": "METAR oblačnost: FEW (1-2/8), SCT (3-4/8), BKN = Broken (5-7/8), OVC (8/8).",
+    "source": "2025_09 VFL_4, A.(1).b.79"
   },
   {
     "id": "vfl-provoz-080",
     "subject": "provoz",
-    "question": "Zkratka FZRA znamená:",
-    "options": [
-      "mrazivý vítr",
-      "namrzající déšť",
-      "slabá přeháňka"
-    ],
-    "correct": 1,
-    "explanation": "METAR kód: FZ = freezing, RA = rain → FZRA = freezing rain (namrzající déšť). Velmi nebezpečné pro letadla.",
-    "source": "2018_05 V5, A.(1).b.76"
-  },
-  {
-    "id": "vfl-provoz-081",
-    "subject": "provoz",
-    "question": "Zkratka BKN znamená:",
-    "options": [
-      "skoro jasno",
-      "polojasno",
-      "oblačno"
-    ],
-    "correct": 2,
-    "explanation": "METAR oblačnost: FEW (1-2/8), SCT (3-4/8), BKN = Broken (5-7/8), OVC (8/8).",
-    "source": "2018_05 V5, A.(1).b.77"
-  },
-  {
-    "id": "vfl-provoz-082",
-    "subject": "provoz",
-    "question": "Zkratka NOSIG znamená:",
+    "question": "zkratka NOSIG znamená:",
     "options": [
       "bez význačné změny",
       "žádné signály na rádiu",
@@ -1570,10 +1492,10 @@
     ],
     "correct": 0,
     "explanation": "NOSIG = No Significant Change — v METAR TREND části, znamená, že počasí zůstane v platnosti další 2 hodiny beze změny.",
-    "source": "2018_05 V5, A.(1).b.78"
+    "source": "2025_09 VFL_4, A.(1).b.80"
   },
   {
-    "id": "vfl-provoz-083",
+    "id": "vfl-provoz-081",
     "subject": "provoz",
     "question": "Zkratka INTSF znamená:",
     "options": [
@@ -1583,36 +1505,75 @@
     ],
     "correct": 0,
     "explanation": "INTSF = Intensifying — používá se u jevů (déšť, vítr, bouřka), kdy se jejich intenzita zvyšuje.",
-    "source": "2018_05 V5, A.(1).b.79"
+    "source": "2025_09 VFL_4, A.(1).b.81"
+  },
+  {
+    "id": "vfl-provoz-082",
+    "subject": "provoz",
+    "question": "Volací znak INFORMATION je přiřazen:",
+    "options": [
+      "letištím, poskytujícím službu AFIS",
+      "letovým informačním střediskům (FIC)",
+      "stanovištím AFS"
+    ],
+    "correct": 0,
+    "explanation": "PDF 2025_09 uvádí stejnou otázku jako item 83 s ODLIŠNÝM správným odpovědí — pravděpodobně chybný překlep v PDF (mělo být INFO ne INFORMATION pro AFIS). Zachováno verbatim.",
+    "source": "2025_09 VFL_4, A.(1).b.82"
+  },
+  {
+    "id": "vfl-provoz-083",
+    "subject": "provoz",
+    "question": "Volací znak INFORMATION je přiřazen:",
+    "options": [
+      "letovým informačním střediskům např. FIC Praha,",
+      "letištím poskytujícím službu AFIS,",
+      "letištní řídící věži,"
+    ],
+    "correct": 0,
+    "explanation": "INFORMATION = FIC (Flight Information Centre). Pozor: INFO se používá pro AFIS na neřízených letištích.",
+    "source": "2025_09 VFL_4, A.(1).b.83"
   },
   {
     "id": "vfl-provoz-084",
     "subject": "provoz",
-    "question": "Volací znak INFO je přiřazen:",
+    "question": "Fráze „STAND BY“ znamená:",
     "options": [
-      "řídícím věžím (TWR) menších letišť",
-      "letovým informačním střediskům FIC",
-      "letištím, poskytujícím službu AFIS"
+      "čekejte, zavolám Vás",
+      "vyčkávejte na místě",
+      "připravte se k vysílání"
     ],
-    "correct": 2,
-    "explanation": "INFO = volací značka pro AFIS letiště (např. „Vodochody INFO\"). FIC používá značku „INFORMATION\".",
-    "source": "2018_05 V5, A.(1).b.80"
+    "correct": 0,
+    "explanation": "STAND BY = počkejte, ozvu se. Pozor na záměnu s HOLD POSITION (vyčkávejte na místě — pozemní pohyb).",
+    "source": "2025_09 VFL_4, A.(1).b.84"
   },
   {
     "id": "vfl-provoz-085",
     "subject": "provoz",
     "question": "Fráze „AFFIRM“ znamená:",
     "options": [
-      "“Ano“",
+      "“Potvrzuji povolení“",
       "“Souhlasím s návrhem“",
-      "“Potvrzuji povolení“"
+      "“Ano“"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "AFFIRM (nikoli AFFIRMATIVE — ICAO zkrátilo, aby nešlo splést s NEGATIVE). Verbatim zachovány stylizované uvozovky z PDF.",
-    "source": "2018_05 V5, A.(1).b.83"
+    "source": "2025_09 VFL_4, A.(1).b.85"
   },
   {
     "id": "vfl-provoz-086",
+    "subject": "provoz",
+    "question": "Fráze „WILCO“ znamená:",
+    "options": [
+      "rozumím Vaší zprávě a budu podle ní postupovat",
+      "přijal jsem vše z Vašeho posledního vysílání",
+      "potvrďte mi, že jste zprávu přijal"
+    ],
+    "correct": 0,
+    "explanation": "WILCO = 'Will Comply'. Liší se od ROGER (jen příjem) — WILCO znamená i provedení.",
+    "source": "2025_09 VFL_4, A.(1).b.86"
+  },
+  {
+    "id": "vfl-provoz-087",
     "subject": "provoz",
     "question": "Fráze „ACKNOWLEDGE“ znamená:",
     "options": [
@@ -1622,38 +1583,38 @@
     ],
     "correct": 0,
     "explanation": "ACKNOWLEDGE = žádost o potvrzení příjmu A pochopení (silnější než pouhé ROGER, které jen potvrzuje příjem).",
-    "source": "2018_05 V5, A.(1).b.85"
-  },
-  {
-    "id": "vfl-provoz-087",
-    "subject": "provoz",
-    "question": "Fráze „CONFIRM“ znamená:",
-    "options": [
-      "potvrďte ještě jednou své povolení",
-      "požaduji ověření: (povolení, instrukce, opatření, informace)",
-      "souhlasím s vaším návrhem"
-    ],
-    "correct": 1,
-    "explanation": "CONFIRM = žádost o ověření, že jsem správně pochopil — odpověď je opakování s opravou, pokud byla chyba.",
-    "source": "2018_05 V5, A.(1).b.86"
+    "source": "2025_09 VFL_4, A.(1).b.87"
   },
   {
     "id": "vfl-provoz-088",
     "subject": "provoz",
-    "question": "Fráze „ROGER“ znamená:",
+    "question": "Fráze „CONFIRM“ znamená:",
     "options": [
-      "souhlasím a budu jednat podle instrukce",
-      "přijal jsem vše z Vašeho posledního vysílání",
-      "rozumím a žádám zopakovat"
+      "souhlasím s vaším návrhem",
+      "potvrďte ještě jednou své povolení",
+      "požaduji ověření: (povolení, instrukce, opatření, informace)"
     ],
-    "correct": 1,
-    "explanation": "ROGER = jen potvrzení příjmu, NEznamená souhlas ani provedení (k tomu slouží WILCO = Will Comply).",
-    "source": "2018_05 V5, A.(1).b.87"
+    "correct": 2,
+    "explanation": "CONFIRM = žádost o ověření, že jsem správně pochopil — odpověď je opakování s opravou, pokud byla chyba.",
+    "source": "2025_09 VFL_4, A.(1).b.88"
   },
   {
     "id": "vfl-provoz-089",
     "subject": "provoz",
-    "question": "Fráze „APPROVED“ znamená:",
+    "question": "Fráze „ROGER“ znamená:",
+    "options": [
+      "přijal jsem vše z Vašeho posledního vysílání",
+      "souhlasím a budu jednat podle instrukce",
+      "rozumím a žádám zopakovat"
+    ],
+    "correct": 0,
+    "explanation": "ROGER = jen potvrzení příjmu, NEznamená souhlas ani provedení (k tomu slouží WILCO = Will Comply).",
+    "source": "2025_09 VFL_4, A.(1).b.89"
+  },
+  {
+    "id": "vfl-provoz-090",
+    "subject": "provoz",
+    "question": "fráze „APPROVED“ znamená:",
     "options": [
       "povolení pro požadovaný úkon je schváleno",
       "požadavek byl zaznamenán a bude vyřízen",
@@ -1661,49 +1622,62 @@
     ],
     "correct": 0,
     "explanation": "APPROVED = jasné svolení k provedení požadovaného úkonu (např. „START UP APPROVED\").",
-    "source": "2018_05 V5, A.(1).b.88"
-  },
-  {
-    "id": "vfl-provoz-090",
-    "subject": "provoz",
-    "question": "Fráze „NEGATIV“ znamená:",
-    "options": [
-      "povolení není potvrzeno – to není správné – ne",
-      "rádiové spojení je přerušeno",
-      "počkejte na další instrukci"
-    ],
-    "correct": 0,
-    "explanation": "NEGATIVE má v ICAO trojí význam: zamítnutí povolení, oprava nesprávné informace, prostá negace. PDF píše „NEGATIV\" verbatim.",
-    "source": "2018_05 V5, A.(1).b.89"
+    "source": "2025_09 VFL_4, A.(1).b.90"
   },
   {
     "id": "vfl-provoz-091",
     "subject": "provoz",
-    "question": "Fráze „SAY AGAIN“ znamená:",
+    "question": "Fráze „NEGATIV“ znamená:",
     "options": [
-      "potvrďte, že jste mě slyšel",
-      "vysílám pomalu, dávejte pozor",
-      "opakujte vše nebo následující část Vašeho posledního vysílání"
+      "rádiové spojení je přerušeno",
+      "povolení není potvrzeno – to není správné – ne",
+      "počkejte na další instrukci"
     ],
-    "correct": 2,
-    "explanation": "SAY AGAIN = žádost o opakování (lze upřesnit: „SAY AGAIN ALTITUDE\", „SAY AGAIN AFTER ATIS\").",
-    "source": "2018_05 V5, A.(1).b.90"
+    "correct": 1,
+    "explanation": "NEGATIVE má v ICAO trojí význam: zamítnutí povolení, oprava nesprávné informace, prostá negace. PDF píše „NEGATIV\" verbatim.",
+    "source": "2025_09 VFL_4, A.(1).b.91"
   },
   {
     "id": "vfl-provoz-092",
     "subject": "provoz",
-    "question": "Slovo „správně“ znamená:",
+    "question": "Fráze „SAY AGAIN“ znamená:",
     "options": [
-      "to je správné",
-      "stanice je správně identifikována",
-      "zpráva byla přijata úplně"
+      "opakujte vše nebo následující část Vašeho posledního vysílání",
+      "potvrďte, že jste mě slyšel",
+      "vysílám pomalu, dávejte pozor"
     ],
     "correct": 0,
-    "explanation": "CORRECT/správně = potvrzení, že předchozí informace (např. readback pilota) je správná.",
-    "source": "2018_05 V5, A.(1).b.91"
+    "explanation": "SAY AGAIN = žádost o opakování (lze upřesnit: „SAY AGAIN ALTITUDE\", „SAY AGAIN AFTER ATIS\").",
+    "source": "2025_09 VFL_4, A.(1).b.92"
   },
   {
     "id": "vfl-provoz-093",
+    "subject": "provoz",
+    "question": "Slovo „správně“ znamená:",
+    "options": [
+      "zpráva byla přijata úplně",
+      "stanice je správně identifikována",
+      "to je správné"
+    ],
+    "correct": 2,
+    "explanation": "CORRECT/správně = potvrzení, že předchozí informace (např. readback pilota) je správná.",
+    "source": "2025_09 VFL_4, A.(1).b.93"
+  },
+  {
+    "id": "vfl-provoz-094",
+    "subject": "provoz",
+    "question": "Fráze „TAKE-OFF APPROVED“:",
+    "options": [
+      "se používá při zrušeném povolení",
+      "znamená povolení ke vzletu",
+      "není přípustná"
+    ],
+    "correct": 2,
+    "explanation": "Slovo 'take-off' se v ATC frazeologii používá VÝHRADNĚ pro skutečné povolení ke vzletu (CLEARED FOR TAKE-OFF) nebo jeho zrušení. Fráze TAKE-OFF APPROVED neexistuje.",
+    "source": "2025_09 VFL_4, A.(1).b.94"
+  },
+  {
+    "id": "vfl-provoz-095",
     "subject": "provoz",
     "question": "Fráze „LINE UP RUNWAY“ znamená:",
     "options": [
@@ -1713,23 +1687,23 @@
     ],
     "correct": 1,
     "explanation": "LINE UP = pojezd na dráhu do startovní polohy, ale BEZ povolení ke vzletu (to je samostatná instrukce „CLEARED FOR TAKE-OFF\").",
-    "source": "2018_05 V5, A.(1).b.93"
+    "source": "2025_09 VFL_4, A.(1).b.95"
   },
   {
-    "id": "vfl-provoz-094",
+    "id": "vfl-provoz-096",
     "subject": "provoz",
     "question": "Fráze „REQUEST START UP“ znamená:",
     "options": [
-      "žádám obnovení spojení",
       "žádám obnovení provozu po pauze",
+      "žádám obnovení spojení",
       "žádám spouštění"
     ],
     "correct": 2,
     "explanation": "REQUEST START UP = žádost o povolení ke spuštění motorů (povinné na řízených letištích, není automatické).",
-    "source": "2018_05 V5, A.(1).b.94"
+    "source": "2025_09 VFL_4, A.(1).b.96"
   },
   {
-    "id": "vfl-provoz-095",
+    "id": "vfl-provoz-097",
     "subject": "provoz",
     "question": "Fráze „HOLD POSITION“ znamená:",
     "options": [
@@ -1739,49 +1713,23 @@
     ],
     "correct": 1,
     "explanation": "HOLD POSITION = okamžitě zastavit a vyčkat — typicky před vstupem na aktivní dráhu nebo na pojezdové dráze.",
-    "source": "2018_05 V5, A.(1).b.95"
+    "source": "2025_09 VFL_4, A.(1).b.97"
   },
   {
-    "id": "vfl-provoz-096",
+    "id": "vfl-provoz-098",
     "subject": "provoz",
     "question": "Při frázi BREAK BREAK pro dvě letadlové stanice, pořadí pro odpovědi volaných stanic je následující:",
     "options": [
       "obě stanice odpovídají současně",
-      "odpovídá první oslovená stanice",
-      "odpovídá druhá oslovená stanice"
+      "odpovídá druhá oslovená stanice",
+      "odpovídá první oslovená stanice"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "BREAK BREAK odděluje zprávy pro dvě stanice v jednom vysílání. Odpovídá nejprve DRUHÁ — protože její volání je čerstvěji v paměti.",
-    "source": "2018_05 V5, A.(1).b.96"
+    "source": "2025_09 VFL_4, A.(1).b.98"
   },
   {
-    "id": "vfl-elektrotechnika-009",
-    "subject": "elektrotechnika",
-    "question": "Vodivost pevných látek je způsobena:",
-    "options": [
-      "volnými elektrony v atomech látek",
-      "pohybem kladných iontů v krystalické mřížce",
-      "tepelnou výměnou mezi sousedními atomy"
-    ],
-    "correct": 0,
-    "explanation": "Kovy vedou proud pomocí volných elektronů (elektronů vodivostního pásu); ionty se pohybují ve vodivých kapalinách (elektrolytech).",
-    "source": "2018_05 V5, A.(1).c.1"
-  },
-  {
-    "id": "vfl-elektrotechnika-010",
-    "subject": "elektrotechnika",
-    "question": "Provoz alternátoru bez připojení na akumulátor může způsobit:",
-    "options": [
-      "zničení připojených zařízení",
-      "trvalý pokles napětí na palubě",
-      "přehřátí samotného alternátoru bez vlivu na ostatní"
-    ],
-    "correct": 0,
-    "explanation": "Akumulátor stabilizuje napětí — bez něj alternátor produkuje napěťové špičky, které zničí citlivou avioniku.",
-    "source": "2018_05 V5, A.(1).c.2"
-  },
-  {
-    "id": "vfl-elektrotechnika-011",
+    "id": "vfl-elektrotechnika-001",
     "subject": "elektrotechnika",
     "question": "Paralelně řazené akumulátory:",
     "options": [
@@ -1791,36 +1739,49 @@
     ],
     "correct": 1,
     "explanation": "Paralelně = stejné napětí, sčítají se kapacity a proudová schopnost. Seriově = sčítají se napětí, stejná kapacita.",
-    "source": "2018_05 V5, A.(1).c.3"
+    "source": "2025_09 VFL_4, A.(1).c.1"
   },
   {
-    "id": "vfl-elektrotechnika-012",
+    "id": "vfl-elektrotechnika-002",
     "subject": "elektrotechnika",
     "question": "Sériově řazené akumulátory:",
     "options": [
-      "se zapojují pro zvýšení dodávaného napětí",
       "zvyšují celkovou kapacitu v ampérhodinách",
+      "se zapojují pro zvýšení dodávaného napětí",
       "snižují vnitřní odpor obvodu"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Sériové zapojení sčítá napětí jednotlivých článků (6× 2V olověný = 12V autobaterie).",
-    "source": "2018_05 V5, A.(1).c.4"
+    "source": "2025_09 VFL_4, A.(1).c.2"
   },
   {
-    "id": "vfl-elektrotechnika-013",
+    "id": "vfl-elektrotechnika-003",
+    "subject": "elektrotechnika",
+    "question": "Jmenovité napětí článku olověného akumulátoru je:",
+    "options": [
+      "2 V",
+      "1,2 V",
+      "1,5 V"
+    ],
+    "correct": 0,
+    "explanation": "Olověný (Pb) článek = 2 V. NiCd/NiMH = 1,2 V. Suchý galvanický článek = 1,5 V.",
+    "source": "2025_09 VFL_4, A.(1).c.3"
+  },
+  {
+    "id": "vfl-elektrotechnika-004",
     "subject": "elektrotechnika",
     "question": "Jmenovité napětí článku alkalického akumulátoru je:",
     "options": [
-      "1,2 V",
       "1,5 V",
+      "1,2 V",
       "2 V"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "NiCd a NiMH (alkalické sekundární články) = 1,2 V/článek. 1,5 V je primární galvanický, 2 V je olověný.",
-    "source": "2018_05 V5, A.(1).c.6"
+    "source": "2025_09 VFL_4, A.(1).c.4"
   },
   {
-    "id": "vfl-elektrotechnika-014",
+    "id": "vfl-elektrotechnika-005",
     "subject": "elektrotechnika",
     "question": "Jmenovité napětí suchého galvanického článku je:",
     "options": [
@@ -1830,88 +1791,75 @@
     ],
     "correct": 1,
     "explanation": "Zinkochloridový/alkalický primární článek (typ AA, AAA, C, D) má 1,5 V — proto 9V baterie = 6 článků v sérii.",
-    "source": "2018_05 V5, A.(1).c.7"
+    "source": "2025_09 VFL_4, A.(1).c.5"
   },
   {
-    "id": "vfl-elektrotechnika-015",
+    "id": "vfl-elektrotechnika-006",
     "subject": "elektrotechnika",
     "question": "Suché galvanické články:",
     "options": [
-      "lze dobíjet jen pomalým proudem (C/20)",
       "nelze dobíjet",
+      "lze dobíjet jen pomalým proudem (C/20)",
       "se dobíjí jen při použití speciální nabíječky"
     ],
-    "correct": 1,
-    "explanation": "Primární články (zinkochlorid, alkalické AA/AAA) jsou jednorázové — pokus o dobíjení může způsobit únik elektrolytu nebo explozi.",
-    "source": "2018_05 V5, A.(1).c.8"
-  },
-  {
-    "id": "vfl-elektrotechnika-016",
-    "subject": "elektrotechnika",
-    "question": "Olověný akumulátor nabíjíme:",
-    "options": [
-      "proudem (v A) o velikosti desetiny kapacity akumulátoru (v Ah)",
-      "konstantním proudem 1 A bez ohledu na kapacitu",
-      "proudem rovným plné kapacitě akumulátoru, krátkodobě"
-    ],
     "correct": 0,
-    "explanation": "Pravidlo „C/10\": 50 Ah baterii nabíjíme cca 5 A po dobu ~10 hodin. Vyšší proud zkracuje životnost.",
-    "source": "2018_05 V5, A.(1).c.9"
+    "explanation": "Primární články (zinkochlorid, alkalické AA/AAA) jsou jednorázové — pokus o dobíjení může způsobit únik elektrolytu nebo explozi.",
+    "source": "2025_09 VFL_4, A.(1).c.6"
   },
   {
-    "id": "vfl-elektrotechnika-017",
-    "subject": "elektrotechnika",
-    "question": "K ochraně proti nadměrnému proudu slouží:",
-    "options": [
-      "transformátor",
-      "jistič",
-      "kondenzátor"
-    ],
-    "correct": 1,
-    "explanation": "Jistič nebo pojistka přeruší obvod při překročení dovoleného proudu — chrání před ohněm a poškozením spotřebičů.",
-    "source": "2018_05 V5, A.(1).c.10"
-  },
-  {
-    "id": "vfl-elektrotechnika-018",
+    "id": "vfl-elektrotechnika-007",
     "subject": "elektrotechnika",
     "question": "Antény dělíme podle směru vysílání nebo příjmu na:",
     "options": [
-      "aktivní a pasivní",
       "drátové a parabolické",
+      "aktivní a pasivní",
       "směrové a všesměrové"
     ],
     "correct": 2,
     "explanation": "Směrové antény (Yagi, parabola) mají úzký lalok vyzařování; všesměrové (dipól vertikálně) vyzařují stejně všemi azimuty.",
-    "source": "2018_05 V5, A.(1).c.11"
+    "source": "2025_09 VFL_4, A.(1).c.7"
   },
   {
-    "id": "vfl-elektrotechnika-019",
+    "id": "vfl-elektrotechnika-008",
+    "subject": "elektrotechnika",
+    "question": "Všesměrová anténa má vyzařovací charakteristiku:",
+    "options": [
+      "osmičkovou",
+      "kruhovou",
+      "kapkovitou"
+    ],
+    "correct": 1,
+    "explanation": "Všesměrová (omnidirectional) = kruh v horizontální rovině. Osmička je charakteristika dipólu kolmo k zemi.",
+    "source": "2025_09 VFL_4, A.(1).c.8"
+  },
+  {
+    "id": "vfl-elektrotechnika-009",
     "subject": "elektrotechnika",
     "question": "Všesměrová anténa musí přijímat nebo vysílat stejně všemi směry:",
     "options": [
-      "v horizontální rovině",
       "ve vertikální rovině",
+      "v horizontální rovině",
       "ve všech rovinách prostoru"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Reálná „všesměrová\" anténa je všesměrová v horizontále, ne v 3D — ideální izotropní zářič vyzařující do všech bodů koule je teoretický.",
-    "source": "2018_05 V5, A.(1).c.13"
+    "source": "2025_09 VFL_4, A.(1).c.9"
   },
   {
-    "id": "vfl-elektrotechnika-020",
+    "id": "vfl-elektrotechnika-010",
     "subject": "elektrotechnika",
     "question": "Půlvlnný dipól:",
     "options": [
-      "může být směrová i všesměrová anténa, záleží na jeho orientaci k zemskému povrchu",
+      "je vždy všesměrová a má kruhový vyzařovací diagram",
       "je vždy směrová anténa s úzkým hlavním lalokem",
-      "je vždy všesměrová a má kruhový vyzařovací diagram"
+      "může být směrová i všesměrová anténa, záleží na jeho orientaci k zemskému povrchu"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Vertikální dipól = všesměrový v horizontále; horizontální dipól = osmičkový diagram (směrový).",
-    "source": "2018_05 V5, A.(1).c.14"
+    "source": "2025_09 VFL_4, A.(1).c.10"
   },
   {
-    "id": "vfl-elektrotechnika-021",
+    "id": "vfl-elektrotechnika-011",
     "subject": "elektrotechnika",
     "question": "Půlvlnný dipól umístěný rovnoběžně se zemským povrchem:",
     "options": [
@@ -1921,114 +1869,166 @@
     ],
     "correct": 0,
     "explanation": "Vodorovný dipól má dva hlavní laloky kolmé k drátu a nuly ve směru drátu — odtud tvar číslice 8.",
-    "source": "2018_05 V5, A.(1).c.15"
+    "source": "2025_09 VFL_4, A.(1).c.11"
   },
   {
-    "id": "vfl-elektrotechnika-022",
+    "id": "vfl-elektrotechnika-012",
+    "subject": "elektrotechnika",
+    "question": "Vztah mezi délkou vlny (λ) a kmitočtem (f), když c je rychlost světla, je:",
+    "options": [
+      "λ = f × c",
+      "f = λ × c",
+      "f = c / λ"
+    ],
+    "correct": 2,
+    "explanation": "Pro 121,5 MHz: λ = 3·10⁸ / 121,5·10⁶ ≈ 2,47 m. Pásmo VHF (160 MHz) má λ ≈ 2 m.",
+    "source": "2025_09 VFL_4, A.(1).c.12"
+  },
+  {
+    "id": "vfl-elektrotechnika-013",
     "subject": "elektrotechnika",
     "question": "Který typ modulace mění kmitočet vysokofrekvenčního signálu v závislosti na přiváděném modulačním napětí:",
     "options": [
+      "fázová modulace",
       "amplitudová modulace (AM)",
-      "kmitočtová modulace",
-      "fázová modulace"
+      "kmitočtová modulace"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "FM (kmitočtová) — okamžitý kmitočet nosné je posunut úměrně modulačnímu signálu. AM mění amplitudu, PM fázi.",
-    "source": "2018_05 V5, A.(1).c.18"
+    "source": "2025_09 VFL_4, A.(1).c.13"
   },
   {
-    "id": "vfl-elektrotechnika-023",
-    "subject": "elektrotechnika",
-    "question": "Rozsah ampérmetru se zvětšuje:",
-    "options": [
-      "odporem paralelně zařazeným k ampérmetru (bočník)",
-      "odporem sériově zařazeným k ampérmetru",
-      "zvýšením napětí napájecího zdroje"
-    ],
-    "correct": 0,
-    "explanation": "Bočník (shunt) odvede většinu proudu mimo měřič; měřák tak vidí jen malou definovanou část. Sériový odpor naopak rozšiřuje rozsah voltmetru.",
-    "source": "2018_05 V5, A.(1).c.19"
-  },
-  {
-    "id": "vfl-elektrotechnika-024",
+    "id": "vfl-elektrotechnika-014",
     "subject": "elektrotechnika",
     "question": "Ampérmetr a voltmetr se při měření zařazují:",
     "options": [
+      "ampérmetr do série se spotřebičem, voltmetr paralelně ke spotřebiči",
       "oba paralelně ke spotřebiči",
-      "oba do série se spotřebičem",
-      "ampérmetr do série se spotřebičem, voltmetr paralelně ke spotřebiči"
+      "oba do série se spotřebičem"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Ampérmetr má nízký odpor (musí jím téct měřený proud), voltmetr vysoký (nesmí ovlivnit napětí na spotřebiči).",
-    "source": "2018_05 V5, A.(1).c.20"
+    "source": "2025_09 VFL_4, A.(1).c.14"
   },
   {
-    "id": "vfl-elektrotechnika-025",
+    "id": "vfl-elektrotechnika-015",
+    "subject": "elektrotechnika",
+    "question": "V suchém, bezprašném prostředí (zamýšlené použití elektrického zařízení nezvyšuje nebezpečí úrazu elektrickým proudem) považujeme při dotyku živých částí zařízení během jeho obsluhy za bezpečná napětí:",
+    "options": [
+      "stejnosměrné do 120 V a střídavé do 50 V",
+      "stejnosměrné do 24 V a střídavé do 12 V",
+      "stejnosměrné do 60 V a střídavé do 25 V"
+    ],
+    "correct": 2,
+    "explanation": "Hraniční napětí pro „bezpečné napětí\" v suchém prostředí dle ČSN: DC 60 V, AC 25 V. Ve vlhkém prostředí hodnoty klesají na DC 25 V / AC 12 V.",
+    "source": "2025_09 VFL_4, A.(1).c.15"
+  },
+  {
+    "id": "vfl-elektrotechnika-016",
     "subject": "elektrotechnika",
     "question": "Při úrazu elektrickým proudem:",
     "options": [
-      "odstraníme postiženého z dosahu el. proudu, má-li nehmatný puls zahájíme masáž srdce a nedýchá-li, zavedeme umělé dýchání, zavoláme lékařskou pomoc.",
-      "okamžitě polijeme postiženého vodou pro odvedení proudu.",
-      "počkáme, až proud sám pomine, a teprve pak voláme pomoc."
+      "vyprostíme postiženého z dosahu el. proudu, zavoláme záchrannou službu, provedeme záklon hlavy a dojde-li k selhání základních životních funkcí (tep, puls, vědomí), zahájíme resuscitaci masáží srdce až do příjezdu záchranářů, případně umělým dýcháním.",
+      "okamžitě polijeme postiženého vodou pro odvedení proudu, zavoláme záchrannou službu.",
+      "počkáme, až proud pomine, pak teprve přistoupíme k poskytnutí první pomoci."
     ],
     "correct": 0,
-    "explanation": "Pořadí: odpojit zdroj → kontrola vědomí, dýchání, pulsu → KPR (kardiopulmonální resuscitace) → tísňová linka 155/112. PDF text zachován verbatim včetně tečky.",
-    "source": "2018_05 V5, A.(1).c.22"
+    "explanation": "Pořadí: 1) vyprostit z dosahu, 2) zavolat 155/112, 3) záklon hlavy, kontrola dýchání, 4) při selhání životních funkcí KPR (masáž srdce + umělé dýchání) až do příjezdu záchranářů.",
+    "source": "2025_09 VFL_4, A.(1).c.16"
   },
   {
-    "id": "vfl-elektrotechnika-026",
+    "id": "vfl-elektrotechnika-017",
+    "subject": "elektrotechnika",
+    "question": "Funkce „SQUELCH“ VKV radiostanice je určena:",
+    "options": [
+      "k potlačení slabších rušivých signálů včetně vlastního šumu přijímače.",
+      "ke zvýšení vysílacího výkonu při slabém signálu.",
+      "k automatickému ladění na nejsilnější stanici."
+    ],
+    "correct": 0,
+    "explanation": "Squelch (šumová brána) ztiší přijímač, dokud nedorazí signál nad nastavenou úrovní — odstraní šum mezi přenosy.",
+    "source": "2025_09 VFL_4, A.(1).c.17"
+  },
+  {
+    "id": "vfl-elektrotechnika-018",
     "subject": "elektrotechnika",
     "question": "Údaj elektrické napětí 2 V lze také zapsat:",
     "options": [
-      "20 mV",
       "200 mV",
+      "20 mV",
       "2000 mV"
     ],
     "correct": 2,
     "explanation": "1 V = 1000 mV (miliVolt), proto 2 V = 2000 mV. Mikrovolt by byl 2 000 000 µV.",
-    "source": "2018_05 V5, A.(1).c.24"
+    "source": "2025_09 VFL_4, A.(1).c.18"
   },
   {
-    "id": "vfl-elektrotechnika-027",
+    "id": "vfl-elektrotechnika-019",
     "subject": "elektrotechnika",
     "question": "Kmitočet 406 MHz lze také zapsat:",
     "options": [
-      "4,06 GHz",
       "0,406 GHz",
+      "4,06 GHz",
       "40,6 GHz"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "1 GHz = 1000 MHz, proto 406 MHz = 0,406 GHz. 406 MHz je kmitočet nouzových majáků ELT/EPIRB.",
-    "source": "2018_05 V5, A.(1).c.25"
+    "source": "2025_09 VFL_4, A.(1).c.19"
   },
   {
-    "id": "vfl-elektrotechnika-028",
+    "id": "vfl-elektrotechnika-020",
+    "subject": "elektrotechnika",
+    "question": "Délka rádiové vlny v pásmu 160 MHz (VHF) je:",
+    "options": [
+      "cca. 20 m",
+      "cca. 0,2 m",
+      "cca. 2 m"
+    ],
+    "correct": 2,
+    "explanation": "λ = c/f = 3·10⁸ / 160·10⁶ ≈ 1,87 m, zaokrouhleně 2 m. Odtud označení 'two-meter band'.",
+    "source": "2025_09 VFL_4, A.(1).c.20"
+  },
+  {
+    "id": "vfl-elektrotechnika-021",
     "subject": "elektrotechnika",
     "question": "Vztah mezi napětím (U), proudem (I) a odporem (R) je:",
     "options": [
+      "U = R + I",
       "U = I / R",
-      "U = R*I",
-      "U = R + I"
+      "U = R*I"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Ohmův zákon: U = R × I. Důsledky: I = U/R, R = U/I.",
-    "source": "2018_05 V5, A.(1).c.27"
+    "source": "2025_09 VFL_4, A.(1).c.21"
   },
   {
-    "id": "vfl-elektrotechnika-029",
+    "id": "vfl-elektrotechnika-022",
     "subject": "elektrotechnika",
     "question": "Vztah mezi výkonem (příkonem) (P), napětím (U) a proudem (I) je:",
     "options": [
+      "P = U*I",
       "P = U / I",
-      "P = U + I",
-      "P = U*I"
+      "P = U + I"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Elektrický výkon: P = U × I (Watt = Volt × Ampér). Spojeno s Ohmem: P = U²/R = I²×R.",
-    "source": "2018_05 V5, A.(1).c.28"
+    "source": "2025_09 VFL_4, A.(1).c.22"
   },
   {
-    "id": "vfl-elektrotechnika-030",
+    "id": "vfl-elektrotechnika-023",
+    "subject": "elektrotechnika",
+    "question": "Radiostanice odebírající z baterie 12 V proud 500 mA má příkon:",
+    "options": [
+      "6 W",
+      "12 W",
+      "60 W"
+    ],
+    "correct": 0,
+    "explanation": "P = U × I = 12 V × 0,5 A = 6 W.",
+    "source": "2025_09 VFL_4, A.(1).c.23"
+  },
+  {
+    "id": "vfl-elektrotechnika-024",
     "subject": "elektrotechnika",
     "question": "Tři dobré vodiče elektřiny jsou:",
     "options": [
@@ -2038,23 +2038,23 @@
     ],
     "correct": 1,
     "explanation": "Pořadí vodivosti kovů: stříbro > měď > zlato > hliník. V praxi se používá měď (cena), v náročných spojích zlato (oxidace).",
-    "source": "2018_05 V5, A.(1).c.30"
+    "source": "2025_09 VFL_4, A.(1).c.24"
   },
   {
-    "id": "vfl-elektrotechnika-031",
+    "id": "vfl-elektrotechnika-025",
     "subject": "elektrotechnika",
     "question": "Čtyři dobré izolanty jsou:",
     "options": [
+      "sklo, vzduch, plast, porcelán",
       "měď, hliník, zlato, stříbro",
-      "voda, sůl, kyselina, soda",
-      "sklo, vzduch, plast, porcelán"
+      "voda, sůl, kyselina, soda"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Izolanty mají vysoký měrný odpor (>10^10 Ωm) — používají se na povrchy vodičů a v izolátorech vysokonapěťových vedení.",
-    "source": "2018_05 V5, A.(1).c.31"
+    "source": "2025_09 VFL_4, A.(1).c.25"
   },
   {
-    "id": "vfl-elektrotechnika-032",
+    "id": "vfl-elektrotechnika-026",
     "subject": "elektrotechnika",
     "question": "Ke zdroji 10 V jsou připojeny dva odpory 10 Ω zapojené do série. Odebíraný příkon činí:",
     "options": [
@@ -2064,23 +2064,23 @@
     ],
     "correct": 1,
     "explanation": "Sériový odpor = 20 Ω. Proud I = U/R = 10/20 = 0,5 A. Příkon P = U×I = 10 × 0,5 = 5 W.",
-    "source": "2018_05 V5, A.(1).c.32"
+    "source": "2025_09 VFL_4, A.(1).c.26"
   },
   {
-    "id": "vfl-elektrotechnika-033",
+    "id": "vfl-elektrotechnika-027",
     "subject": "elektrotechnika",
     "question": "Radiotechnická součástka je identifikována jako kondenzátor, pokud se její hodnota měří v:",
     "options": [
+      "pF",
       "Ω",
-      "H",
-      "pF"
+      "H"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Kapacita = Faradech (F), v praxi pF/nF/µF. Ω = odpor (rezistor), H = indukčnost (cívka).",
-    "source": "2018_05 V5, A.(1).c.33"
+    "source": "2025_09 VFL_4, A.(1).c.27"
   },
   {
-    "id": "vfl-elektrotechnika-034",
+    "id": "vfl-elektrotechnika-028",
     "subject": "elektrotechnika",
     "question": "Výstupním výkonem stanice se rozumí:",
     "options": [
@@ -2090,6 +2090,45 @@
     ],
     "correct": 0,
     "explanation": "Výstupní výkon = na svorkách vysílače před napaječem. Ztráty napaječe a zisk antény určují vyzářený výkon (EIRP).",
-    "source": "2018_05 V5, A.(1).c.34"
+    "source": "2025_09 VFL_4, A.(1).c.28"
+  },
+  {
+    "id": "vfl-elektrotechnika-029",
+    "subject": "elektrotechnika",
+    "question": "Je možné vysílat bez antény?:",
+    "options": [
+      "ano, ale jen v přijímacím režimu",
+      "ano, dokud je výkon vysílače nižší než 5 W",
+      "ne, hrozí poškození radiostanice"
+    ],
+    "correct": 2,
+    "explanation": "Bez antény nemá vysílaný výkon kam odejít a vrací se zpět do koncového stupně — typicky shoří koncový tranzistor. Pravidlo: nikdy nevysílat bez připojené antény nebo zatěžovacího odporu.",
+    "source": "2025_09 VFL_4, A.(1).c.29"
+  },
+  {
+    "id": "vfl-elektrotechnika-030",
+    "subject": "elektrotechnika",
+    "question": "Co NENÍ možné dělat, když máme stisknuté tlačítko pro vysílání (PTT)?:",
+    "options": [
+      "přijímat jiné vysílání",
+      "mluvit nahlas do mikrofonu",
+      "měnit kmitočet stanice"
+    ],
+    "correct": 0,
+    "explanation": "Při stisknutém PTT je stanice v režimu vysílání — přijímač je vypnutý. Proto nelze zároveň slyšet ostatní stanice; pokud někdo začne odpovídat během držení PTT, jeho zpráva se ztratí.",
+    "source": "2025_09 VFL_4, A.(1).c.30"
+  },
+  {
+    "id": "vfl-elektrotechnika-031",
+    "subject": "elektrotechnika",
+    "question": "V jakém kmitočtovém pásmu pracuje letadlová VHF radiostanice?:",
+    "options": [
+      "225–400 MHz",
+      "108–118 MHz",
+      "118–137 MHz"
+    ],
+    "correct": 2,
+    "explanation": "Letadlová VHF aero pohyblivá služba: 118,000–136,975 MHz (s rozteči 8,33 nebo 25 kHz). 108–118 MHz = VOR/ILS navigace. 225–400 MHz = vojenská UHF aero band.",
+    "source": "2025_09 VFL_4, A.(1).c.31"
   }
 ]

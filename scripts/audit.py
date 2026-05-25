@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Verbatim audit (mupdf edition): confirm each question's text + correct
-option match the ČTÚ PDF for all three subjects (predpisy, provoz,
-elektrotechnika), modulo the two allowed presentational tweaks
-(capitalize first letter, append trailing colon).
+"""Verbatim audit: confirm each question's text + correct option match
+the ČTÚ PDF (currently 2025_09 VFL_4) for all three subjects.
 
-Items where the PDF formatting is non-standard (no "- answer" pattern)
-are listed in SKIP_VERBATIM — these are spot-checked by humans, not by
-the regex parser. Currently this covers the 9 phonetic alphabet items
-in provoz (45-53), whose "answer" is a multi-line table of letters.
+In the 2025_09 VFL_4 PDF, questions are capitalized at the source, so
+the "capitalize first letter" tweak from the 2018 era is gone. Only the
+trailing colon is stripped on both sides before compare.
+
+Items whose PDF formatting isn't `- answer` (multi-line phonetic
+alphabet tables; items where the answer follows without a dash) are
+listed in SKIP_VERBATIM and verified manually.
 """
 
 import json
@@ -17,18 +18,17 @@ import subprocess
 import sys
 import tempfile
 
-PDF = "docs/2018_05_zkousky_otazky_v5_fin.pdf"
+PDF = "docs/2025_09_VFL_otazky.pdf"
 BANK = "src/data/questions.json"
 
-# Items whose PDF formatting doesn't fit the regex-based extractor (multi-line
-# tables, etc.). Authored manually, verified by spot-check, not by audit.
+# Items whose PDF formatting doesn't fit the regex-based extractor.
 SKIP_VERBATIM = {
-    ("provoz", 45), ("provoz", 46), ("provoz", 47), ("provoz", 48),
-    ("provoz", 49), ("provoz", 50), ("provoz", 51), ("provoz", 52),
-    ("provoz", 53),
-    # Item 71's PDF has no "- " marker before the answer; the answer is just
-    # the next paragraph. We accept this on faith too.
-    ("provoz", 71),
+    # Phonetic alphabet (multi-line letter tables — renumbered 47-55 in 2025 PDF)
+    ("provoz", 47), ("provoz", 48), ("provoz", 49), ("provoz", 50),
+    ("provoz", 51), ("provoz", 52), ("provoz", 53), ("provoz", 54),
+    ("provoz", 55),
+    # "Zkratka UTC znamená" — answer follows inline without a dash (now item 73)
+    ("provoz", 73),
 }
 
 # Extract with mutool
@@ -44,10 +44,10 @@ try:
 finally:
     os.unlink(out_path)
 
-# Strip page footer artifacts
-raw = re.sub(r"^\s*2018_05\s*$", "", raw, flags=re.MULTILINE)
+# Strip page footer artifacts (2025_09 VFL_4 format: "2025_09" / "N/7" / "VFL_4")
+raw = re.sub(r"^\s*2025_09\s*$", "", raw, flags=re.MULTILINE)
 raw = re.sub(r"^\s*\d+/\d+\s*$", "", raw, flags=re.MULTILINE)
-raw = re.sub(r"^\s*V5\s*$", "", raw, flags=re.MULTILINE)
+raw = re.sub(r"^\s*VFL_\d+\s*$", "", raw, flags=re.MULTILINE)
 
 # Locate the three VFL sections (first occurrences of each marker)
 m_a = re.search(r"a\)\s+radiokomunikační předpisy:", raw)
@@ -99,11 +99,10 @@ pdf_items = {
 with open(BANK) as f:
     bank = json.load(f)
 
-def eq_first_letter_insensitive(a, b):
-    a, b = norm(a), norm(b)
-    if not a or not b:
-        return a == b
-    return a[0].lower() == b[0].lower() and a[1:] == b[1:]
+def texts_equal(a, b):
+    """Strict normalized comparison. 2025_09 VFL_4 PDF capitalizes
+    questions natively, so no first-letter relaxation is needed."""
+    return norm(a) == norm(b)
 
 errors = []
 audited = {"predpisy": 0, "provoz": 0, "elektrotechnika": 0}
@@ -131,7 +130,7 @@ for q in bank:
 
     bank_a = q["options"][q["correct"]]
 
-    if not eq_first_letter_insensitive(bank_q, pdf_q_cmp):
+    if not texts_equal(bank_q, pdf_q_cmp):
         errors.append(
             f"{q['id']} ({subj}.{src_num}) QUESTION mismatch:\n"
             f"  PDF:  {pdf_q_cmp!r}\n"

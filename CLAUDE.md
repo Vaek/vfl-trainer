@@ -16,7 +16,7 @@ This file gives Claude Code the context it needs to continue this project. Read 
 
 - **Hosted on GitHub Pages only.** No backend, no serverless, no API keys in the app, no paid infrastructure. The repo is `Vaek/vfl-trainer` and the Vite `base` is `/vfl-trainer/`.
 - **Czech-only UI.** Aeronautical content is bilingual (English for radio phraseology, Czech for everything else) — that's how the real exam works.
-- **Question bank source of truth: ČTÚ official PDFs.** Questions and correct answers must come from `2018_05 V5` (čj. ČTÚ‑79 329/2017‑613). Distractors are authored. Always include the `source` citation field.
+- **Question bank source of truth: ČTÚ official PDF `2025_09 VFL_4`** (`docs/2025_09_VFL_otazky.pdf`, the September 2025 version that covers VFL only — 7 pages, 164 items across the three subjects). Questions and correct answers must come from this PDF verbatim. Distractors are authored. Always include the `source` citation field. The earlier `2018_05 V5` PDF is kept in `docs/` as historical reference only.
 - **Real exam pass rule: ≥ 90 % in EACH of the three subjects** (předpisy / provoz / elektrotechnika). Not an average. Implement this faithfully.
 - **VFL only.** Other licenses (OFL, GOC, ROC, VFN, OFN, LRC, SRC, pozemní telegrafista, amatérské) are explicitly out of scope for v1.
 
@@ -112,23 +112,26 @@ The app shuffles option order **deterministically per question id** (seeded PRNG
 
 **Verbatim-vs-presentation rule (strict):**
 - The **question text** and the **correct option text** must match the ČTÚ PDF exactly in semantic content. Do not paraphrase, expand abbreviations the PDF uses verbatim (e.g., "OKABC", not "OK-ABC"), drop or add parentheticals, or substitute synonyms ("kde" vs "když"). Run `python3 scripts/audit.py` to verify the bank against the PDF — uses `mutool` (mupdf-tools) for extraction; the script must pass before merging bank changes.
-- Two **presentational** tweaks are allowed and uniformly applied across the bank:
-  1. **Capitalize the first letter** of the question (PDF has lowercase because each question is a numbered list item).
-  2. **Append a trailing colon** to the question (PDF omits terminal punctuation for the same reason).
+- One **presentational** tweak is allowed and uniformly applied across the bank: **append a trailing colon** to the question (PDF omits terminal punctuation because each question is a numbered list item). The 2025_09 VFL_4 PDF capitalizes questions natively, so no first-letter tweak is needed.
 - If the PDF correct answer ends with a stray comma (list-formatting artifact, e.g. "three hundred,"), preserve it verbatim. To avoid the comma visually telegraphing the answer, **add the same trailing comma to the authored distractors**. Same logic for unit formatting: if the PDF writes "2V" / "6W" without a space, distractors should match that style.
 - Distractor text and explanations are authored, not from the PDF — author them however reads best, but keep formatting consistent with the correct option.
 
 ## Current state
 
 - Full app infrastructure works end-to-end.
-- Question bank is **complete** at 161 questions (31 předpisy, 96 provoz, 34 elektrotechnika) — covers all VFL items in ČTÚ 2018_05 V5 section A.(1).
-- 9 phonetic-alphabet items (provoz 45–53) and provoz item 71 are skipped by the verbatim audit because their PDF format isn't `- answer` — listed in `SKIP_VERBATIM` in `scripts/audit.py` and verified manually.
+- Question bank is **complete** at **164 questions** (35 předpisy, 98 provoz, 31 elektrotechnika) — covers all VFL items in ČTÚ 2025_09 VFL_4 section A.(1). IDs are sequential matching the PDF item number (e.g. `vfl-predpisy-005` is item 5).
+- 9 phonetic-alphabet items (provoz 47–55) and provoz item 73 (UTC abbreviation, answer inline without dash) are skipped by the verbatim audit because their PDF format isn't `- answer` — listed in `SKIP_VERBATIM` in `scripts/audit.py` and verified manually.
 - Three oral prompts complete (strict, practice, drills).
 - Deployed and verified on GitHub Pages.
 
+## Known PDF quirks (verbatim preserved)
+
+- Provoz items 82 and 83 both have the question text "Volací znak INFORMATION je přiřazen" with different correct answers (AFIS for 82, FIC Praha for 83). Item 82 is almost certainly a typo where the question should read "INFO" — but per verbatim rule we preserve it. Spot the rule before reporting users that "82 and 83 look identical".
+- Provoz item 40 question has the PDF typo "hodnutu" (should be "hodnotu") — verbatim preserved.
+
 ## Next priorities
 
-1. **Quality pass on distractors** — review for any that feel too easy, telegraph the answer, or use absurd values. Especially the 9 phonetic items (45–53), which weren't auto-audited.
+1. **Quality pass on distractors** — review for any that feel too easy, telegraph the answer, or use absurd values. Especially the 9 phonetic items (47–55) and the 20 newly authored 2025-PDF items, which haven't had a human spot-check yet.
 
 2. **Optional v1.1 features (only if user asks):**
    - User-configurable mock exam length
