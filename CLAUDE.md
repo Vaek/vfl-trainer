@@ -111,34 +111,26 @@ The app shuffles option order **deterministically per question id** (seeded PRNG
 - Do not invent fake-looking values that no one would ever pick.
 
 **Verbatim-vs-presentation rule (strict):**
-- The **question text** and the **correct option text** must match the ČTÚ PDF exactly in semantic content. Do not paraphrase, expand abbreviations the PDF uses verbatim (e.g., "OKABC", not "OK-ABC"), drop or add parentheticals, or substitute synonyms ("kde" vs "když"). When in doubt, run `python3 /tmp/audit.py` (or rebuild the equivalent) against the PDF.
+- The **question text** and the **correct option text** must match the ČTÚ PDF exactly in semantic content. Do not paraphrase, expand abbreviations the PDF uses verbatim (e.g., "OKABC", not "OK-ABC"), drop or add parentheticals, or substitute synonyms ("kde" vs "když"). Run `python3 scripts/audit.py` to verify the bank against the PDF — uses `mutool` (mupdf-tools) for extraction; the script must pass before merging bank changes.
 - Two **presentational** tweaks are allowed and uniformly applied across the bank:
   1. **Capitalize the first letter** of the question (PDF has lowercase because each question is a numbered list item).
   2. **Append a trailing colon** to the question (PDF omits terminal punctuation for the same reason).
 - If the PDF correct answer ends with a stray comma (list-formatting artifact, e.g. "three hundred,"), preserve it verbatim. To avoid the comma visually telegraphing the answer, **add the same trailing comma to the authored distractors**. Same logic for unit formatting: if the PDF writes "2V" / "6W" without a space, distractors should match that style.
 - Distractor text and explanations are authored, not from the PDF — author them however reads best, but keep formatting consistent with the correct option.
 
-## Current state (as of v0.1)
+## Current state
 
 - Full app infrastructure works end-to-end.
-- Question bank has **35 questions** out of a target ~161 (10 předpisy, 17 provoz, 8 elektrotechnika).
+- Question bank is **complete** at 161 questions (31 předpisy, 96 provoz, 34 elektrotechnika) — covers all VFL items in ČTÚ 2018_05 V5 section A.(1).
+- 9 phonetic-alphabet items (provoz 45–53) and provoz item 71 are skipped by the verbatim audit because their PDF format isn't `- answer` — listed in `SKIP_VERBATIM` in `scripts/audit.py` and verified manually.
 - Three oral prompts complete (strict, practice, drills).
 - Deployed and verified on GitHub Pages.
 
 ## Next priorities
 
-1. **Expand the question bank toward the full ~161.** Targets:
-   - Předpisy: 31 total → ~21 more needed
-   - Provoz: ~96 total → ~79 more needed
-   - Elektrotechnika: 34 total → ~26 more needed
+1. **Quality pass on distractors** — review for any that feel too easy, telegraph the answer, or use absurd values. Especially the 9 phonetic items (45–53), which weren't auto-audited.
 
-   The authoritative source is ČTÚ document 2018_05 V5, section A.(1) for the VFL license — all questions and correct answers must come from there. **Do not invent questions outside that scope.**
-
-   Recommended approach: do one subject at a time, in batches of ~20–25 questions. After each batch, ask the user to spot-check distractor quality before committing.
-
-2. **Quality pass on existing distractors** — review the 35 starter questions, flag any that feel too easy or whose distractors give away the answer.
-
-3. **Optional v1.1 features (only if user asks):**
+2. **Optional v1.1 features (only if user asks):**
    - User-configurable mock exam length
    - Export/import of localStorage history as JSON
    - Per-question timing analytics in dashboard
