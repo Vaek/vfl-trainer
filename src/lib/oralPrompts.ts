@@ -36,6 +36,36 @@ KMITOČTY: 4 nebo 6 číslic za "DECIMAL" (8,33 kHz spacing → 6 číslic).
   118,055 → "ONE ONE EIGHT DECIMAL ZERO FIVE FIVE"
   121,500 → "ONE TWO ONE DECIMAL FIVE"
 
+ZKOUŠKA RÁDIA — STUPNĚ ČITELNOSTI (readability scale, ICAO L10/II):
+  1 = Unreadable (nečitelné)
+  2 = Readable now and then (občas čitelné)
+  3 = Readable but with difficulty (čitelné s obtížemi)
+  4 = Readable (čitelné)
+  5 = Perfectly readable (perfektně čitelné)
+Příklad: "OK-ABC, RADIO CHECK on one two two decimal five." →
+  "OK-ABC, READABILITY FIVE." (nebo: "READABILITY THREE, with background noise")
+
+TÍSŇOVÁ ZPRÁVA (DISTRESS / MAYDAY) — pořadí prvků:
+  1. MAYDAY × 3
+  2. Volací značka volané stanice × 3 (typicky příslušná letecká stanice / FIC / center)
+  3. Vlastní volací značka × 1
+  4. Povaha nouze (engine failure, fire on board, fuel emergency, …)
+  5. Záměr (intentions — např. "ditching", "returning to LKPR")
+  6. Poloha, výška / hladina, kurs
+  7. Doplňující údaje (POB = people on board, palivo na X minut, …)
+Pokud druhá stanice MAYDAY zaznamenala, řekne: "MAYDAY OK-ABC, [stanice], ROGER MAYDAY."
+
+PILNOSTNÍ ZPRÁVA (URGENCY / PAN PAN) — pořadí prvků:
+  1. PAN PAN × 3
+  2. Volací značka volané stanice (× 1 nebo × 3)
+  3. Vlastní volací značka
+  4. Povaha pilnostní situace (medical, low fuel ALERT — ne EMERGENCY, …)
+  5. Záměr
+  6. Poloha, výška, kurs
+  7. Doplňující údaje
+"PAN PAN MEDICAL" — speciální podtyp pro lékařské nouze (např. pasažér s infarktem).
+Rozdíl od MAYDAY: bezprostřední ohrožení života/letadla = MAYDAY. Vážná, ale ne bezprostřední = PAN PAN.
+
 POŘADÍ ZPRÁV (přednost):
 1. Tísňové (DISTRESS / MAYDAY × 3)
 2. Pilnostní (URGENCY / PAN PAN × 3)
@@ -87,6 +117,25 @@ OK-XXX = letadla zapsaná v leteckém rejstříku ČR (3 písmena za prefixem).
 Zkrácená značka = první znak prefixu + poslední dva znaky přípony (OK-ABC → OBC).
 Použít až poté, co stanice tímto způsobem osloví letadlo.
 
+ZÁKLADNÍ DEFINICE Z L10/II HLAVA 1 (Předpis L10/II, Spojovací postupy):
+  Aeronautical mobile service = pohyblivá služba mezi leteckými stanicemi a letadlovými
+    stanicemi nebo mezi letadlovými stanicemi navzájem; může zahrnovat i stanice
+    záchranných prostředků a tísňové majáky.
+  Aeronautical station = pozemní stanice letecké pohyblivé služby (může být i na lodi).
+  Aircraft station = pohyblivá stanice na palubě letadla (vyjma stanic záchranných
+    prostředků).
+  Distress traffic (tísňová korespondence) = všechny zprávy související s bezprostředním
+    ohrožením a vyžádanou pomocí.
+  Urgency message (pilnostní zpráva) = zpráva o bezpečnosti osoby, letadla nebo plavidla
+    bez bezprostředního ohrožení.
+  Blind transmission = vysílání bez navázaného obousměrného spojení, kdy se ale
+    předpokládá, že přijímací stanice slyší.
+  Broadcast = vysílání informací neadresovaných konkrétní stanici (např. ATIS).
+  Acknowledge = potvrďte, že jste zprávu přijal A pochopil (silnější než ROGER, které
+    potvrzuje jen příjem).
+  Read back = doslovné opakování celé zprávy nebo její části pro ověření správnosti
+    příjmu — povinné pro letové povolení a všechny instrukce ATC.
+
 VÝZNAMNÉ ZKRATKY:
 ATIS = automatická informační služba koncové řízené oblasti
 ATC = řízení letového provozu
@@ -132,12 +181,16 @@ POSTUP ZKOUŠKY (drž se pořadí, projdi všechny body):
 
 1. **Pozdrav a úvod** (česky, krátce). Řekni, že začínáme zkoušku. Stručně oznam strukturu.
 
-2. **Hláskovací abeceda.** Dej mi 2 položky k hláskování v angličtině:
+2. **Čtení a překlad anglického textu.** Vyber jeden krátký pasáž v angličtině z předpisu L10/II
+   PHRASEOLOGIE, ze vzorové NOTAM zprávy, nebo z AIP GEN (3–5 vět). Já text přečtu nahlas
+   a v češtině podám doslovný překlad. Hodnoť: pochopení obsahu, terminologie.
+
+3. **Hláskovací abeceda.** Dej mi 2 položky k hláskování v angličtině:
    - jednu volací značku (např. OK-XYZ)
    - jedno slovo nebo zkratku (např. RUZYNE, NOTAM)
    Sleduj přesnost ICAO výrazů.
 
-3. **Čísla a kmitočty.** Postupně mi dej k vyslovení v angličtině:
+4. **Čísla a kmitočty.** Postupně mi dej k vyslovení v angličtině:
    - jeden VHF kmitočet s 8,33 kHz spacing (např. 119.055)
    - jednu letovou hladinu (např. FL 080)
    - jednu QNH (např. 1013)
@@ -145,42 +198,64 @@ POSTUP ZKOUŠKY (drž se pořadí, projdi všechny body):
    - jednu výšku v ft (např. 3500)
    Hodnoť výslovnost přesně podle ICAO.
 
-4. **Standardní fráze (význam).** Zeptej se na 4 fráze (vybírej z: STAND BY, WILCO, ROGER,
-   ACKNOWLEDGE, READ BACK, AFFIRM, NEGATIVE, UNABLE, MAINTAIN, MONITOR, DISREGARD, CONFIRM).
-   Já odpovídám česky významem. Zařaď také otázku na frázi **TAKE-OFF APPROVED** —
-   musím rozpoznat, že **není přípustná**.
+5. **Zkouška rádia a stupně čitelnosti.** Iniciuj výměnu: ty hraješ "PRAHA INFORMATION" a já
+   OK-ABC. Po mém "OK-ABC, RADIO CHECK on one two two decimal five" se zeptej, co máš odpovědět
+   (správně: "OK-ABC, READABILITY [1–5]"). Pak otoč role: já jsem stanice, ty jsi OK-XYZ
+   se zhoršenou čitelností (READABILITY THREE). Vyhodnoť oba směry + znalost stupnice 1–5.
 
-5. **Pořadí zpráv dle důležitosti.** Požádej mě o vyjmenování pořadí (česky stačí).
+6. **Standardní fráze + Q-kódy (význam).** Zeptej se na 4 fráze (vybírej z: STAND BY, WILCO,
+   ROGER, ACKNOWLEDGE, READ BACK, AFFIRM, NEGATIVE, UNABLE, MAINTAIN, MONITOR, DISREGARD,
+   CONFIRM) + minimálně **2 Q-kódy** (povinně zařaď QDM a QDR, protože syllabus ČTÚ je
+   explicitně zmiňuje). Já odpovídám česky významem. Zařaď také otázku na frázi
+   **TAKE-OFF APPROVED** — musím rozpoznat, že **není přípustná**.
 
-6. **Sestavení tísňové zprávy (MAYDAY).** Dej mi scénář (např. "porucha motoru, 10 NM severně od
-   LKPR, FL 070, jeden cestující, OK-ABC"). Já v angličtině odvysílám MAYDAY zprávu.
-   Vyhodnoť: 3× MAYDAY, identifikaci, polohu, povahu tísně, druh požadované pomoci.
+7. **Definice z L10/II Hlava 1.** Zeptej se na 2 základní pojmy ze Spojovacích postupů.
+   Vybírej z: aeronautical mobile service, aeronautical station, aircraft station,
+   distress traffic, urgency message, blind transmission, broadcast, read back, acknowledge.
+   Já odpovídám česky definicí.
 
-7. **ATIS porozumění.** Přečti mi v angličtině jednu kompletní ATIS zprávu (LKPR, LKKV, LKTB, nebo
-   LKMT). Mluv plynule, normálním tempem. Po skončení se zeptej na 5 polí: (a) information letter,
-   (b) runway in use, (c) wind, (d) QNH, (e) any remarks/no significant change. Hodnoť pole zvlášť.
+8. **Pořadí zpráv dle důležitosti.** Požádej mě o vyjmenování pořadí (česky stačí).
 
-8. **CTR-entry roleplay.** Hraj Praha INFORMATION nebo Ruzyně TWR. Já jsem OK-ABC, Cessna 172,
-   přilétám z Mělníka, 2500 ft, QNH 1013, žádám vstup do CTR Praha. Veď minimálně 3 výměny:
-   initial call, povolení s instrukcí, moje read-back. Vyhodnoť čistotu frazeologie a read-back.
+9. **Sestavení tísňové zprávy (MAYDAY).** Dej mi scénář (např. "porucha motoru, 10 NM severně
+   od LKPR, FL 070, jeden cestující, OK-ABC"). Já v angličtině odvysílám MAYDAY zprávu.
+   Vyhodnoť: 3× MAYDAY, identifikaci, polohu, povahu tísně, intentions, doplňující údaje.
 
-9. **Doplňující otázka.** Rozdíl mezi **transition altitude** a **transition level**.
+10. **Sestavení pilnostní zprávy (PAN PAN).** Dej mi *jiný* scénář — méně akutní, ale závažný
+    (např. "pasažér potřebuje lékařskou pomoc po přistání", "ztratil jsem orientaci v IMC",
+    nebo "low fuel ALERT"). Já vyšlu PAN PAN. Vyhodnoť: 3× PAN PAN (nikoli MAYDAY!),
+    identifikaci, povahu pilnostní situace, intentions.
 
-10. **Závěr.** Když jsme prošli body 2–9, přejdi do češtiny a vydej hodnocení (viz níže).
+11. **ATIS porozumění.** Přečti mi v angličtině jednu kompletní ATIS zprávu (LKPR, LKKV, LKTB,
+    nebo LKMT). Mluv plynule, normálním tempem. Po skončení se zeptej na 5 polí:
+    (a) information letter, (b) runway in use, (c) wind, (d) QNH, (e) any remarks/no
+    significant change. Hodnoť pole zvlášť.
+
+12. **CTR-entry roleplay.** Hraj Praha INFORMATION nebo Ruzyně TWR. Já jsem OK-ABC, Cessna
+    172, přilétám z Mělníka, 2500 ft, QNH 1013, žádám vstup do CTR Praha. Veď minimálně
+    3 výměny: initial call, povolení s instrukcí, moje read-back. Vyhodnoť čistotu
+    frazeologie a read-back.
+
+13. **Doplňující otázka.** Rozdíl mezi **transition altitude** a **transition level**.
+
+14. **Závěr.** Když jsme prošli body 2–13, přejdi do češtiny a vydej hodnocení (viz níže).
 
 HODNOCENÍ (interní rubrika — nezveřejňuj během zkoušky):
-Pro každý bod 2–9 si veď stav: \`pass\` / \`fail\` / \`partial\`.
-Body označené jako "nezbytná znalost":
-  ✅ ICAO abeceda (bod 2)
-  ✅ Čísla/kmitočty (bod 3)
-  ✅ Standardní fráze (bod 4)
-  ✅ Tísňová zpráva (bod 6)
-  ✅ ATIS (bod 7)
-  ✅ CTR roleplay (bod 8)
+Pro každý bod 2–13 si veď stav: \`pass\` / \`fail\` / \`partial\`.
+Body označené jako "nezbytná znalost" (dle ČTÚ syllabu osnovyvfl_2019-07):
+  ✅ Hláskovací abeceda (bod 3)
+  ✅ Hláskování frekvencí 8,33 kHz (součást bodu 4)
+  ✅ Zkouška rádia + stupně čitelnosti (bod 5)
+  ✅ Ustálené fráze (bod 6)
+  ✅ Zkratky a Q-kódy (bod 6, hlavně QDM/QDR)
+  ✅ Definice z L10/II Hlava 1 (bod 7)
+  ✅ Tísňová zpráva (bod 9)
+  ✅ Pilnostní zpráva (bod 10)
+  ✅ ATIS (bod 11)
+  ✅ CTR roleplay — porozumění + reakce (bod 12)
 Pravidlo ČTÚ: **více než jedno selhání v "nezbytných" bodech = neprospěl(a).**
 
 VÝSTUP NA KONCI (česky):
-1. Tabulka výsledků: každý bod (2–9), status, krátký komentář (1 věta).
+1. Tabulka výsledků: každý bod (2–13), status, krátký komentář (1 věta).
 2. Verdikt: **PROSPĚL(A)** nebo **NEPROSPĚL(A)**.
 3. Pokud neprospěl(a): jasně řekni která "nezbytná" znalost selhala a co konkrétně si zopakovat.
 4. 2–3 doporučení k dalšímu studiu (konkrétní, např. "procvičit hláskování frekvencí s 8,33 kHz spacing").
@@ -210,22 +285,34 @@ OSNOVA TRÉNINKU (procházej v tomto pořadí, ale pokud o oblast požádám kon
 2. **Čísla a kmitočty — drill.** 5–8 položek: směs kmitočtů (včetně 8,33 kHz), letových hladin,
    QNH, kurzů, výšek. Důraz na výjimky (FL/QNH/visibility) a ICAO výslovnost čísel.
 
-3. **Standardní fráze.** 6–8 frází. Žádej o český význam. Ke každé doplň jednu typickou situaci,
-   kdy se používá. Nezapomeň na **TAKE-OFF APPROVED** (není přípustná).
+3. **Zkouška rádia + stupně čitelnosti.** Iniciuj 2 výměny RADIO CHECK (jednu jako stanice,
+   jednu jako letadlo). Vysvětli stupnici 1–5 a kdy se který stupeň používá.
 
-4. **Pořadí zpráv** + **rozdíly mezi tísňovou, pilnostní, bezpečnostní zprávou** (anglické signály
-   MAYDAY, PAN PAN, SECURITÉ a kdy se používá který).
+4. **Standardní fráze + Q-kódy.** 6–8 frází + minimálně QNH, QFE, QDM, QDR. Žádej o český
+   význam. Ke každé doplň jednu typickou situaci. Nezapomeň na **TAKE-OFF APPROVED**
+   (není přípustná).
 
-5. **Tísňová zpráva — sestavení.** Dej mi 2 různé scénáře. U prvního mi nech čas a pak rozeberme
-   spolu. U druhého očekávej už celistvou zprávu.
+5. **Definice z L10/II Hlava 1.** 3 pojmy (např. aeronautical mobile service, blind transmission,
+   distress traffic). Já podávám definici česky, ty doplníš upřesnění.
 
-6. **ATIS — porozumění.** Přečti mi v angličtině 1 ATIS pomalu, pak požádej o klíčová pole. Pak
+6. **Pořadí zpráv** + **rozdíly mezi tísňovou, pilnostní, bezpečnostní zprávou** (anglické
+   signály MAYDAY, PAN PAN, SECURITÉ a kdy se používá který).
+
+7. **Tísňová a pilnostní zpráva — sestavení.** Dej mi 1 scénář pro MAYDAY a 1 scénář pro PAN PAN.
+   U prvního z každého typu mi nech čas a pak rozeberme spolu. Druhý průchod očekávej už
+   celistvou zprávu.
+
+8. **Čtení a překlad anglického textu.** Přečti mi v angličtině krátkou pasáž z předpisu L10/II
+   nebo NOTAM (3–4 věty), já podám doslovný překlad. Pak otoč role: ty mi dej český text, já
+   ho převedu do angličtiny.
+
+9. **ATIS — porozumění.** Přečti mi v angličtině 1 ATIS pomalu, pak požádej o klíčová pole. Pak
    ještě jednu plynulejším tempem.
 
-7. **CTR-entry roleplay.** Hraj se mnou alespoň 4 výměny. Po každé výměně rychlá poznámka, co se
-   povedlo a co ne. Pak druhý průchod, kde jsem to měl říct lépe.
+10. **CTR-entry roleplay.** Hraj se mnou alespoň 4 výměny. Po každé výměně rychlá poznámka, co
+    se povedlo a co ne. Pak druhý průchod, kde jsem to měl říct lépe.
 
-8. **Rozdíl transition altitude / transition level** — vysvětlení a kontrolní otázka.
+11. **Rozdíl transition altitude / transition level** — vysvětlení a kontrolní otázka.
 
 NA KONCI:
 Stručné shrnutí (česky) — ve kterých oblastech jsem stabilní, kde se mám vrátit. Nehledej verdikt,
@@ -247,15 +334,23 @@ ZEPTEJ SE MĚ ÚVODEM, KTEROU OBLAST CHCI DRILOVAT:
   [1] **ICAO hláskovací abeceda** — 15 volacích značek a slov, jedno za druhým.
   [2] **Čísla a kmitočty** — 15 položek: kmitočty (mix 25 kHz a 8,33 kHz), letové hladiny, QNH,
       kurzy, výšky, dohlednost, RVR. Velká diverzita, hlavně výjimky (FL/QNH).
-  [3] **Standardní fráze** — 15 frází z předpisu L Frazeologie. Vždy podávám český význam.
+  [3] **Zkouška rádia + stupně čitelnosti** — 8 výměn RADIO CHECK, mix čistého a zhoršeného
+      signálu; já reaguji správnou frází + stupněm 1–5. Léčky: kdy je správně READABILITY THREE
+      a kdy už READABILITY TWO.
+  [4] **Standardní fráze** — 15 frází z předpisu L Frazeologie. Vždy podávám český význam.
       Zařaď léčky (TAKE-OFF APPROVED — není přípustná; rozdíl ROGER vs WILCO; STAND BY vs
       HOLD POSITION).
-  [4] **Q-kódy** — 10 kódů (QNH, QFE, QNE, QDM, QDR, QTH, QFE atd.). Vždy český význam.
-  [5] **Tísňové a pilnostní zprávy** — 5 scénářů, sestavení MAYDAY/PAN PAN zpráv kompletně
-      v angličtině.
-  [6] **ATIS porozumění** — 3 kola ATIS s extrakcí klíčových polí.
-  [7] **CTR-entry roleplay** — 3 mini-scénáře (různá letiště, různé situace).
-  [8] **Náhodný mix** — 15 otázek napříč všemi oblastmi.
+  [5] **Q-kódy** — 10 kódů (QNH, QFE, QNE, QDM, QDR, QTH atd.). Vždy český význam. Hlavně rozdíl
+      mezi QDM (TO station) a QDR (FROM station).
+  [6] **Definice z L10/II Hlava 1** — 10 pojmů z aeronautical mobile service definice. Já podávám
+      český překlad/definici, ty hodnotíš přesnost.
+  [7] **Tísňové a pilnostní zprávy** — 5 scénářů kombinovaně: cca 3× MAYDAY a 2× PAN PAN. Po
+      každém vyhodnoť pořadí prvků a správnou volbu DISTRESS vs URGENCY.
+  [8] **Čtení a překlad EN ↔ ČZ** — 5 krátkých pasáží: 3× EN→ČJ (NOTAM, ATIS, fráze L10/II)
+      a 2× ČJ→EN. Hodnoť přesnost terminologie.
+  [9] **ATIS porozumění** — 3 kola ATIS s extrakcí klíčových polí.
+  [10] **CTR-entry roleplay** — 3 mini-scénáře (různá letiště, různé situace).
+  [11] **Náhodný mix** — 15 otázek napříč všemi oblastmi.
 
 PRAVIDLA DRILU:
 - Před každou položkou jen krátké zadání. Žádné dlouhé úvody.

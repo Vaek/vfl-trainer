@@ -16,7 +16,11 @@ This file gives Claude Code the context it needs to continue this project. Read 
 
 - **Hosted on GitHub Pages only.** No backend, no serverless, no API keys in the app, no paid infrastructure. The repo is `Vaek/vfl-trainer` and the Vite `base` is `/vfl-trainer/`.
 - **Czech-only UI.** Aeronautical content is bilingual (English for radio phraseology, Czech for everything else) — that's how the real exam works.
-- **Question bank source of truth: ČTÚ official PDF `2025_09 VFL_4`** (`docs/2025_09_VFL_otazky.pdf`, the September 2025 version that covers VFL only — 7 pages, 164 items across the three subjects). Questions and correct answers must come from this PDF verbatim. Distractors are authored. Always include the `source` citation field. The earlier `2018_05 V5` PDF is kept in `docs/` as historical reference only.
+- **Sources of truth (official ČTÚ documents):**
+  - **Written-test bank**: `docs/2025_09_VFL_otazky.pdf` (ČTÚ `2025_09 VFL_4`, September 2025, 7 pages, 164 items). Questions and correct answers must come from this PDF verbatim. Distractors are authored. Always include the `source` citation field.
+  - **Oral-exam syllabus**: `docs/osnovyvfl_2019-07.pdf` (ČTÚ `07_2019 VFL-Radiotelefonní frazeologie`, July 2019, 2 pages). Defines what the examiner asks and the "nezbytná znalost" scoring rule.
+  - **Historical references** (kept in `docs/` but not authoritative): `2018_05_zkousky_otazky_v5_fin.pdf`, `ustni_zkousky_prukazy_radiova_zarizeni_01-2018.pdf`.
+- **Where to check for newer ČTÚ versions**: <https://ctu.gov.cz/druhy-prukazu> — the catalog of all radio operator certificate types. Lists current versions of "Zkušební otázky" and "Osnovy ústní zkoušky" for VFL and other licenses. Before starting any source-update session, fetch this page and compare the linked filenames against `docs/` to see if ČTÚ has shipped a newer revision.
 - **Real exam pass rule: ≥ 90 % in EACH of the three subjects** (předpisy / provoz / elektrotechnika). Not an average. Implement this faithfully.
 - **VFL only.** Other licenses (OFL, GOC, ROC, VFN, OFN, LRC, SRC, pozemní telegrafista, amatérské) are explicitly out of scope for v1.
 
