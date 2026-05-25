@@ -16,10 +16,14 @@ This file gives Claude Code the context it needs to continue this project. Read 
 
 - **Hosted on GitHub Pages only.** No backend, no serverless, no API keys in the app, no paid infrastructure. The repo is `Vaek/vfl-trainer` and the Vite `base` is `/vfl-trainer/`.
 - **Czech-only UI.** Aeronautical content is bilingual (English for radio phraseology, Czech for everything else) — that's how the real exam works.
-- **Sources of truth (official ČTÚ documents in `docs/`):**
-  - **Written-test bank**: `docs/2025_09_VFL_otazky.pdf` (ČTÚ `2025_09 VFL_4`, September 2025, 7 pages, 164 items). Questions and correct answers must come from this PDF verbatim. Distractors are authored. Always include the `source` citation field.
-  - **Oral-exam syllabus**: `docs/osnovyvfl_2019-07.pdf` (ČTÚ `07_2019 VFL-Radiotelefonní frazeologie`, July 2019, 2 pages). Defines what the examiner asks and the "nezbytná znalost" scoring rule.
-- **Where to check for newer ČTÚ versions**: <https://ctu.gov.cz/druhy-prukazu> — the catalog of all radio operator certificate types. Lists current versions of "Zkušební otázky" and "Osnovy ústní zkoušky" for VFL and other licenses. Before starting any source-update session, fetch this page and compare the linked filenames against `docs/` to see if ČTÚ has shipped a newer revision. When ČTÚ publishes a newer revision, replace the corresponding file in `docs/`; superseded versions are removed rather than kept as "historical reference" (we rely on git history for that).
+- **Sources of truth (official documents in `docs/`):**
+  - **Written-test bank** (ČTÚ): `docs/2025_09_VFL_otazky.pdf` (`2025_09 VFL_4`, September 2025, 7 pages, 164 items). Questions and correct answers must come from this PDF verbatim. Distractors are authored. Always include the `source` citation field.
+  - **Oral-exam syllabus** (ČTÚ): `docs/osnovyvfl_2019-07.pdf` (`07_2019 VFL-Radiotelefonní frazeologie`, July 2019, 2 pages). Defines what the examiner asks and the "nezbytná znalost" scoring rule.
+  - **Master reference — radiotelefonní postupy a frazeologie** (Úřad pro civilní letectví, Min. dopravy ČR): `docs/L-Frazeologie.pdf` ("Letecký předpis L — Radiotelefonní postupy a letecká frazeologie a terminologie pro poskytování letových provozních služeb"). This is the canonical Czech-language predpis defining ICAO phraseology, readability scale, MAYDAY/PAN PAN templates, frequency vocalization rules, etc. The ČTÚ oral syllabus references it directly. Treat it as authority when checking whether an oral-prompt example is correct.
+- **Where to check for newer versions**:
+  - ČTÚ catalog of certificate types: <https://ctu.gov.cz/druhy-prukazu>. Lists current versions of "Zkušební otázky" and "Osnovy ústní zkoušky" for VFL and other licenses. Compare linked filenames against `docs/`.
+  - L Frazeologie predpis (Úřad pro civilní letectví, hosted by ŘLP AIM): <https://aim.rlp.cz/predpisy/predpisy/dokumenty/L/L-Frazeologie/index.htm>. The whole-document PDF is at <https://aim.rlp.cz/predpisy/predpisy/dokumenty/L/L-Frazeologie/data/print/Frazeologie_cely.pdf>. Updated when the ÚCL publishes a revision.
+- When any of these documents publishes a newer revision, replace the corresponding file in `docs/`; superseded versions are removed rather than kept as "historical reference" (we rely on git history for that).
 - **Real exam pass rule: ≥ 90 % in EACH of the three subjects** (předpisy / provoz / elektrotechnika). Not an average. Implement this faithfully.
 - **VFL only.** Other licenses (OFL, GOC, ROC, VFN, OFN, LRC, SRC, pozemní telegrafista, amatérské) are explicitly out of scope for v1.
 
